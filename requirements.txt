@@ -9,3 +9,4 @@ rdkit
 torch
 torch-geometric
 threadpoolctl
+plotly

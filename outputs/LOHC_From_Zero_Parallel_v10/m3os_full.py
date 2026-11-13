@@ -2,13 +2,13 @@
 
 from collections import Counter
 from hashlib import sha256
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
 from rdkit import Chem
 
 from m3os_search import MoleculeSearch, canonical, load
-from validate_lohc_matrix_adjustments import cards
 
 
 CREATIVE_SLOTS, RATIONAL_SLOTS = 24, 8
@@ -33,7 +33,7 @@ SOURCE_PATTERNS = {k: Chem.MolFromSmarts(v) for k, v in {
 class FullMoleculeSearch(MoleculeSearch):
     def __init__(self, output, book, key_file, save):
         super().__init__(output, book, key_file, save)
-        self.evidence = {item['id']: item for item in cards()}
+        self.evidence = {item['id']: item for item in load(Path(__file__).parent / 'seed_data/search_evidence.json')}
         self.aux_calls = Counter()
         self.aux_tokens = 0
         self.completed = []

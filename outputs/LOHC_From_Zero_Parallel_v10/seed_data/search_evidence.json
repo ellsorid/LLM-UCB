@@ -1,0 +1,41 @@
+[
+  {
+    "id": "NEC-CYCLE",
+    "reference": "10.1021/acs.iecr.3c00408",
+    "fields": [
+      "hydrogenation_pct",
+      "dehydrogenation_pct"
+    ],
+    "excerpt": "The integrated N-ethylcarbazole study reported 99.0% hydrogenation and 91.7% dehydrogenation with Pd-based catalysts under its optimized conditions."
+  },
+  {
+    "id": "NEC-SELECT",
+    "reference": "https://www.sciencedirect.com/science/article/pii/S1385894724008891",
+    "fields": [
+      "full_hydrogenation_product_selectivity_pct",
+      "temperature_C",
+      "pressure_MPa"
+    ],
+    "excerpt": "Continuous NEC hydrogenation with 1 wt% Ru/Al2O3 reached 100% conversion, 99.41% selectivity to the fully hydrogenated product, and 5.79 wt% storage, at 80 °C and 4 MPa."
+  },
+  {
+    "id": "MCH-CYCLE",
+    "reference": "10.1627/jpi.62.67",
+    "fields": [
+      "cycles",
+      "initial_dehydrogenation_conversion_pct",
+      "last_dehydrogenation_conversion_pct"
+    ],
+    "excerpt": "The toluene/MCH cycling study ran ten cycles. Toluene hydrogenation conversion exceeded 97% across all cycles. MCH dehydrogenation conversion fell from 90% to 84%. Demethylation and other byproducts occurred."
+  },
+  {
+    "id": "GUAIACOL-HDO",
+    "reference": "https://www.sciencedirect.com/science/article/abs/pii/S0021951718304779",
+    "excerpt": "Guaiacol on Ru under H2 can undergo ring hydrogenation or competing hydrogenolysis of phenolic and ether C–O bonds; selectivity depends on the catalytic interface and hydrogen pressure."
+  },
+  {
+    "id": "INDOLE-METHYL",
+    "reference": "https://doi.org/10.3390/ma16072924",
+    "excerpt": "Thermochemical analysis resolves methyl substitution effects in indole-based storage cycles. It does not rank catalytic reversibility or target-product selectivity of the candidates."
+  }
+]
