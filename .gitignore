@@ -1,0 +1,17 @@
+README*
+**/README*
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+api.txt
+*.pem
+*.key
+*.log
+*.pth
+*.pt
+*.pkl*
+*.csv
+*.sqlite*
+/runs/
