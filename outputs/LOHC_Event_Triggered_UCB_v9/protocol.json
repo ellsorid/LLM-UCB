@@ -1,0 +1,18 @@
+{
+  "version": "event-triggered-fixed-grid-v9.2",
+  "seed": 11,
+  "generations_per_branch": 5,
+  "minimum_distinct_parents": 10,
+  "minimum_valid_transitions": 30,
+  "minimum_rule_feedback": 10,
+  "negative_feedback_fraction": 0.8,
+  "minimum_conflicting_transitions": 8,
+  "minimum_conflicting_parents": 5,
+  "minimum_conflicting_fraction": 0.25,
+  "parent_composition_total_variation": 0.25,
+  "maximum_cells_per_request": 4,
+  "maximum_requests_per_trial": 4,
+  "window": [40, 70],
+  "feedback_weight": 0.2,
+  "prompt_version": "event-grid-review-v2"
+}

@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LOHC · GA 耦合实验</title>
+<script src="/plotly.js"></script>
+<style>
+:root{color-scheme:light;font-family:'Inter','Microsoft YaHei',sans-serif;color:#182d33;background:#f4f6f5;--line:#dce5e0;--muted:#52686a}
+*{box-sizing:border-box}body{margin:0}main{max-width:1550px;margin:auto;padding:28px 24px 32px}
+header{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:16px}h1{font-size:clamp(26px,4vw,43px);margin:0;letter-spacing:-.03em}h2{font-size:18px;margin:0}
+p{color:var(--muted);line-height:1.55;margin:6px 0 0}.status,.plots{display:grid;gap:12px}.status{grid-template-columns:repeat(2,minmax(0,1fr));margin-bottom:12px}.plots{grid-template-columns:repeat(3,minmax(0,1fr))}
+article{background:#fff;border:1px solid var(--line);border-radius:13px;min-width:0}.status article,.plot-label{padding:14px 16px}.row{display:flex;gap:10px;justify-content:space-between;align-items:center}.metrics{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px;font-size:14px}.metrics b{font-variant-numeric:tabular-nums}.status-note{font-size:13px}
+.graph{height:360px}.plot-label p{font-size:12px;min-height:19px}.caption{font-size:13px;margin:10px 2px 16px}.wide{padding:14px 16px;margin-top:12px}.history{height:220px}
+button{background:white;border:1px solid #b8c9c2;padding:7px 11px;border-radius:8px;color:#244540;font:inherit;cursor:pointer;white-space:nowrap}button:disabled{opacity:.5;cursor:default}.stop{color:#873834}
+#message{font-size:13px;min-height:20px}.badge{font-size:13px;font-weight:600;color:#245f53}.warm{color:#925620}
+@media(max-width:1120px){.plots{grid-template-columns:repeat(2,minmax(0,1fr))}.plots article:last-child{grid-column:1/-1}.graph{height:350px}}
+@media(max-width:650px){main{padding:16px 10px}.status,.plots{grid-template-columns:1fr}.graph{height:330px}}
+</style>
+</head>
+<body><main>
+<header><div><h1 id="title">LOHC · GA 耦合实验</h1><p id="cap">等待两组完成首个 GNN 检查点</p></div><button id="reset">重置视角</button></header>
+<p id="replay-control" hidden><label for="generation">回放代次 <output id="generation-value"></output></label> <input id="generation" type="range" step="1"></p>
+<section class="status" aria-label="实验状态">
+<article><div class="row"><h2 id="native-title">A · 原生 UCB</h2><button class="stop" data-arm="native">本代后停止</button></div><p id="native-status" class="status-note">等待进程</p><div class="metrics" id="native-metrics"></div></article>
+<article><div class="row"><h2 id="llm-title">C · DeepSeek 耦合 UCB</h2><button class="stop" data-arm="llm">本代后停止</button></div><p id="llm-status" class="status-note">等待进程</p><div class="metrics" id="llm-metrics"></div></article>
+</section>
+<section class="plots" aria-label="共同预算下的评分曲面">
+<article><div class="plot-label"><h2>A · 分子评分</h2><p id="native-detail">等待曲面数据</p></div><div id="native" class="graph"></div></article>
+<article><div class="plot-label"><h2>C · 分子评分</h2><p id="llm-detail">等待曲面数据</p></div><div id="llm" class="graph"></div></article>
+<article><div class="plot-label"><h2 id="delta-title">C − A · 评分差值</h2><p id="delta-detail">等待共同支撑区域</p></div><div id="delta" class="graph"></div></article>
+</section>
+<p class="caption" id="caption">灰色底面是候选结构覆盖。评分面使用局部分子均分。差值只显示两组都有评分支撑的位置，正值表示 C 的局部均分更高。拖动任一曲面可联动旋转。</p>
+<section class="wide"><h2>评分分布</h2><div id="distribution" class="history"></div></section>
+<p id="message" role="status" aria-live="polite"></p>
+</main>
+<script>
+const arms=['native','llm'], panels=[...arms,'delta'];
+const colors={native:'#197a79',llm:'#895a9c'};
+const names={native:'A 原生 UCB',llm:'C DeepSeek 耦合 UCB'};
+const number=x=>x==null?'—':new Intl.NumberFormat('zh-CN',{maximumFractionDigits:2}).format(x);
+const byId=id=>document.getElementById(id);
+const baseCamera={eye:{x:1.53,y:-1.52,z:1.02},projection:{type:'orthographic'}};
+const terminal=new Set(['已完成','已停止','已立即停止','运行失败']);
+let camera=structuredClone(baseCamera), last='', syncing=false, refreshing=false, replayGeneration=null;
+const axis={backgroundcolor:'#f6f9f7',gridcolor:'#e3ebe5',showbackground:true,zeroline:false};
+function layout(zTitle, zRange, message){
+  return {uirevision:'lohc-rule-view',paper_bgcolor:'#fff',margin:{l:4,r:4,t:5,b:5},
+    scene:{uirevision:'lohc-rule-view',camera,dragmode:'orbit',aspectratio:{x:1,y:1,z:.73},
+      xaxis:{...axis,title:'结构 PC1'},yaxis:{...axis,title:'结构 PC2'},zaxis:{...axis,title:zTitle,range:zRange}},
+    annotations:message?[{text:message,xref:'paper',yref:'paper',x:.5,y:.62,showarrow:false,font:{color:'#52686a'}}]:[]};
+}
+function linkCamera(element){
+  if(element.cameraLinked) return;
+  element.cameraLinked=true;
+  element.on('plotly_relayout',async event=>{
+    if(syncing||!event['scene.camera']) return;
+    syncing=true;
+    camera=structuredClone(event['scene.camera']);
+    try {await Promise.all(panels.filter(id=>id!==element.id).map(id=>Plotly.relayout(id,{'scene.camera':camera})));}
+    finally {syncing=false;}
+  });
+}
+function renderStatus(state){
+  const replay=state.replay;
+  if(state.full_m3os){byId('native-title').textContent='A · 原生 GA + UCB + QD';byId('llm-title').textContent='C · 完整 M3OS 闭环';}
+  else if(state.graph_mode){byId('native-title').textContent='A · 分子 UCB 第一名';byId('llm-title').textContent='C · DeepSeek 从分子 UCB 前五选择';}
+  for(const arm of arms){
+    const s=state.status[arm]||{};
+    byId(arm+'-status').textContent=replay?'历史候选盲评样本':`${s.phase||'等待进程'} · 已完成 ${number(s.completed_generation)} / ${number(s.max_generations)} 代`;
+    const pooled=state.pooled?.arms?.[arm];
+    const tail=pooled?`　合池 P90 ${pooled.hard_hits?'合格 ':''}${number((pooled.hard_hits ?? pooled.generated).p90_count)}　留种 ${number(pooled.retained.p90_count)}`:
+      s.high_retained == null?'':`　参考库 P90 生成 ${number(s.high_generated_total)}　留种 ${number(s.high_retained)}`;
+    const action=state.graph_mode?`　图扩展 ${number(s.m3os_evaluated)} 对`:`　算子加成 ${number(s.operator_steered)} 次`;
+    byId(arm+'-metrics').textContent=replay?`已评分 ${number(replay[arm].scored)}/${number(replay[arm].sample)}　样本均分 ${number(replay[arm].mean)}`:
+      `GNN ${number(s.gnn_pairs)} 对　评分 ${number(s.matrix_scored ?? s.rule_scored)}/${number(s.qualified_parents)}　均分 ${number(s.matrix_mean ?? s.rule_mean)}${tail}${arm==='llm'?`${action}　${number(s.llm_tokens)} tokens`:''}`;
+    const stop=document.querySelector(`[data-arm=${arm}]`);
+    stop.hidden=!!replay;
+    stop.disabled=!!replay||!s.pid||terminal.has(s.phase)||s.stop_requested;
+  }
+}
+async function render(state){
+  const replay=state.replay;
+  if(replay){
+    byId('title').textContent='LOHC · 固定百分制试评分回放';
+    byId('caption').textContent='灰色底面仅表示盲评样本覆盖。评分面是有样本支撑处的局部均分。C−A 以分为单位。拖动任一曲面可联动旋转。';
+    byId('replay-control').hidden=false;
+    const slider=byId('generation');
+    slider.min=state.replay_generations[0];
+    slider.max=state.replay_generations.at(-1);
+    slider.value=replayGeneration??state.replay_generation;
+    byId('generation-value').textContent=`G${slider.value}`;
+  }
+  renderStatus(state);
+  const aligned=state.aligned, surface=state.surface;
+  byId('cap').textContent=replay?`共同预算 ${number(state.cap)} 次 GNN 评价 · 联合样本 ${number(state.unique_scored)}/${number(state.unique_sample)} 已评分 · 验收${state.pilot_pass?'通过':'未通过'}`:
+    aligned?`共同 GNN 上限 ${number(state.cap)} 对 · A G${aligned.native.generation} (${number(aligned.native.gnn_pairs)}) · C G${aligned.llm.generation} (${number(aligned.llm.gnn_pairs)})`:'等待两组完成首个 GNN 检查点';
+  const key=replay?`absolute-replay:${state.replay_generation}`:aligned?`${arms.map(a=>aligned[a].generation).join(':')}:${state.cap}`:'waiting';
+  if(key===last) return;
+  last=key;
+  for(const arm of arms){
+    byId(arm+'-detail').textContent=replay?'固定百分制 · 样本局部均分':aligned?`G${aligned[arm].generation} · 评分覆盖 ${number(aligned[arm].matrix_scored ?? aligned[arm].rule_scored)}/${number(aligned[arm].qualified_parents)}`:'等待曲面数据';
+  }
+  const count=state.count_surface;
+  byId('delta-title').textContent=count?'C − A · 累计生成数量差':'C − A · 评分差值';
+  if(count) byId('caption').textContent='C−A 高度为结构格内累计唯一有效分子对数差，经保总量平滑。颜色为局部近似均分差，灰色表示共同评分支撑不足。拖动曲面可联动旋转。';
+  byId('delta-detail').textContent=count?`A ${number(count.a)} 对 · C ${number(count.c)} 对 · 净差 ${number(count.c-count.a)}`:
+    surface?`${number(surface.delta_nodes)} 个共同支撑节点 · 面上平均差 ${number(surface.delta_mean)}`:'等待共同支撑区域';
+  const extrema=surface?surface.z.delta.flat().filter(Number.isFinite).map(Math.abs):[];
+  const capDelta=Math.max(5,...extrema);
+  const scoreLabel=replay?'综合分 F':surface?.scale==='pooled_percentile'?'联合池百分位':'结构潜力分';
+  const config={responsive:true,displaylogo:false};
+  await Promise.all(panels.map(id=>{
+    const delta=id==='delta', traces=[];
+    if(delta&&count){
+      const zmax=Math.max(1,count.height_max)*1.08, cmax=Math.max(3.1,count.color_max);
+      traces.push({type:'surface',x:count.x,y:count.y,z:count.z,surfacecolor:count.color.map((r,y)=>r.map((v,x)=>count.z[y][x]===null?null:v??-2*cmax)),
+        customdata:count.color,cmin:-2*cmax,cmax,colorscale:[[0,'#abb4ba'],[.32,'#abb4ba'],[1/3,'#286286'],[2/3,'#f8f7f1'],[1,'#a94828']],
+        colorbar:{thickness:10,len:.61,tickvals:[-cmax,0,cmax],title:{text:'近似分差'}},connectgaps:false,
+        hovertemplate:'PC1 %{x:.2f}<br>PC2 %{y:.2f}<br>数量差 %{z:.2f}<br>近似分差 %{customdata:.2f}<extra></extra>'});
+      return Plotly.react(id,traces,layout('C − A 数量差',[-zmax,zmax],null),config).then(linkCamera);
+    }
+    if(surface && !delta) traces.push({type:'surface',x:surface.x,y:surface.y,z:surface.ground[id],
+      colorscale:[[0,'#dce5e3'],[1,'#dce5e3']],showscale:false,hoverinfo:'skip'});
+    if(surface && (!delta||surface.delta_nodes)) traces.push({type:'surface',x:surface.x,y:surface.y,z:surface.z[id],
+      colorscale:delta?[[0,'#2855a1'],[.5,'#f5f4f0'],[1,'#aa422e']]:'Viridis',
+      cmin:delta?-capDelta:0,cmax:delta?capDelta:100,connectgaps:false,
+      colorbar:{thickness:10,len:.61,title:{text:delta?'差值':scoreLabel}},
+      hovertemplate:`PC1 %{x:.2f}<br>PC2 %{y:.2f}<br>${delta?'差值':scoreLabel} %{z:.2f}<extra></extra>`});
+    return Plotly.react(id,traces,layout(delta?'C − A':scoreLabel,delta?[-capDelta,capDelta]:[0,100],
+      !surface?'等待检查点':delta&&!surface.delta_nodes?'当前没有共同支撑区域':null),config).then(linkCamera);
+  }));
+  const distributions=surface?arms.map(arm=>({type:'bar',name:names[arm],x:Object.keys(surface.distributions[arm]).map(Number),
+    y:Object.values(surface.distributions[arm]),marker:{color:colors[arm]}})):[];
+  await Plotly.react('distribution',distributions,{paper_bgcolor:'#fff',plot_bgcolor:'#fff',barmode:'group',
+    margin:{l:47,r:16,t:12,b:48},xaxis:{title:'分子评分',range:[0,100]},yaxis:{title:'分子数'},
+    legend:{orientation:'h',x:0,y:1.13}},config);
+}
+async function refresh(){
+  if(refreshing) return;
+  refreshing=true;
+  try{const url=replayGeneration===null?'/api/rule':`/api/rule?generation=${replayGeneration}`;const response=await fetch(url,{cache:'no-store',signal:AbortSignal.timeout(120000)});if(!response.ok)throw Error(response.status);await render(await response.json());byId('message').textContent='';}
+  catch(error){byId('message').textContent=`监控数据读取失败 (${error.message})，稍后重试。`;last='';}
+  finally{refreshing=false;}
+}
+async function refreshStatus(){
+  if(!byId('replay-control').hidden) return;
+  try {
+    const response=await fetch('/api/rule/status',{cache:'no-store',signal:AbortSignal.timeout(5000)});
+    if(!response.ok)throw Error(response.status);
+    const state=await response.json();
+    if(last==='') renderStatus(state);
+    else for(const arm of arms){
+      const s=state.status[arm]||{};
+      byId(arm+'-status').textContent=`${s.phase||'等待进程'} · 已完成 ${number(s.completed_generation)} / ${number(s.max_generations)} 代`;
+      document.querySelector(`[data-arm=${arm}]`).disabled=!s.pid||terminal.has(s.phase)||s.stop_requested;
+    }
+  } catch(error) {
+    if(last==='') byId('message').textContent=`运行状态读取失败 (${error.message})。`;
+  }
+}
+byId('generation').addEventListener('input',event=>{
+  replayGeneration=Number(event.target.value);
+  byId('generation-value').textContent=`G${replayGeneration}`;
+  refresh();
+});
+document.querySelectorAll('.stop').forEach(button=>button.addEventListener('click',async()=>{
+  if(!window.confirm(`让 ${names[button.dataset.arm]} 在本代结束后停止？`))return;
+  button.disabled=true;
+  try{const response=await fetch(`/api/stop/${button.dataset.arm}`,{method:'POST',headers:{'X-Control-Token':'__CONTROL_TOKEN__'}});
+    if(!response.ok)throw Error(response.status);byId('message').textContent='已提交停止请求。';await refresh();}
+  catch(error){button.disabled=false;byId('message').textContent=`停止请求失败 (${error.message})。`;}
+}));
+byId('reset').addEventListener('click',async()=>{
+  camera=structuredClone(baseCamera);syncing=true;
+  try{await Promise.all(panels.map(id=>Plotly.relayout(id,{'scene.camera':camera})));}finally{syncing=false;}
+});
+refreshStatus();refresh();setInterval(refreshStatus,4000);setInterval(refresh,10000);
+</script></body></html>

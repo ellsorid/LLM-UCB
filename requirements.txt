@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+networkx
+scikit-learn
+scipy
+rdkit
+torch
+torch-geometric
+threadpoolctl
