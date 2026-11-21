@@ -15,3 +15,7 @@ api.txt
 *.csv
 *.sqlite*
 /runs/
+/outputs/matrix_pipeline_*/
+!models/lean_matrix/checkpoints/*.pth
+!matrix_pipeline/data/calibration.pt
+!/README.md

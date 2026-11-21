@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "version": "matrix-loop-v2",
+  "regression_tests": 6,
+  "live_rounds": 3,
+  "live_API_requests": 8,
+  "API_HTTP_statuses": [
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200,
+    200
+  ],
+  "tokens": 81041,
+  "initial_archive_cells": 8,
+  "final_archive_cells": 11,
+  "bank_pairs": 20,
+  "seed_evaluations": 8,
+  "child_evaluations": 12,
+  "same_critic_protocol": true,
+  "valid_operator_cases": {
+    "methyl": 46,
+    "amino": 44,
+    "hydroxyl": 45,
+    "vinyl_ethyl": 47,
+    "ethynyl_ethyl": 43
+  },
+  "capacity_improving_cases": {
+    "methyl": 0,
+    "amino": 0,
+    "hydroxyl": 0,
+    "vinyl_ethyl": 31,
+    "ethynyl_ethyl": 43
+  },
+  "H2_stoichiometry_checked": true,
+  "fair_parent_and_operator_tests": true,
+  "UCB_coefficient_dimensions": 49,
+  "CPU_GPU_regression_included": true,
+  "portable_CPU_rounds": 2,
+  "portable_requires_external_project": false,
+  "checkpoints": 5,
+  "original_weight_bytes": 4483710,
+  "unchanged_original_weights": true,
+  "GNN_training": false,
+  "scope": "functional validation, not independent chemical accuracy or legacy-policy superiority"
+}

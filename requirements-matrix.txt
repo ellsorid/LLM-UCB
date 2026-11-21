@@ -1,0 +1,9 @@
+numpy
+pandas
+scipy
+scikit-learn
+torch>=2.6
+rdkit
+jsonschema
+threadpoolctl
+matplotlib

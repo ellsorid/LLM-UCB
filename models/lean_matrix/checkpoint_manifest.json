@@ -1,0 +1,52 @@
+{
+  "unchanged_original_weights": true,
+  "input": "lean [B,N,N,12] plus mask",
+  "checkpoints": [
+    {
+      "file": "checkpoints\\fold_1_best.pth",
+      "bytes": 896742,
+      "sha256": "2755cb793665498bf29739b25cb50ba08d421098001f592ff1c241278ab1a58f",
+      "hidden_dim": 128,
+      "num_gnn_layers": 3,
+      "target_mean": 83.61015492360303,
+      "target_std": 27.823399890994786
+    },
+    {
+      "file": "checkpoints\\fold_2_best.pth",
+      "bytes": 896742,
+      "sha256": "acc99cd6a6fbb51a82e0d3f7910b281de7e8962ec2a5b1eac65129dc7e7f3a30",
+      "hidden_dim": 128,
+      "num_gnn_layers": 3,
+      "target_mean": 83.67477032283666,
+      "target_std": 27.729938453523484
+    },
+    {
+      "file": "checkpoints\\fold_3_best.pth",
+      "bytes": 896742,
+      "sha256": "9857ac5825b943461da0e2917017a4811d4ae116a198d8072224cda002f8b52c",
+      "hidden_dim": 128,
+      "num_gnn_layers": 3,
+      "target_mean": 84.1418531467433,
+      "target_std": 27.88409234966379
+    },
+    {
+      "file": "checkpoints\\fold_4_best.pth",
+      "bytes": 896742,
+      "sha256": "de830673b41bc75722770c8d4e566f0e59216c2fc77baf7c22af90f5c5b6fb70",
+      "hidden_dim": 128,
+      "num_gnn_layers": 3,
+      "target_mean": 83.72057092284554,
+      "target_std": 27.832775690873603
+    },
+    {
+      "file": "checkpoints\\fold_5_best.pth",
+      "bytes": 896742,
+      "sha256": "1e1ece35a771a54a31edb170199340f1aa7d26d0eedf758f35346bb03a95954f",
+      "hidden_dim": 128,
+      "num_gnn_layers": 3,
+      "target_mean": 83.70761694157284,
+      "target_std": 27.690553893854442
+    }
+  ],
+  "total_bytes": 4483710
+}

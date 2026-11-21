@@ -1,0 +1,23 @@
+{
+    "experiment": "12-Channel Dense Matrix GNN",
+    "schema_version": "LOHC_12CH_V1",
+    "input": "M_data [N,N,12]",
+    "total_samples": 9841,
+    "unique_groups": 6836,
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "hidden_dim": 128,
+    "gin_layers": 3,
+    "batch_size": 8,
+    "n_splits": 5,
+    "overall_oof_r2": 0.9689227070390987,
+    "overall_oof_rmse": 4.899539390692024,
+    "overall_oof_mae": 2.7173632132606307,
+    "mean_fold_r2": 0.9689970507865311,
+    "std_fold_r2": 0.008358611314502383,
+    "mean_fold_rmse": 4.859000707128722,
+    "matrix_input_only": true,
+    "smiles_model_input": false,
+    "graph_conversion": false,
+    "dual_molecule_encoding": false
+}
