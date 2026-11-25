@@ -19,3 +19,11 @@ api.txt
 !models/lean_matrix/checkpoints/*.pth
 !matrix_pipeline/data/calibration.pt
 !/README.md
+!/dual_route/README.md
+!/dual_route/SOM/chemical_unit_som_v1/artifacts/model.pt
+!/dual_route/LLM/ucb_chemical_units_v1/legacy_ga_v1/fragments_group_wise.csv
+!/dual_route/LLM/ucb_chemical_units_v1/legacy_ga_v1/fragments_insert_atom.csv
+/dual_route/runs/
+/dual_route/SOM/chemical_unit_som_v1/artifacts/assignments.npz
+/dual_route/LLM/overall_local_v1/artifacts/
+/dual_route/workflow_runtime_20261125/runtime/outputs/

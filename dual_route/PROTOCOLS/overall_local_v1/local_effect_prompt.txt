@@ -1,0 +1,8 @@
+For each given local observation, judge the direction of its possible
+effect on overall carrier performance. Useful conversion can be favorable,
+carrier degradation unfavorable, and a pathway by itself can be unknown.
+These are related compounds, not measurements of the target. Do not attribute
+an observation to the edit merely because it belongs to the same molecule.
+Return JSON exactly {"judgements":[{"id":"input ID",
+"direction":"favorable|unfavorable|mixed|unknown","reason":"one short sentence"}]}.
+Use each given ID once. Do not assign numeric scores or perform retrieval.

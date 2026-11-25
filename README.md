@@ -1,5 +1,7 @@
 # LOHC 矩阵迭代生成与贫氢态 GNN
 
+最新的实验入口位于 [SOM–LLM–UCB 双链工作流](dual_route/README.md)，包含定向母体设计、种群扩展和评分回传。
+
 新入口将双态矩阵、生成操作、QD、UCB、LLM评价和GPU种群连接起来。原有工作流保留在 `outputs/LOHC_From_Zero_Parallel_v10`，不替换主分支。
 
 ```bash

@@ -1,0 +1,12 @@
+{
+  "som": {
+    "checkpoint": "SOM/chemical_unit_som_v1/artifacts/model.pt"
+  },
+  "memory": {
+    "fixture": "LLM/overall_local_v1/artifacts/MEMORY_V2.json"
+  },
+  "scoring": {
+    "version": "overall_local_memory_v1",
+    "protocol": "PROTOCOLS/overall_local_v1/local_effect_prompt.txt"
+  }
+}
