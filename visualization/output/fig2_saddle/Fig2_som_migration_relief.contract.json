@@ -1,0 +1,57 @@
+{
+  "figure": "Fig2_som_migration_relief",
+  "width_mm": 180.0,
+  "height_mm": 120.0,
+  "run_dir": "D:\\LLM-UCB\\runs\\live_large_pop_v1",
+  "n_molecules": 144,
+  "z_min": 8.58223860673898e-12,
+  "z_max": 0.7098888323533292,
+  "p_high_max": 0.47965461645495217,
+  "corr_drho_p_high": 0.4482083932461136,
+  "j_immigration_mean": 0.6930092352373486,
+  "j_emigration_mean": 1.50876383746254,
+  "minimum_jacobian": 0.39279329393483453,
+  "gamma_warp": 0.2161806328620001,
+  "landmarks": {
+    "immigration_peak": {
+      "name": "immigration_peak",
+      "u": 0.18000000000000016,
+      "v": -0.9204545454545454,
+      "x": 0.18534062275476482,
+      "y": -0.926482831129059,
+      "z": 0.6928592929588743,
+      "drho": 0.08650665950595098,
+      "p_high": 0.4681481709181583,
+      "jacobian": 0.440731632265576
+    },
+    "emigration_basin": {
+      "name": "emigration_basin",
+      "u": -0.43999999999999995,
+      "v": 0.08181818181818201,
+      "x": -0.42570612825793197,
+      "y": 0.06217071960945543,
+      "z": 0.3414532034946309,
+      "drho": -0.10837656672360323,
+      "p_high": 0.2307116239828587,
+      "jacobian": 2.272503027110618
+    },
+    "top_score_prob": {
+      "name": "top_score_prob",
+      "u": -0.6800000000000002,
+      "v": -0.7977272727272728,
+      "x": -0.6294220111958103,
+      "y": -0.8708188696523624,
+      "z": 0.7098888323533292,
+      "drho": 0.034884254327594226,
+      "p_high": 0.47965461645495217,
+      "jacobian": 0.5805525793637469
+    }
+  },
+  "arrows": false,
+  "outputs": [
+    "D:\\LLM-UCB\\visualization\\output\\fig2_saddle\\Fig2_som_migration_relief.svg",
+    "D:\\LLM-UCB\\visualization\\output\\fig2_saddle\\Fig2_som_migration_relief.pdf",
+    "D:\\LLM-UCB\\visualization\\output\\fig2_saddle\\Fig2_som_migration_relief.png",
+    "D:\\LLM-UCB\\visualization\\output\\fig2_saddle\\Fig2_som_migration_relief.tiff"
+  ]
+}

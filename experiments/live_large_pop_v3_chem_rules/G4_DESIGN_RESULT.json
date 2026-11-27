@@ -1,0 +1,23 @@
+{
+  "answer": {
+    "edit_ids": [
+      "A1",
+      "A1B2"
+    ],
+    "reason": "A1 adds a vinyl-ethyl extension that raises H2 to 5.57 wt% (+0.24) and net +0.68 pts with SA 3.495 below the 3.5 penalty threshold and no SA penalty, while targeting an undirected cell. Its continuation A1B2 gives the largest net gain (+1.04) with SA 3.454 (no penalty) and directs a new cell (18), balancing exploration and clean synthetic accessibility over higher-SA options."
+  },
+  "audit": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 5503,
+      "completion_tokens": 119,
+      "total_tokens": 5622,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 5375
+    },
+    "http_status": 200
+  }
+}

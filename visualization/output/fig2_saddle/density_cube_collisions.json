@@ -1,0 +1,72 @@
+{
+  "pdf": "D:\\LLM-UCB\\visualization\\output\\fig2_saddle\\Fig2_density_cube.pdf",
+  "auditable": true,
+  "verdict": "REVIEW REQUIRED",
+  "page_count": 1,
+  "visible_text_box_count": 16,
+  "text_trace_count": 16,
+  "stroke_path_count": 306,
+  "filled_region_count": 21,
+  "image_region_count": 4,
+  "summary": {
+    "fail": 0,
+    "warn": 2,
+    "contained_fill_overlays": 0,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": [
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "SOM Dim 1 (structure)",
+      "text_bbox": [
+        129.1284942626953,
+        260.3365478515625,
+        195.13514709472656,
+        266.9365539550781
+      ],
+      "other_text": null,
+      "other_bbox": [
+        148.1485137939453,
+        176.2489776611328,
+        362.08770751953125,
+        265.05682373046875
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        1
+      ]
+    },
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "SOM Dim 2 (structure)",
+      "text_bbox": [
+        337.1845397949219,
+        255.77618408203125,
+        403.1911926269531,
+        262.3761901855469
+      ],
+      "other_text": null,
+      "other_bbox": [
+        148.1485137939453,
+        176.2489776611328,
+        362.08770751953125,
+        265.05682373046875
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        1
+      ]
+    }
+  ]
+}

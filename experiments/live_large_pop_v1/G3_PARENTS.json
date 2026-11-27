@@ -1,0 +1,181 @@
+[
+  {
+    "uid": "4f4bd1735d34715332f884785de8df82cae4d285e579f79af03edb9983cea22d",
+    "states": [
+      "C#CCc1cnn(C2CCCC2)c1N",
+      "C#CCC1CNN(C2CCCC2)C1N"
+    ],
+    "parent": "0b2e885ae5b4e5c25437c651d986792f47cc84d36442fdc01ca991cc1a0cf4a8",
+    "edit": null
+  },
+  {
+    "uid": "0eb30b1ade1ed7f4b1e7a591b30cedb88bc5be2b6e6df867ffe764902e7a333f",
+    "states": [
+      "C#CCc1c(C=C)nn(C2CCCCC2)c1N",
+      "C#CCC1C(CC)NN(C2CCCCC2)C1N"
+    ],
+    "parent": "98a30a333542f7fca5e43fb5ffa2f9510895bc0ef92b052ab8d36cb5a1690e91",
+    "edit": {
+      "parent_index": 0,
+      "site": 4,
+      "kind": "vinyl_ethyl",
+      "delta_nH2": 1
+    }
+  },
+  {
+    "uid": "8d54644c147c01bbc16e96266994af16c5a792f6cf4866436638d4f27c1bde53",
+    "states": [
+      "C#CCc1c(O)nn(CC(=O)OC)c1N",
+      "C#CCC1C(O)NN(CC(=O)OC)C1N"
+    ],
+    "parent": "270b8eb331e10d03e0b956ae34e141da082c4699cc0fa4b040798d1bcbbd556c",
+    "edit": null
+  },
+  {
+    "uid": "c30aff42fbcae3a36ec650d4dc2c79b3db2434d9485bf0c646a57254aaa3e3aa",
+    "states": [
+      "C#CCc1c(N)nn(-c2ccc(C(C)C)cc2)c1N",
+      "C#CCC1C(N)NN(C2CCC(C(C)C)CC2)C1N"
+    ],
+    "parent": "25b50a88aaba3877da78553a03c60583f2df297c838b1d9a76a6799d0279bc19",
+    "edit": null
+  },
+  {
+    "uid": "1370cd28defddf669f4c6cdf57e5f1df72c1495f2fd2a279099289c28889c2d0",
+    "states": [
+      "C#CC(O)c1cn[nH]c1N",
+      "CCC(O)C1CNNC1N"
+    ],
+    "parent": "0b2e885ae5b4e5c25437c651d986792f47cc84d36442fdc01ca991cc1a0cf4a8",
+    "edit": {
+      "parent_index": 0,
+      "site": 3,
+      "kind": "hydroxyl",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "270b8eb331e10d03e0b956ae34e141da082c4699cc0fa4b040798d1bcbbd556c",
+    "states": [
+      "C#CCc1c(O)n[nH]c1N",
+      "CCCC1C(N)NNC1O"
+    ],
+    "parent": "0b2e885ae5b4e5c25437c651d986792f47cc84d36442fdc01ca991cc1a0cf4a8",
+    "edit": {
+      "parent_index": 0,
+      "site": 6,
+      "kind": "hydroxyl",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "f082d00dd58afe85cfe713329b991e31e97b4f05c98d4db9a129b13120a2bf84",
+    "states": [
+      "C=C(C)c1ccccc1COc1ccc(O)cc1",
+      "C=C(C)C1CCCCC1COC1CCC(O)CC1"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "a5c390f948ecd591fbe7fafb0304e7f26ae867d343db93acb611ed95837397c9",
+    "states": [
+      "O=Cc1cc(Cc2ccccc2)oc1O",
+      "O=CC1CC(CC2CCCCC2)OC1O"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "625e67eb2fd51b1c26823849258fa210a072eda9109eceaf2ccbf3661606f553",
+    "states": [
+      "CC=c1cc(O)c(OC=O)cc1=CC",
+      "CC=C1CC(O)C(OC=O)CC1=CC"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "92cc01be65d481a136f1d79ffd66357ef3117ecc8c58c8b8d42e7903091523c1",
+    "states": [
+      "C#CCc1c(O)nn(-c2ccncn2)c1N",
+      "C#CCC1C(O)NN(C2CCNCN2)C1N"
+    ],
+    "parent": "270b8eb331e10d03e0b956ae34e141da082c4699cc0fa4b040798d1bcbbd556c",
+    "edit": null
+  },
+  {
+    "uid": "9f8674b48bc19c507a29f25320f2f39c1b92e325e1a4c4cff5acc457cb53e41d",
+    "states": [
+      "CC(=O)c1cncnc1",
+      "CC(O)C1CNCNC1"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "c9567b2ddb7d99e57ee424ea51e5ee84a8411ecd3d66ed7494f46323c50842d9",
+    "states": [
+      "C#CC1(C#N)NC1(C)CO",
+      "CCC1(CN)NC1(C)CO"
+    ],
+    "parent": "bb65a9829833dce086353746cbda586db543d7039c8a14e6b6d1b33c6e3dddd9",
+    "edit": {
+      "parent_index": 0,
+      "site": 2,
+      "kind": "methyl",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "bb65a9829833dce086353746cbda586db543d7039c8a14e6b6d1b33c6e3dddd9",
+    "states": [
+      "C#CC1(C#N)NC1CO",
+      "CCC1(CN)NC1CO"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "dddb3bf58430188dba676d542571d5fa95385f485de9d8c4f58168eacaa181be",
+    "states": [
+      "C#CC1(C#N)NC1(C=C)CO",
+      "CCC1(CN)NC1(CC)CO"
+    ],
+    "parent": "bb65a9829833dce086353746cbda586db543d7039c8a14e6b6d1b33c6e3dddd9",
+    "edit": {
+      "parent_index": 0,
+      "site": 2,
+      "kind": "vinyl_ethyl",
+      "delta_nH2": 1
+    }
+  },
+  {
+    "uid": "d5361a3db3de971adb57e9c011d4f9fefe1be53e1b084e443f45cee606cafec8",
+    "states": [
+      "C#CC1(C#N)NC1C(N)O",
+      "CCC1(CN)NC1C(N)O"
+    ],
+    "parent": "bb65a9829833dce086353746cbda586db543d7039c8a14e6b6d1b33c6e3dddd9",
+    "edit": {
+      "parent_index": 0,
+      "site": 1,
+      "kind": "amino",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "08eb55afdbafef6b282ace46a23dcf2c7b59adbb7481a7f45a1bb44a7df73fc3",
+    "states": [
+      "N#CC1(C#CN)NC1CO",
+      "NCCC1(CN)NC1CO"
+    ],
+    "parent": "bb65a9829833dce086353746cbda586db543d7039c8a14e6b6d1b33c6e3dddd9",
+    "edit": {
+      "parent_index": 0,
+      "site": 6,
+      "kind": "amino",
+      "delta_nH2": 0
+    }
+  }
+]

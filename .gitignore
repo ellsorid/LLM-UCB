@@ -13,6 +13,8 @@ api.txt
 *.pt
 *.pkl*
 *.csv
+*.tif
+*.tiff
 *.sqlite*
 /runs/
 /outputs/matrix_pipeline_*/

@@ -1,0 +1,684 @@
+{
+  "goal": "Improve local performance and H2 storage while retaining overall score, penalizing high SA, and covering unexplored SOM cells",
+  "seed_cell": 95,
+  "root_molecule": {
+    "uid": "1c94465f993252cb42df17f0335cab84bf763cc9d5756197bfa9501a9ae2a75e",
+    "cell": 95,
+    "lean_smiles": "CC#CCc1c(C)nn(NC(N)=O)c1N",
+    "rich_smiles": "CC#CCC1C(C)NN(NC(N)=O)C1N",
+    "score": 61.171,
+    "sa_score": 3.649,
+    "sa_penalty_points": 0.298,
+    "nH2": 2.0,
+    "h2_wt_percent": 1.908,
+    "units": [
+      "lean:C_attached_chain",
+      "lean:N_attached_chain",
+      "lean:amide",
+      "lean:amine",
+      "lean:carbonyl",
+      "lean:conjugated_component",
+      "lean:net_hydrogenation_region",
+      "lean:ring_system",
+      "rich:C_attached_chain",
+      "rich:N_attached_chain",
+      "rich:amide",
+      "rich:amine",
+      "rich:carbonyl",
+      "rich:conjugated_component",
+      "rich:net_hydrogenation_region",
+      "rich:ring_system"
+    ]
+  },
+  "sa_penalty_rule": {
+    "threshold": 3.5,
+    "weight": 2.0
+  },
+  "scoring_observations": 124,
+  "allowed_edit_paths": [
+    {
+      "id": "A1",
+      "site": 14,
+      "operator": "hydroxyl",
+      "target_cell": 71,
+      "lean_smiles": "Cc1nn(NC(N)=O)c(N)c1CC#CCO",
+      "rich_smiles": "CC1NN(NC(N)=O)C(N)C1CC#CCO",
+      "sa_score": 3.615,
+      "delta_sa": -0.034,
+      "sa_penalty_points": 0.23,
+      "net_pred_delta_points": 0.293,
+      "nH2": 2.0,
+      "h2_wt_percent": 1.774,
+      "delta_h2_wt_percent": -0.134,
+      "dst_cell_already_directed": false,
+      "destination_response_delta": 0.002787,
+      "whole_delta_points": 0.138,
+      "local_delta_points": 0.086,
+      "whole_sd_points": 0.61,
+      "local_sd_points": 0.7,
+      "evidence_gap": 0.75,
+      "step": 1,
+      "added_units": [
+        "lean:hydroxyl",
+        "rich:hydroxyl"
+      ],
+      "removed_units": [],
+      "target_cell_kalman": {
+        "whole_mean": 57.05,
+        "whole_sd": 35.47,
+        "local_mean": 60.23,
+        "local_sd": 35.7,
+        "occupied_count": 4
+      },
+      "matched_memory": [
+        {
+          "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+          "kind": "reaction_change",
+          "state": "rich",
+          "similarity": 0.319
+        },
+        {
+          "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+          "kind": "reaction_change",
+          "state": "rich",
+          "similarity": 0.319
+        },
+        {
+          "source_id": "P3140ddbb70ff",
+          "kind": "reaction_change",
+          "state": "rich",
+          "similarity": 0.319
+        }
+      ],
+      "uncovered_unit_kinds": [
+        "attachment",
+        "reaction_change",
+        "ring_or_conjugation"
+      ],
+      "continuations": [
+        {
+          "id": "A1B1",
+          "site": 5,
+          "operator": "methyl",
+          "target_cell": 71,
+          "lean_smiles": "CCc1nn(NC(N)=O)c(N)c1CC#CCO",
+          "rich_smiles": "CCC1NN(NC(N)=O)C(N)C1CC#CCO",
+          "sa_score": 3.593,
+          "delta_sa": -0.056,
+          "sa_penalty_points": 0.187,
+          "net_pred_delta_points": 0.544,
+          "nH2": 2.0,
+          "h2_wt_percent": 1.671,
+          "delta_h2_wt_percent": -0.237,
+          "dst_cell_already_directed": false,
+          "destination_response_delta": 0.004061,
+          "whole_delta_points": 0.277,
+          "local_delta_points": 0.156,
+          "whole_sd_points": 1.2,
+          "local_sd_points": 1.39,
+          "evidence_gap": 0.75,
+          "step": 2,
+          "added_units": [],
+          "removed_units": [],
+          "target_cell_kalman": {
+            "whole_mean": 57.05,
+            "whole_sd": 35.47,
+            "local_mean": 60.23,
+            "local_sd": 35.7,
+            "occupied_count": 4
+          },
+          "matched_memory": [
+            {
+              "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            },
+            {
+              "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            },
+            {
+              "source_id": "P3140ddbb70ff",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            }
+          ],
+          "uncovered_unit_kinds": [
+            "attachment",
+            "reaction_change",
+            "ring_or_conjugation"
+          ]
+        },
+        {
+          "id": "A1B2",
+          "site": 5,
+          "operator": "hydroxyl",
+          "target_cell": 71,
+          "lean_smiles": "NC(=O)Nn1nc(CO)c(CC#CCO)c1N",
+          "rich_smiles": "NC(=O)NN1NC(CO)C(CC#CCO)C1N",
+          "sa_score": 3.721,
+          "delta_sa": 0.073,
+          "sa_penalty_points": 0.443,
+          "net_pred_delta_points": 0.307,
+          "nH2": 2.0,
+          "h2_wt_percent": 1.657,
+          "delta_h2_wt_percent": -0.251,
+          "dst_cell_already_directed": false,
+          "destination_response_delta": 0.005737,
+          "whole_delta_points": 0.281,
+          "local_delta_points": 0.171,
+          "whole_sd_points": 1.23,
+          "local_sd_points": 1.42,
+          "evidence_gap": 0.75,
+          "step": 2,
+          "added_units": [],
+          "removed_units": [],
+          "target_cell_kalman": {
+            "whole_mean": 57.05,
+            "whole_sd": 35.47,
+            "local_mean": 60.23,
+            "local_sd": 35.7,
+            "occupied_count": 4
+          },
+          "matched_memory": [
+            {
+              "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            },
+            {
+              "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            },
+            {
+              "source_id": "P3140ddbb70ff",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            }
+          ],
+          "uncovered_unit_kinds": [
+            "attachment",
+            "reaction_change",
+            "ring_or_conjugation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "site": 14,
+      "operator": "methyl",
+      "target_cell": 95,
+      "lean_smiles": "CCC#CCc1c(C)nn(NC(N)=O)c1N",
+      "rich_smiles": "CCC#CCC1C(C)NN(NC(N)=O)C1N",
+      "sa_score": 3.62,
+      "delta_sa": -0.029,
+      "sa_penalty_points": 0.24,
+      "net_pred_delta_points": 0.26,
+      "nH2": 2.0,
+      "h2_wt_percent": 1.79,
+      "delta_h2_wt_percent": -0.119,
+      "dst_cell_already_directed": true,
+      "destination_response_delta": 0.00139,
+      "whole_delta_points": 0.132,
+      "local_delta_points": 0.07,
+      "whole_sd_points": 0.57,
+      "local_sd_points": 0.67,
+      "evidence_gap": 0.75,
+      "step": 1,
+      "added_units": [],
+      "removed_units": [],
+      "target_cell_kalman": {
+        "whole_mean": 56.73,
+        "whole_sd": 40.14,
+        "local_mean": 59.91,
+        "local_sd": 40.28,
+        "occupied_count": 8
+      },
+      "matched_memory": [
+        {
+          "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+          "kind": "reaction_change",
+          "state": "rich",
+          "similarity": 0.319
+        },
+        {
+          "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+          "kind": "reaction_change",
+          "state": "rich",
+          "similarity": 0.319
+        },
+        {
+          "source_id": "P3140ddbb70ff",
+          "kind": "reaction_change",
+          "state": "rich",
+          "similarity": 0.319
+        }
+      ],
+      "uncovered_unit_kinds": [
+        "attachment",
+        "reaction_change",
+        "ring_or_conjugation"
+      ],
+      "continuations": [
+        {
+          "id": "A2B1",
+          "site": 5,
+          "operator": "methyl",
+          "target_cell": 95,
+          "lean_smiles": "CCC#CCc1c(CC)nn(NC(N)=O)c1N",
+          "rich_smiles": "CCC#CCC1C(CC)NN(NC(N)=O)C1N",
+          "sa_score": 3.598,
+          "delta_sa": -0.051,
+          "sa_penalty_points": 0.197,
+          "net_pred_delta_points": 0.513,
+          "nH2": 2.0,
+          "h2_wt_percent": 1.685,
+          "delta_h2_wt_percent": -0.224,
+          "dst_cell_already_directed": true,
+          "destination_response_delta": 0.002453,
+          "whole_delta_points": 0.273,
+          "local_delta_points": 0.139,
+          "whole_sd_points": 1.18,
+          "local_sd_points": 1.37,
+          "evidence_gap": 0.75,
+          "step": 2,
+          "added_units": [],
+          "removed_units": [],
+          "target_cell_kalman": {
+            "whole_mean": 56.73,
+            "whole_sd": 40.14,
+            "local_mean": 59.91,
+            "local_sd": 40.28,
+            "occupied_count": 8
+          },
+          "matched_memory": [
+            {
+              "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            },
+            {
+              "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            },
+            {
+              "source_id": "P3140ddbb70ff",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            }
+          ],
+          "uncovered_unit_kinds": [
+            "attachment",
+            "reaction_change",
+            "ring_or_conjugation"
+          ]
+        },
+        {
+          "id": "A2B2",
+          "site": 14,
+          "operator": "methyl",
+          "target_cell": 71,
+          "lean_smiles": "Cc1nn(NC(N)=O)c(N)c1CC#CC(C)C",
+          "rich_smiles": "CC(C)C#CCC1C(C)NN(NC(N)=O)C1N",
+          "sa_score": 3.648,
+          "delta_sa": -0.001,
+          "sa_penalty_points": 0.295,
+          "net_pred_delta_points": 0.408,
+          "nH2": 2.0,
+          "h2_wt_percent": 1.685,
+          "delta_h2_wt_percent": -0.224,
+          "dst_cell_already_directed": false,
+          "destination_response_delta": 0.003301,
+          "whole_delta_points": 0.261,
+          "local_delta_points": 0.144,
+          "whole_sd_points": 1.14,
+          "local_sd_points": 1.32,
+          "evidence_gap": 0.75,
+          "step": 2,
+          "added_units": [],
+          "removed_units": [],
+          "target_cell_kalman": {
+            "whole_mean": 57.05,
+            "whole_sd": 35.47,
+            "local_mean": 60.23,
+            "local_sd": 35.7,
+            "occupied_count": 4
+          },
+          "matched_memory": [
+            {
+              "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            },
+            {
+              "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            },
+            {
+              "source_id": "P3140ddbb70ff",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            }
+          ],
+          "uncovered_unit_kinds": [
+            "attachment",
+            "reaction_change",
+            "ring_or_conjugation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "site": 5,
+      "operator": "methyl",
+      "target_cell": 95,
+      "lean_smiles": "CC#CCc1c(CC)nn(NC(N)=O)c1N",
+      "rich_smiles": "CC#CCC1C(CC)NN(NC(N)=O)C1N",
+      "sa_score": 3.619,
+      "delta_sa": -0.029,
+      "sa_penalty_points": 0.239,
+      "net_pred_delta_points": 0.245,
+      "nH2": 2.0,
+      "h2_wt_percent": 1.79,
+      "delta_h2_wt_percent": -0.119,
+      "dst_cell_already_directed": true,
+      "destination_response_delta": 0.00111,
+      "whole_delta_points": 0.12,
+      "local_delta_points": 0.065,
+      "whole_sd_points": 0.52,
+      "local_sd_points": 0.6,
+      "evidence_gap": 0.75,
+      "step": 1,
+      "added_units": [],
+      "removed_units": [],
+      "target_cell_kalman": {
+        "whole_mean": 56.73,
+        "whole_sd": 40.14,
+        "local_mean": 59.91,
+        "local_sd": 40.28,
+        "occupied_count": 8
+      },
+      "matched_memory": [
+        {
+          "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+          "kind": "reaction_change",
+          "state": "rich",
+          "similarity": 0.319
+        },
+        {
+          "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+          "kind": "reaction_change",
+          "state": "rich",
+          "similarity": 0.319
+        },
+        {
+          "source_id": "P3140ddbb70ff",
+          "kind": "reaction_change",
+          "state": "rich",
+          "similarity": 0.319
+        }
+      ],
+      "uncovered_unit_kinds": [
+        "attachment",
+        "reaction_change",
+        "ring_or_conjugation"
+      ],
+      "continuations": [
+        {
+          "id": "A3B1",
+          "site": 14,
+          "operator": "hydroxyl",
+          "target_cell": 71,
+          "lean_smiles": "CCc1nn(NC(N)=O)c(N)c1CC#CCO",
+          "rich_smiles": "CCC1NN(NC(N)=O)C(N)C1CC#CCO",
+          "sa_score": 3.593,
+          "delta_sa": -0.056,
+          "sa_penalty_points": 0.187,
+          "net_pred_delta_points": 0.544,
+          "nH2": 2.0,
+          "h2_wt_percent": 1.671,
+          "delta_h2_wt_percent": -0.237,
+          "dst_cell_already_directed": false,
+          "destination_response_delta": 0.004061,
+          "whole_delta_points": 0.277,
+          "local_delta_points": 0.156,
+          "whole_sd_points": 1.2,
+          "local_sd_points": 1.39,
+          "evidence_gap": 0.75,
+          "step": 2,
+          "added_units": [
+            "lean:hydroxyl",
+            "rich:hydroxyl"
+          ],
+          "removed_units": [],
+          "target_cell_kalman": {
+            "whole_mean": 57.05,
+            "whole_sd": 35.47,
+            "local_mean": 60.23,
+            "local_sd": 35.7,
+            "occupied_count": 4
+          },
+          "matched_memory": [
+            {
+              "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            },
+            {
+              "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            },
+            {
+              "source_id": "P3140ddbb70ff",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            }
+          ],
+          "uncovered_unit_kinds": [
+            "attachment",
+            "reaction_change",
+            "ring_or_conjugation"
+          ]
+        },
+        {
+          "id": "A3B2",
+          "site": 14,
+          "operator": "methyl",
+          "target_cell": 95,
+          "lean_smiles": "CCC#CCc1c(CC)nn(NC(N)=O)c1N",
+          "rich_smiles": "CCC#CCC1C(CC)NN(NC(N)=O)C1N",
+          "sa_score": 3.598,
+          "delta_sa": -0.051,
+          "sa_penalty_points": 0.197,
+          "net_pred_delta_points": 0.513,
+          "nH2": 2.0,
+          "h2_wt_percent": 1.685,
+          "delta_h2_wt_percent": -0.224,
+          "dst_cell_already_directed": true,
+          "destination_response_delta": 0.002453,
+          "whole_delta_points": 0.273,
+          "local_delta_points": 0.139,
+          "whole_sd_points": 1.18,
+          "local_sd_points": 1.37,
+          "evidence_gap": 0.75,
+          "step": 2,
+          "added_units": [],
+          "removed_units": [],
+          "target_cell_kalman": {
+            "whole_mean": 56.73,
+            "whole_sd": 40.14,
+            "local_mean": 59.91,
+            "local_sd": 40.28,
+            "occupied_count": 8
+          },
+          "matched_memory": [
+            {
+              "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            },
+            {
+              "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            },
+            {
+              "source_id": "P3140ddbb70ff",
+              "kind": "reaction_change",
+              "state": "rich",
+              "similarity": 0.319
+            }
+          ],
+          "uncovered_unit_kinds": [
+            "attachment",
+            "reaction_change",
+            "ring_or_conjugation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A4",
+      "site": 14,
+      "operator": "amino",
+      "target_cell": 71,
+      "lean_smiles": "Cc1nn(NC(N)=O)c(N)c1CC#CCN",
+      "rich_smiles": "CC1NN(NC(N)=O)C(N)C1CC#CCN",
+      "sa_score": 3.654,
+      "delta_sa": 0.006,
+      "sa_penalty_points": 0.309,
+      "net_pred_delta_points": 0.156,
+      "nH2": 2.0,
+      "h2_wt_percent": 1.782,
+      "delta_h2_wt_percent": -0.127,
+      "dst_cell_already_directed": false,
+      "destination_response_delta": 0.001736,
+      "whole_delta_points": 0.108,
+      "local_delta_points": 0.059,
+      "whole_sd_points": 0.48,
+      "local_sd_points": 0.55,
+      "evidence_gap": 0.75,
+      "step": 1,
+      "added_units": [],
+      "removed_units": [],
+      "target_cell_kalman": {
+        "whole_mean": 57.05,
+        "whole_sd": 35.47,
+        "local_mean": 60.23,
+        "local_sd": 35.7,
+        "occupied_count": 4
+      },
+      "matched_memory": [
+        {
+          "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+          "kind": "reaction_change",
+          "state": "rich",
+          "similarity": 0.319
+        },
+        {
+          "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+          "kind": "reaction_change",
+          "state": "rich",
+          "similarity": 0.319
+        },
+        {
+          "source_id": "P3140ddbb70ff",
+          "kind": "reaction_change",
+          "state": "rich",
+          "similarity": 0.319
+        }
+      ],
+      "uncovered_unit_kinds": [
+        "attachment",
+        "reaction_change",
+        "ring_or_conjugation"
+      ],
+      "continuations": []
+    },
+    {
+      "id": "A5",
+      "site": 5,
+      "operator": "hydroxyl",
+      "target_cell": 71,
+      "lean_smiles": "CC#CCc1c(CO)nn(NC(N)=O)c1N",
+      "rich_smiles": "CC#CCC1C(CO)NN(NC(N)=O)C1N",
+      "sa_score": 3.756,
+      "delta_sa": 0.108,
+      "sa_penalty_points": 0.513,
+      "net_pred_delta_points": -0.008,
+      "nH2": 2.0,
+      "h2_wt_percent": 1.774,
+      "delta_h2_wt_percent": -0.134,
+      "dst_cell_already_directed": false,
+      "destination_response_delta": 0.002592,
+      "whole_delta_points": 0.126,
+      "local_delta_points": 0.081,
+      "whole_sd_points": 0.55,
+      "local_sd_points": 0.64,
+      "evidence_gap": 0.75,
+      "step": 1,
+      "added_units": [
+        "lean:hydroxyl",
+        "rich:hydroxyl"
+      ],
+      "removed_units": [],
+      "target_cell_kalman": {
+        "whole_mean": 57.05,
+        "whole_sd": 35.47,
+        "local_mean": 60.23,
+        "local_sd": 35.7,
+        "occupied_count": 4
+      },
+      "matched_memory": [
+        {
+          "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+          "kind": "reaction_change",
+          "state": "rich",
+          "similarity": 0.319
+        },
+        {
+          "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+          "kind": "reaction_change",
+          "state": "rich",
+          "similarity": 0.319
+        },
+        {
+          "source_id": "P3140ddbb70ff",
+          "kind": "reaction_change",
+          "state": "rich",
+          "similarity": 0.319
+        }
+      ],
+      "uncovered_unit_kinds": [
+        "attachment",
+        "reaction_change",
+        "ring_or_conjugation"
+      ],
+      "continuations": []
+    }
+  ]
+}

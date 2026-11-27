@@ -10,13 +10,19 @@ import numpy as np
 import torch
 
 
-DESIGN_TASK = """Design one proposed breeding parent for the stated property goal.
-Assemble an ordered sequence from the legal matrix-edit menu: choose one first
-edit, then optionally one of its supplied continuation edits. Use predicted
-overall/local differences, structural placement and evidence coverage. These
-are uncertain estimates, not measured gains. Return JSON exactly
-{"edit_ids":["first_id"],"reason":"short explanation"} or the same object with
-two IDs. Use only IDs linked in the menu. Do not supply new atom IDs or scores."""
+DESIGN_TASK = """Design one molecule-vision heuristic breeding parent to complement hierarchical UCB.
+Inspect root_molecule and each legal candidate's SMILES structure (lean_smiles),
+synthetic accessibility (sa_score, delta_sa, sa_penalty_points), H2 capacity
+(h2_wt_percent, delta_h2_wt_percent), predicted whole/local score changes,
+net_pred_delta_points, SOM response shift (destination_response_delta),
+target_cell_kalman stats, and evidence_gap. Your chosen candidate will enter
+next-generation breeding parents for UCB local refinement, so balance
+cross-cell exploration (preferring cells not yet visited in dst_cell_already_directed)
+and overall/local + H2 improvement against SA penalty (avoid gratuitous poly-alkyne
+or high-SA chains when a synthetically cleaner edit achieves strong gain).
+Choose one first edit, then optionally one of its linked continuation edits.
+Return JSON exactly {"edit_ids":["first_id"],"reason":"short explanation"}
+or the same object with two IDs. Use only IDs linked in the menu."""
 
 
 def validate_design(answer, routes):

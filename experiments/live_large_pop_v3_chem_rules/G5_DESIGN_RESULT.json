@@ -1,0 +1,23 @@
+{
+  "answer": {
+    "edit_ids": [
+      "A1",
+      "A1B1"
+    ],
+    "reason": "A1 gives a balanced first edit: modest SA increase (3.54, penalty 0.08) with +1.0 net points and +0.27 H2 wt%. Its continuation A1B1 targets unexplored cell 67 (occupied_count 0), adds +2.1 net points, +0.49 H2 wt%, and reaches 7 H2 while staying below the SA threshold (3.69, penalty 0.38). This favors cross-cell exploration and H2 gain over the higher-SA alkyne options (A5/A3B2), which risk polymerization penalties."
+  },
+  "audit": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 5541,
+      "completion_tokens": 142,
+      "total_tokens": 5683,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 5413
+    },
+    "http_status": 200
+  }
+}

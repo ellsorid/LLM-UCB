@@ -1,0 +1,23 @@
+{
+  "answer": {
+    "edit_ids": [
+      "A1",
+      "A1B2"
+    ],
+    "reason": "A1 adds a hydroxyl at site 12, lowering SA (3.527→3.391, penalty zeroed) while giving positive whole/local deltas and a small H2 trade-off; A1B2 continues with a methyl at site 13, further improving net predicted delta (+0.467) and local/whole gains with SA still below threshold and no new penalty, keeping the edit synthetically clean and exploring the undirected target cell."
+  },
+  "audit": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 5652,
+      "completion_tokens": 109,
+      "total_tokens": 5761,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 5524
+    },
+    "http_status": 200
+  }
+}

@@ -1,0 +1,171 @@
+[
+  {
+    "uid": "20010272eb606c6c6c7a3bb9f33197ec4fb75e697effb445fc5149ec72e04104",
+    "states": [
+      "C#CCc1c(CC)nn(NC(N)=O)c1N",
+      "C#CCC1C(CC)NN(NC(N)=O)C1N"
+    ],
+    "parent": "45fb4285541a0b016eafd67d298773ebb8fcafadc6f183a568a6f9cd1c935934",
+    "edit": {
+      "parent_index": 0,
+      "site": 5,
+      "kind": "methyl",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "0b2e885ae5b4e5c25437c651d986792f47cc84d36442fdc01ca991cc1a0cf4a8",
+    "states": [
+      "C#CCc1cn[nH]c1N",
+      "CCCC1CNNC1N"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "0ce885ce3929b04da5a269bb1d00c39b109872aaa4d9ee818e87005c69219609",
+    "states": [
+      "C=CC(C)=c1c(N)c(O)c(OC=O)cc1=CC",
+      "CC=C1CC(OC=O)C(O)C(N)C1=C(C)CC"
+    ],
+    "parent": "3144a07aee0ee3c85f15c013cb1ddd3b7a8cdb65f1454ae4542b28a54d452b8d",
+    "edit": {
+      "parent_index": 0,
+      "site": 3,
+      "kind": "amino",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "45fb4285541a0b016eafd67d298773ebb8fcafadc6f183a568a6f9cd1c935934",
+    "states": [
+      "C#CCc1c(C)nn(NC(N)=O)c1N",
+      "C#CCC1C(C)NN(NC(N)=O)C1N"
+    ],
+    "parent": "ddce1ed04d78fbf028ea1e3ca7f11189a3e0bef5f114f6fb97e5367a2f4e8346",
+    "edit": null
+  },
+  {
+    "uid": "52a3e1f2261315408fa4d5b62c48c37d0eb84cadd6b2da72fe46f2499a640e67",
+    "states": [
+      "O=CC#CC1=NCCN1",
+      "OCCCC1NCCN1"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "215617acb74d58b0d7b4f340c2a127a79435a2baf91173af7a11ff8121f45594",
+    "states": [
+      "C#CC(C)=c1c(C)c(O)c(OC=O)c(O)c1=CC",
+      "CC=C1C(=C(C)CC)C(C)C(O)C(OC=O)C1O"
+    ],
+    "parent": "2ff86a141ecfac8b41f824e632c77aa5615ef5b0e8e21e6fca0d2fa50c72094d",
+    "edit": {
+      "parent_index": 0,
+      "site": 10,
+      "kind": "hydroxyl",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "183c3396cdfe1e58114bd4450ad0ecb29b47dc84d7723b25952de1d9b75b323e",
+    "states": [
+      "C=CC(CC)=c1cc(O)c(OC=O)cc1=CC",
+      "CC=C1CC(OC=O)C(O)CC1=C(CC)CC"
+    ],
+    "parent": "3144a07aee0ee3c85f15c013cb1ddd3b7a8cdb65f1454ae4542b28a54d452b8d",
+    "edit": {
+      "parent_index": 0,
+      "site": 0,
+      "kind": "methyl",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "f082d00dd58afe85cfe713329b991e31e97b4f05c98d4db9a129b13120a2bf84",
+    "states": [
+      "C=C(C)c1ccccc1COc1ccc(O)cc1",
+      "C=C(C)C1CCCCC1COC1CCC(O)CC1"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "a5c390f948ecd591fbe7fafb0304e7f26ae867d343db93acb611ed95837397c9",
+    "states": [
+      "O=Cc1cc(Cc2ccccc2)oc1O",
+      "O=CC1CC(CC2CCCCC2)OC1O"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "98a30a333542f7fca5e43fb5ffa2f9510895bc0ef92b052ab8d36cb5a1690e91",
+    "states": [
+      "C#CCc1cnn(C2CCCCC2)c1N",
+      "C#CCC1CNN(C2CCCCC2)C1N"
+    ],
+    "parent": "0b2e885ae5b4e5c25437c651d986792f47cc84d36442fdc01ca991cc1a0cf4a8",
+    "edit": null
+  },
+  {
+    "uid": "0eb30b1ade1ed7f4b1e7a591b30cedb88bc5be2b6e6df867ffe764902e7a333f",
+    "states": [
+      "C#CCc1c(C=C)nn(C2CCCCC2)c1N",
+      "C#CCC1C(CC)NN(C2CCCCC2)C1N"
+    ],
+    "parent": "98a30a333542f7fca5e43fb5ffa2f9510895bc0ef92b052ab8d36cb5a1690e91",
+    "edit": {
+      "parent_index": 0,
+      "site": 4,
+      "kind": "vinyl_ethyl",
+      "delta_nH2": 1
+    }
+  },
+  {
+    "uid": "bb65a9829833dce086353746cbda586db543d7039c8a14e6b6d1b33c6e3dddd9",
+    "states": [
+      "C#CC1(C#N)NC1CO",
+      "CCC1(CN)NC1CO"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "9f8674b48bc19c507a29f25320f2f39c1b92e325e1a4c4cff5acc457cb53e41d",
+    "states": [
+      "CC(=O)c1cncnc1",
+      "CC(O)C1CNCNC1"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "625e67eb2fd51b1c26823849258fa210a072eda9109eceaf2ccbf3661606f553",
+    "states": [
+      "CC=c1cc(O)c(OC=O)cc1=CC",
+      "CC=C1CC(O)C(OC=O)CC1=CC"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "6ac448e8346fce941a98899fc5969bb6391d36a2c4466a5b828e3ecab6704497",
+    "states": [
+      "CCC#CC#CC1CN1",
+      "CCCCCCC1CN1"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "ecb390209d5819e496e0e69e3ce27ad3b7ff5fbdce8ced232ef215668eaee01f",
+    "states": [
+      "N#CC1=CC(C=O)CC1",
+      "NCC1CCC(CO)C1"
+    ],
+    "parent": null,
+    "edit": null
+  }
+]

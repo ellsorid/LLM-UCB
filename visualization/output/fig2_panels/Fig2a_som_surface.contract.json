@@ -1,0 +1,30 @@
+{
+  "figure": "Fig. 2 Panel A (Organic SOM-deformed & score-elevated triptych)",
+  "core_conclusion": "As 144 molecules accumulate across 6 closed-loop generations, Kohonen SOM structural differentials warp the organic molecular plane in (X, Y) while Kalman score differentials elevate Z, with deeper embedded pigment encoding anchored molecular concentrations without discrete points or arrows.",
+  "archetype": "asymmetric mixed-modality figure (two stacked differential gradients + one hero coupled organic manifold)",
+  "backend": "Python matplotlib",
+  "size_mm": [
+    183,
+    114
+  ],
+  "run_dir": "D:\\LLM-UCB\\runs\\live_large_pop_v1",
+  "som_model": "D:\\LLM-UCB\\dual_route\\SOM\\chemical_unit_som_v1\\artifacts\\model.pt",
+  "metrics": {
+    "molecules": 144,
+    "occupied_cells": 42,
+    "min_planar_jacobian": 0.3078,
+    "dC_norm_range": [
+      0.0185,
+      0.7075
+    ],
+    "dmu_range": [
+      0.234,
+      2.636
+    ]
+  },
+  "scope_notes": [
+    "Organic boundary follows smoothed distance envelope (d_smooth <= 0.22) around the 128 frozen SOM prototypes; no artificial rectangular clipping.",
+    "No arrows or discrete point markers are plotted; gradient progression uses smooth color stops + iso-level contours and molecular anchoring uses continuous KDE pigment deepening.",
+    "In a3, planar grid deformation (X, Y) is strictly governed by the Kohonen SOM training-rule update from G0 to G6, and vertical elevation Z is strictly governed by Kalman score differential dmu."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "answer": {
+    "edit_ids": [
+      "A1",
+      "A1B1"
+    ],
+    "reason": "A1 methylates the ester O, cutting SA from 4.18 to 3.754 (below threshold, penalty 1.361→0.508) while giving the best net +0.859 and directing an unexplored cell 43. Its continuation A1B1 further lowers SA to 3.551 (penalty 0.103) and raises net to +1.27, the strongest overall gain with minimal synthetic burden; H2 loss is modest and cell exploration is preserved."
+  },
+  "audit": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 4861,
+      "completion_tokens": 120,
+      "total_tokens": 4981,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 4733
+    },
+    "http_status": 200
+  }
+}

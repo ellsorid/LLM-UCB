@@ -1,0 +1,23 @@
+{
+  "answer": {
+    "edit_ids": [
+      "A2",
+      "A2B2"
+    ],
+    "reason": "A2 at site 2 has the best matched-memory similarity (0.538) and positive whole delta while keeping local change small; its continuation A2B2 gives the largest whole gain (0.131) with modest local tradeoff, supporting overall retention and reachable-cell exploration."
+  },
+  "audit": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 2128,
+      "completion_tokens": 76,
+      "total_tokens": 2204,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 2128
+    },
+    "http_status": 200
+  }
+}

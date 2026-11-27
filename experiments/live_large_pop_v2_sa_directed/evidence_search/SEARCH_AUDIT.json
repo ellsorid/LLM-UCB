@@ -1,0 +1,3395 @@
+{
+  "invocations": 130,
+  "search_requests": 0,
+  "search_cache_hits": 260,
+  "papers_fetched": 0,
+  "search_errors": [],
+  "search_budget_exhausted": false,
+  "llm_extract_calls": 24,
+  "claims_accepted": 8,
+  "claims_contextual": 25,
+  "claims_rejected": 0,
+  "claims_added_to_memory": 6,
+  "events": [
+    {
+      "invocation": 4,
+      "uid": "f12d1f0ed53e1bb59d3d88e1f36d6916187954ebd4de327e81a469cd7ba9978a",
+      "smiles": [
+        "CC1(CC(=O)O)C(=O)c2cccc3cc1cc-3c2",
+        "CC1(CC(=O)O)C(=O)C2CCCC3CC1CC3C2"
+      ],
+      "queries": [
+        "carbonyl dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acscatal.1c03283",
+        "10.3390/catal11121497",
+        "10.1021/acsaem.6c00400",
+        "10.1515/recat-2015-0010",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 1,
+      "uid": "a0dbe02c3c7b656fe0eaec0cf5549f5d03b09939568eb53dcf016b7849175924",
+      "smiles": [
+        "COc1ccc(C(=O)Oc2ccccc2)cc1O",
+        "COC1CCC(C(=O)OC2CCCCC2)CC1O"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 2,
+      "uid": "dda6aee6d2c0cf1741c4fc075216e55dc04e43950b0eacea2cf2b30105f0758f",
+      "smiles": [
+        "O=COCOC(O)c1occc1-c1ccoc1",
+        "O=COCOC(O)C1OCCC1C1CCOC1"
+      ],
+      "queries": [
+        "furan dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/c8010007",
+        "10.1002/aenm.202103362",
+        "10.1021/acssuschemeng.1c03247",
+        "10.3390/oxygen4030015",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 5,
+      "uid": "18cd4100bce72fc39eb5f3ed75fcf2e32ed01c8a33f17dc0055a9b12587e542f",
+      "smiles": [
+        "Cc1ccccc1Oc1ccc2cc(C=O)oc2c1",
+        "CC1CCCCC1OC1CCC2CC(C=O)OC2C1"
+      ],
+      "queries": [
+        "furan dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "benzene thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/c8010007",
+        "10.1002/aenm.202103362",
+        "10.1021/acssuschemeng.1c03247",
+        "10.3390/oxygen4030015",
+        "10.1021/ie50088a009",
+        "10.1098/rspa.1954.0178"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 3,
+      "uid": "bb65a9829833dce086353746cbda586db543d7039c8a14e6b6d1b33c6e3dddd9",
+      "smiles": [
+        "C#CC1(C#N)NC1CO",
+        "CCC1(CN)NC1CO"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 6,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 6,
+      "uid": "f082d00dd58afe85cfe713329b991e31e97b4f05c98d4db9a129b13120a2bf84",
+      "smiles": [
+        "C=C(C)c1ccccc1COc1ccc(O)cc1",
+        "C=C(C)C1CCCCC1COC1CCC(O)CC1"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "phenol thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.1002/pol.1964.100020635",
+        "10.1007/s00894-025-06602-6"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 7,
+      "uid": "e2c067ce68bba9c0c2e468d1cff3b820cd83c329302930413c8452c370f98d84",
+      "smiles": [
+        "O=C=COc1ccc(OC=CC=CCO)cc1O",
+        "O=C=COC1CCC(OC=CC=CCO)CC1O"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 9,
+      "uid": "625e67eb2fd51b1c26823849258fa210a072eda9109eceaf2ccbf3661606f553",
+      "smiles": [
+        "CC=c1cc(O)c(OC=O)cc1=CC",
+        "CC=C1CC(O)C(OC=O)CC1=CC"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 8,
+      "uid": "c59ad6a8c9123db6c5de5e195600463a19566cf27cf022b139bde60c38ac788d",
+      "smiles": [
+        "C#Cc1nc(NC)co1",
+        "CCC1NC(NC)CO1"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "ether thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1002/(sici)1097-4628(19980906)69:10<2005::aid-app12>3.0.co;2-0",
+        "10.1002/mame.201500075"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 4,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 11,
+      "uid": "8a749f5fdb2df7de6439ca51e46f07a4ebb2799f907be0ae20ffb57a806d7363",
+      "smiles": [
+        "C#CC(=O)N1CC=CC1",
+        "CCC(O)N1CCCC1"
+      ],
+      "queries": [
+        "amide dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/catal11121497",
+        "10.1038/ncomms7859",
+        "10.1002/chem.202502271",
+        "10.31635/ccschem.020.202000255",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 12,
+      "uid": "768f92dce719aec4523bad082dee6ea89cb3cf99c51ddb3182c02fc9f6c6bef6",
+      "smiles": [
+        "C=CC=CC=c1c(=CCC)oc2cc(C)ccc12",
+        "C=CC=CC=C1C(=CCC)OC2CC(C)CCC12"
+      ],
+      "queries": [
+        "furan dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "benzene thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/c8010007",
+        "10.1002/aenm.202103362",
+        "10.1021/acssuschemeng.1c03247",
+        "10.3390/oxygen4030015",
+        "10.1021/ie50088a009",
+        "10.1098/rspa.1954.0178"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 10,
+      "uid": "0b2e885ae5b4e5c25437c651d986792f47cc84d36442fdc01ca991cc1a0cf4a8",
+      "smiles": [
+        "C#CCc1cn[nH]c1N",
+        "CCCC1CNNC1N"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "ok",
+      "accepted": 1,
+      "contextual": 2,
+      "rejected": 0,
+      "added_to_memory": 1,
+      "rejected_details": []
+    },
+    {
+      "invocation": 14,
+      "uid": "a5c390f948ecd591fbe7fafb0304e7f26ae867d343db93acb611ed95837397c9",
+      "smiles": [
+        "O=Cc1cc(Cc2ccccc2)oc1O",
+        "O=CC1CC(CC2CCCCC2)OC1O"
+      ],
+      "queries": [
+        "furan dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "benzene thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/c8010007",
+        "10.1002/aenm.202103362",
+        "10.1021/acssuschemeng.1c03247",
+        "10.3390/oxygen4030015",
+        "10.1021/ie50088a009",
+        "10.1098/rspa.1954.0178"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 17,
+      "uid": "6ac448e8346fce941a98899fc5969bb6391d36a2c4466a5b828e3ecab6704497",
+      "smiles": [
+        "CCC#CC#CC1CN1",
+        "CCCCCCC1CN1"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 13,
+      "uid": "b1d9a1395481dd5852af61fc04d8f4e51a4a4d0e39178610b65db62a2f5e8d4e",
+      "smiles": [
+        "COC(=O)Cc1ccc2c(c1)oc1cc(O)ccc12",
+        "COC(=O)CC1CCC2C(C1)OC1CC(O)CCC12"
+      ],
+      "queries": [
+        "furan dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "benzene thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/c8010007",
+        "10.1002/aenm.202103362",
+        "10.1021/acssuschemeng.1c03247",
+        "10.3390/oxygen4030015",
+        "10.1021/ie50088a009",
+        "10.1098/rspa.1954.0178"
+      ],
+      "llm_status": "ok",
+      "accepted": 2,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 1,
+      "rejected_details": []
+    },
+    {
+      "invocation": 15,
+      "uid": "ecb390209d5819e496e0e69e3ce27ad3b7ff5fbdce8ced232ef215668eaee01f",
+      "smiles": [
+        "N#CC1=CC(C=O)CC1",
+        "NCC1CCC(CO)C1"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "ok",
+      "accepted": 1,
+      "contextual": 4,
+      "rejected": 0,
+      "added_to_memory": 1,
+      "rejected_details": []
+    },
+    {
+      "invocation": 16,
+      "uid": "52a3e1f2261315408fa4d5b62c48c37d0eb84cadd6b2da72fe46f2499a640e67",
+      "smiles": [
+        "O=CC#CC1=NCCN1",
+        "OCCCC1NCCN1"
+      ],
+      "queries": [
+        "carbonyl dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acscatal.1c03283",
+        "10.3390/catal11121497",
+        "10.1021/acsaem.6c00400",
+        "10.1515/recat-2015-0010",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "ok",
+      "accepted": 3,
+      "contextual": 1,
+      "rejected": 0,
+      "added_to_memory": 3,
+      "rejected_details": []
+    },
+    {
+      "invocation": 19,
+      "uid": "02c831b2f5b8790094a3fa421d5294347a02f1665607055b9e3f37fcaf4acb1e",
+      "smiles": [
+        "C=CC(=CC)c1cc2c(C(=O)C=O)cccc2o1",
+        "C=CC(=CC)C1CC2C(CCCC2C(=O)C=O)O1"
+      ],
+      "queries": [
+        "furan dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "benzene thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/c8010007",
+        "10.1002/aenm.202103362",
+        "10.1021/acssuschemeng.1c03247",
+        "10.3390/oxygen4030015",
+        "10.1021/ie50088a009",
+        "10.1098/rspa.1954.0178"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 20,
+      "uid": "a93aedea59369f90ec33b25e4fe0460321408168be1a8b37dec71355890ace5d",
+      "smiles": [
+        "CC#CC1C=CC(=O)N1",
+        "CCCC1CCC(O)N1"
+      ],
+      "queries": [
+        "amide dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/catal11121497",
+        "10.1038/ncomms7859",
+        "10.1002/chem.202502271",
+        "10.31635/ccschem.020.202000255",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 23,
+      "uid": "6d453f969ed83530bace06fa6b4782a83a20e26dede87e4126cba06c17ddc9e4",
+      "smiles": [
+        "O=CCc1ccccc2c(C(=O)O)ccc1-2",
+        "O=CCC1CCCCC2C(C(=O)O)CCC12"
+      ],
+      "queries": [
+        "carbonyl dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acscatal.1c03283",
+        "10.3390/catal11121497",
+        "10.1021/acsaem.6c00400",
+        "10.1515/recat-2015-0010",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 24,
+      "uid": "9f8674b48bc19c507a29f25320f2f39c1b92e325e1a4c4cff5acc457cb53e41d",
+      "smiles": [
+        "CC(=O)c1cncnc1",
+        "CC(O)C1CNCNC1"
+      ],
+      "queries": [
+        "pyrimidine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/app112411758",
+        "10.3390/catal16010048",
+        "10.1021/acscatal.5b01090",
+        "10.1038/s41467-026-71137-0",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 22,
+      "uid": "391e363c578894cf79daf4cd2d581f3ad93cbb752e230fe8aa30a2b1d972a552",
+      "smiles": [
+        "CCOC=CCc1ccc(O)cc1",
+        "CCOC=CCC1CCC(O)CC1"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "phenol thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.1002/pol.1964.100020635",
+        "10.1007/s00894-025-06602-6"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 21,
+      "uid": "6680dd6def870b30249672082947a6251748002684c1c17db03a3f4b985e47b0",
+      "smiles": [
+        "COCc1ccc2c(c1)-c1c(OC)ccc(c1O)O2",
+        "COCC1CCC2OC3CCC(OC)C(C3O)C2C1"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "phenol thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.1002/pol.1964.100020635",
+        "10.1007/s00894-025-06602-6"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 18,
+      "uid": "9662b1f9ef67c10ce57b615f01eb9195c3e0e7f5731f541419292353119031e1",
+      "smiles": [
+        "N#CC#CC1CC2NC12",
+        "NCCCC1CC2NC12"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "amine thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.1002/ejic.200300178",
+        "10.3390/polym10080891"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 6,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 27,
+      "uid": "d074895d04ac4d653d2b8f684bbcd0fe29ccad9620b22e9425704d0c23c6f30a",
+      "smiles": [
+        "C#Cc1cnoc1",
+        "C#CC1CNOC1"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 28,
+      "uid": "98a30a333542f7fca5e43fb5ffa2f9510895bc0ef92b052ab8d36cb5a1690e91",
+      "smiles": [
+        "C#CCc1cnn(C2CCCCC2)c1N",
+        "C#CCC1CNN(C2CCCCC2)C1N"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 29,
+      "uid": "16be2813f48326e4f8fe1b4131fe9e5a7b3296bc817789cd85829ac5d193db1b",
+      "smiles": [
+        "O=Cc1ncco1",
+        "O=CC1NCCO1"
+      ],
+      "queries": [
+        "carbonyl dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "amine thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acscatal.1c03283",
+        "10.3390/catal11121497",
+        "10.1021/acsaem.6c00400",
+        "10.1515/recat-2015-0010",
+        "10.1002/ejic.200300178",
+        "10.3390/polym10080891"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 30,
+      "uid": "16e963ca1e06bdce9de374dae3c45bd7f1e611798d604d8c82613e4456a0b786",
+      "smiles": [
+        "C#CC(C)=c1cc(O)c(OC=O)cc1=CC",
+        "CC=C1CC(OC=O)C(O)CC1=C(C)CC"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 31,
+      "uid": "a2d14a46c24e8cc89b1492fda8a27e1333a1303be066a3505d37332aa2557844",
+      "smiles": [
+        "CCC#CC#CC1(N)CN1",
+        "CCCCCCC1(N)CN1"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 32,
+      "uid": "469c8e4137ed5ead78ffd89b28385cb8bead027bd3db26002a454bd0ea43fede",
+      "smiles": [
+        "CC12CC(C#CC#N)C1N2",
+        "CC12CC(CCCN)C1N2"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "amine thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.1002/ejic.200300178",
+        "10.3390/polym10080891"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 33,
+      "uid": "197d49413ebc48cba44ecea44c54ccbdc5059e625046adf0be2f15de00f35169",
+      "smiles": [
+        "C#CCCOC=CCc1ccc(O)cc1",
+        "CCCCOC=CCC1CCC(O)CC1"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "phenol thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.1002/pol.1964.100020635",
+        "10.1007/s00894-025-06602-6"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 34,
+      "uid": "08eb55afdbafef6b282ace46a23dcf2c7b59adbb7481a7f45a1bb44a7df73fc3",
+      "smiles": [
+        "N#CC1(C#CN)NC1CO",
+        "NCCC1(CN)NC1CO"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 26,
+      "uid": "4ec47bd7e4d1d9b436419bac3e1b3e8018ddfa0040708f8b027b52413bc9cf24",
+      "smiles": [
+        "O=Cc1c[nH]cn1",
+        "O=CC1CNCN1"
+      ],
+      "queries": [
+        "carbonyl dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "amine thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acscatal.1c03283",
+        "10.3390/catal11121497",
+        "10.1021/acsaem.6c00400",
+        "10.1515/recat-2015-0010",
+        "10.1002/ejic.200300178",
+        "10.3390/polym10080891"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 35,
+      "uid": "183e3712ea22f0430e5c93e813f1dfd95d059baf270b70322993c9f17244a47c",
+      "smiles": [
+        "CC1(C=O)C=C(C#N)CC1",
+        "CC1(CO)CCC(CN)C1"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 36,
+      "uid": "0177950849708f28d669f7170b1d20daca3843e65a156bfe77421ff0124a8ed1",
+      "smiles": [
+        "CC#CC1C=C(N)C(=O)N1",
+        "CCCC1CC(N)C(O)N1"
+      ],
+      "queries": [
+        "amide dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/catal11121497",
+        "10.1038/ncomms7859",
+        "10.1002/chem.202502271",
+        "10.31635/ccschem.020.202000255",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 37,
+      "uid": "0762f0d2f8462f637f1e30921008defd9fff726b04f185ce25887a436e6e1cfe",
+      "smiles": [
+        "CC(=O)c1cncnc1C",
+        "CC(O)C1CNCNC1C"
+      ],
+      "queries": [
+        "pyrimidine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/app112411758",
+        "10.3390/catal16010048",
+        "10.1021/acscatal.5b01090",
+        "10.1038/s41467-026-71137-0",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 38,
+      "uid": "1aa27c13a98fcb639ef87240a50470f7fcaaf786c235651b5867db0cde0fc2ba",
+      "smiles": [
+        "C=CC1=CC(C#CC)NC1=O",
+        "CCCC1CC(CC)C(O)N1"
+      ],
+      "queries": [
+        "amide dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/catal11121497",
+        "10.1038/ncomms7859",
+        "10.1002/chem.202502271",
+        "10.31635/ccschem.020.202000255",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 39,
+      "uid": "2030cd862b4b18e52e8465e622ad01afae37b441c3b2e47a8345e35c8ef1e64a",
+      "smiles": [
+        "C=Cc1ncc(C(C)=O)cn1",
+        "CCC1NCC(C(C)O)CN1"
+      ],
+      "queries": [
+        "pyrimidine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/app112411758",
+        "10.3390/catal16010048",
+        "10.1021/acscatal.5b01090",
+        "10.1038/s41467-026-71137-0",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 40,
+      "uid": "1fe928b4d6bc7d1e895295097cd94f26a05add007fdf24c9d9175325f0170603",
+      "smiles": [
+        "C#CC=C(C)c1ccccc1COc1ccc(O)cc1",
+        "CCC=C(C)C1CCCCC1COC1CCC(O)CC1"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "phenol thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.1002/pol.1964.100020635",
+        "10.1007/s00894-025-06602-6"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 41,
+      "uid": "1cf453da67e9a0c6ff93edbc190e81a6cba851b5e20747b2db0a2a85ca200e9c",
+      "smiles": [
+        "CC(=CN)c1ccccc1COc1ccc(O)cc1",
+        "CC(=CN)C1CCCCC1COC1CCC(O)CC1"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "phenol thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.1002/pol.1964.100020635",
+        "10.1007/s00894-025-06602-6"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 42,
+      "uid": "03b91a87c564087295d45b39de509b2eb973684461b3e2a66dc82151879e3351",
+      "smiles": [
+        "CC1C(C#CC#N)C2NC12",
+        "CC1C(CCCN)C2NC12"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "amine thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.1002/ejic.200300178",
+        "10.3390/polym10080891"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 44,
+      "uid": "4f70063cf0a052a33270f7196a5160076cefe2bf3cc351abc3a7d8c53f86cea6",
+      "smiles": [
+        "NCCC#CC#CC1CN1",
+        "NCCCCCCC1CN1"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 43,
+      "uid": "1370cd28defddf669f4c6cdf57e5f1df72c1495f2fd2a279099289c28889c2d0",
+      "smiles": [
+        "C#CC(O)c1cn[nH]c1N",
+        "CCC(O)C1CNNC1N"
+      ],
+      "queries": [
+        "hydroxyl dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "amine thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acscatal.0c03091",
+        "10.1007/s11244-021-01452-x",
+        "10.2516/stet/2023029",
+        "10.1002/cey2.70146",
+        "10.1002/ejic.200300178",
+        "10.3390/polym10080891"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 25,
+      "uid": "ddce1ed04d78fbf028ea1e3ca7f11189a3e0bef5f114f6fb97e5367a2f4e8346",
+      "smiles": [
+        "C#CCc1c(C)n[nH]c1N",
+        "CCCC1C(C)NNC1N"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "ok",
+      "accepted": 1,
+      "contextual": 2,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 45,
+      "uid": "c80b578832238868c23fa51b122e798b07282ef83f80ffd94fbb3a67a33fe1d1",
+      "smiles": [
+        "CC#CCc1cn[nH]c1N",
+        "CCCCC1CNNC1N"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 48,
+      "uid": "8bad2e3c82d03ad329d0b8e08dfe06df2c632fdb2fd3f2550b8f22d90e23f177",
+      "smiles": [
+        "C#CCc1n[nH]c(N)c1CC#C",
+        "CCCC1NNC(N)C1CCC"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 49,
+      "uid": "2ff86a141ecfac8b41f824e632c77aa5615ef5b0e8e21e6fca0d2fa50c72094d",
+      "smiles": [
+        "C#CC(C)=c1c(C)c(O)c(OC=O)cc1=CC",
+        "CC=C1CC(OC=O)C(O)C(C)C1=C(C)CC"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 47,
+      "uid": "45fb4285541a0b016eafd67d298773ebb8fcafadc6f183a568a6f9cd1c935934",
+      "smiles": [
+        "C#CCc1c(C)nn(NC(N)=O)c1N",
+        "C#CCC1C(C)NN(NC(N)=O)C1N"
+      ],
+      "queries": [
+        "amide dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/catal11121497",
+        "10.1038/ncomms7859",
+        "10.1002/chem.202502271",
+        "10.31635/ccschem.020.202000255",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 46,
+      "uid": "7057f79536de2ffd768f1a4f4a14b48a9fc3c06c6c85de1a583796497e5dd52d",
+      "smiles": [
+        "N#Cc1cnc[nH]1",
+        "N#CC1CNCN1"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "amine thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.1002/ejic.200300178",
+        "10.3390/polym10080891"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 50,
+      "uid": "af59aad40a3a43b249fd9223bb1c30361f213b88e2496c9cb8bcb6219da9d549",
+      "smiles": [
+        "C=CCCC#CC#CC1(N)CN1",
+        "CCCCCCCCC1(N)CN1"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 51,
+      "uid": "388f37340e696d18ee631c5472f55c6a6d5ce72345f2b4694497db4b14a835f9",
+      "smiles": [
+        "C#CC1(C#N)NC1(N)CO",
+        "CCC1(CN)NC1(N)CO"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 53,
+      "uid": "1fd606e1e77e43504fa3dd5acdf5abd79d6481fe60912bdb9469bb3c027843d5",
+      "smiles": [
+        "O=C(O)c1ncco1",
+        "O=C(O)C1NCCO1"
+      ],
+      "queries": [
+        "carbonyl dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "amine thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acscatal.1c03283",
+        "10.3390/catal11121497",
+        "10.1021/acsaem.6c00400",
+        "10.1515/recat-2015-0010",
+        "10.1002/ejic.200300178",
+        "10.3390/polym10080891"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 52,
+      "uid": "270b8eb331e10d03e0b956ae34e141da082c4699cc0fa4b040798d1bcbbd556c",
+      "smiles": [
+        "C#CCc1c(O)n[nH]c1N",
+        "CCCC1C(N)NNC1O"
+      ],
+      "queries": [
+        "phenol dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acssuschemeng.6c00102",
+        "10.1016/j.ijhydene.2024.07.241",
+        "10.1002/aenm.202103362",
+        "10.1016/j.ijhydene.2024.12.082",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 54,
+      "uid": "392701f2880a44f92935de6d7f01368b45454753534aaaf70486d247e346cf01",
+      "smiles": [
+        "Cc1cnc(C=O)o1",
+        "CC1CNC(C=O)O1"
+      ],
+      "queries": [
+        "carbonyl dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "amine thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acscatal.1c03283",
+        "10.3390/catal11121497",
+        "10.1021/acsaem.6c00400",
+        "10.1515/recat-2015-0010",
+        "10.1002/ejic.200300178",
+        "10.3390/polym10080891"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 56,
+      "uid": "375cbdd99716fceb2537982597c8660dd78a25a8a5e505e1461517079beabfb6",
+      "smiles": [
+        "C#CC(C)=c1cc(O)c(OC(=O)C=C)cc1=CC",
+        "CC=C1CC(OC(=O)CC)C(O)CC1=C(C)CC"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 57,
+      "uid": "3144a07aee0ee3c85f15c013cb1ddd3b7a8cdb65f1454ae4542b28a54d452b8d",
+      "smiles": [
+        "C=CC(C)=c1cc(O)c(OC=O)cc1=CC",
+        "CC=C1CC(OC=O)C(O)CC1=C(C)CC"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 55,
+      "uid": "28f09563616a0897aecf7071185faa6c7be28cc2a8cc2d137d2a40955b12e266",
+      "smiles": [
+        "C=Cc1cc(OC=CC=CCO)cc(O)c1OC=C=O",
+        "CCC1CC(OC=CC=CCO)CC(O)C1OC=C=O"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 59,
+      "uid": "0ebb2312e95463512263106789e226397cdf017ff9ea0561e386332a3aaa17b3",
+      "smiles": [
+        "CC1(C=O)C=C(C#N)C(O)C1",
+        "CC1(CO)CC(O)C(CN)C1"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 58,
+      "uid": "0eb30b1ade1ed7f4b1e7a591b30cedb88bc5be2b6e6df867ffe764902e7a333f",
+      "smiles": [
+        "C#CCc1c(C=C)nn(C2CCCCC2)c1N",
+        "C#CCC1C(CC)NN(C2CCCCC2)C1N"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 61,
+      "uid": "0b0bfed84bc1fb5aa2e2e953d3cee5bb85d127615e0edc03d53c6a756cf747b1",
+      "smiles": [
+        "C=CC(=O)C1C=C(C#N)CC1",
+        "CCC(O)C1CCC(CN)C1"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 60,
+      "uid": "26465a766d606fb1beff3f3b50dd714c50e4616179572ac7336c49f6af4a3e28",
+      "smiles": [
+        "O=C(O)C#CC1=NCCN1",
+        "OC(O)CCC1NCCN1"
+      ],
+      "queries": [
+        "carbonyl dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acscatal.1c03283",
+        "10.3390/catal11121497",
+        "10.1021/acsaem.6c00400",
+        "10.1515/recat-2015-0010",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 62,
+      "uid": "13c9754abb0dc74560317e99079b5f87e421bff7a53574842fa5b44d188f3b92",
+      "smiles": [
+        "C=C(C)c1c(O)cccc1COc1ccc(O)cc1",
+        "C=C(C)C1C(O)CCCC1COC1CCC(O)CC1"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "phenol thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.1002/pol.1964.100020635",
+        "10.1007/s00894-025-06602-6"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 63,
+      "uid": "20010272eb606c6c6c7a3bb9f33197ec4fb75e697effb445fc5149ec72e04104",
+      "smiles": [
+        "C#CCc1c(CC)nn(NC(N)=O)c1N",
+        "C#CCC1C(CC)NN(NC(N)=O)C1N"
+      ],
+      "queries": [
+        "amide dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/catal11121497",
+        "10.1038/ncomms7859",
+        "10.1002/chem.202502271",
+        "10.31635/ccschem.020.202000255",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 64,
+      "uid": "5e5205ef09b3632d4061fd93d3c095d00bb4ebe1682947f1f944ac5f707bd7c3",
+      "smiles": [
+        "CC#CCc1cnn(OC)c1N",
+        "CC#CCC1CNN(OC)C1N"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 65,
+      "uid": "96378112c0ceb29896e5b27cc875871aebcce59e140906f9f46bfe5eded98cd0",
+      "smiles": [
+        "C#CCC#CCc1cn[nH]c1N",
+        "CCCCCCC1CNNC1N"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 66,
+      "uid": "0ce885ce3929b04da5a269bb1d00c39b109872aaa4d9ee818e87005c69219609",
+      "smiles": [
+        "C=CC(C)=c1c(N)c(O)c(OC=O)cc1=CC",
+        "CC=C1CC(OC=O)C(O)C(N)C1=C(C)CC"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 67,
+      "uid": "543afb514409340f9aeeda0b5783584ee9eb781cdf843aa39a9724d0bf965b2c",
+      "smiles": [
+        "N#CC#CC1(O)CC2NC21",
+        "NCCCC1(O)CC2NC21"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 68,
+      "uid": "47c8c111f1d3e497e50adf1b43403cae09cf65e4b8ab463cdfd1ffaa149f12cb",
+      "smiles": [
+        "O=C(O)c1cc(Cc2ccccc2)oc1O",
+        "O=C(O)C1CC(CC2CCCCC2)OC1O"
+      ],
+      "queries": [
+        "furan dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "benzene thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/c8010007",
+        "10.1002/aenm.202103362",
+        "10.1021/acssuschemeng.1c03247",
+        "10.3390/oxygen4030015",
+        "10.1021/ie50088a009",
+        "10.1098/rspa.1954.0178"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 69,
+      "uid": "28fc8dc836683e58511be79ca9d417fc31da72d76dd8a82c38d249a61637e159",
+      "smiles": [
+        "C#CCc1c(C=C)nn(C2(C=C)CCCCC2)c1N",
+        "C#CCC1C(CC)NN(C2(CC)CCCCC2)C1N"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 70,
+      "uid": "215617acb74d58b0d7b4f340c2a127a79435a2baf91173af7a11ff8121f45594",
+      "smiles": [
+        "C#CC(C)=c1c(C)c(O)c(OC=O)c(O)c1=CC",
+        "CC=C1C(=C(C)CC)C(C)C(O)C(OC=O)C1O"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 71,
+      "uid": "406f43a8ea78d8d4367d15cfc95a3d1216bf183a2fde003ad65dc23fb7a24cb0",
+      "smiles": [
+        "C=CC=C(C)c1ccccc1COc1ccc(O)cc1",
+        "CCC=C(C)C1CCCCC1COC1CCC(O)CC1"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "phenol thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.1002/pol.1964.100020635",
+        "10.1007/s00894-025-06602-6"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 72,
+      "uid": "3d604b2e96422b74a4bc0b640b4e81ef38e07f5ebc36ecdf8c492ea6a0ae5934",
+      "smiles": [
+        "O=C=COc1cc(O)c(OC=CC=CCO)cc1O",
+        "O=C=COC1CC(O)C(OC=CC=CCO)CC1O"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 73,
+      "uid": "074533848c2a4434ee7cc1e464842a115d227756e35cfb495a98327596aa3841",
+      "smiles": [
+        "C#CC(=O)Oc1cc(=CC)c(=C(C)C#C)c(C)c1O",
+        "CC=C1CC(OC(=O)CC)C(O)C(C)C1=C(C)CC"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 74,
+      "uid": "183c3396cdfe1e58114bd4450ad0ecb29b47dc84d7723b25952de1d9b75b323e",
+      "smiles": [
+        "C=CC(CC)=c1cc(O)c(OC=O)cc1=CC",
+        "CC=C1CC(OC=O)C(O)CC1=C(CC)CC"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 75,
+      "uid": "02338f5e0770a8a497a6e19dae333068a392942978eab43d537d9f6ed714349b",
+      "smiles": [
+        "C#CC(C)c1cnn(C2CCCCC2)c1N",
+        "C#CC(C)C1CNN(C2CCCCC2)C1N"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 76,
+      "uid": "0365eab5a2452eed6c0f09a4870474e58bb0b84fa20eddb987217167f654ad8b",
+      "smiles": [
+        "C=CC1CNC(C#CC=O)=N1",
+        "CCC1CNC(CCCO)N1"
+      ],
+      "queries": [
+        "carbonyl dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acscatal.1c03283",
+        "10.3390/catal11121497",
+        "10.1021/acsaem.6c00400",
+        "10.1515/recat-2015-0010",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 77,
+      "uid": "213f25fd20ad3cdc5f6d633481768c7fad6ff4c88597f1992fd22275580f9723",
+      "smiles": [
+        "C=CC1C(C#CC#N)C2NC12",
+        "CCC1C(CCCN)C2NC12"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "amine thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.1002/ejic.200300178",
+        "10.3390/polym10080891"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 78,
+      "uid": "145955910eed25c879cfff6fea2e8fa1cf1e5726e2e01af21b45386dc37fc962",
+      "smiles": [
+        "CC1(C(=O)O)C=C(C#N)CC1",
+        "CC1(C(O)O)CCC(CN)C1"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 79,
+      "uid": "a45944be9a1d7b9d6463dbf59ccb24893b762322ded0619fedd0a3638bf98996",
+      "smiles": [
+        "C#CC1(C#CC#N)CC2NC21",
+        "CCC1(CCCN)CC2NC21"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "amine thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.1002/ejic.200300178",
+        "10.3390/polym10080891"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 80,
+      "uid": "4a1a0f484069a16dd03d981e42e5a421489a78317202da2d28428000dc525dd9",
+      "smiles": [
+        "C=CC(C)=c1c(N)c(O)c(OC(C)=O)cc1=C(C)C",
+        "CCC(C)=C1C(=C(C)C)CC(OC(C)=O)C(O)C1N"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 84,
+      "uid": "ae7a3fbba1bb678e8cd520f8d2d2116ecd6290d52141d3c800ccc3b48182d0fc",
+      "smiles": [
+        "CC(N)C#CC#CC1CN1",
+        "CC(N)CCCCC1CN1"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 82,
+      "uid": "12c4b4d30a0d84461a489b645844d998a41430719dc5a09d1c9ea186962bfe23",
+      "smiles": [
+        "C#CC(C=C)c1c(CC)nn(NC(N)=O)c1N",
+        "C#CC(CC)C1C(CC)NN(NC(N)=O)C1N"
+      ],
+      "queries": [
+        "amide dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/catal11121497",
+        "10.1038/ncomms7859",
+        "10.1002/chem.202502271",
+        "10.31635/ccschem.020.202000255",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 81,
+      "uid": "39ee76896a9866b5dafa9f2d0b8994b86c75db62b6650cd85cc5cecba109c6aa",
+      "smiles": [
+        "C#CCc1cnn(-c2cnc[nH]2)c1N",
+        "C#CCC1CNN(C2CNCN2)C1N"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 83,
+      "uid": "246cadeccf8163675aa19abe80f605a5f145d16fb1cf903aa51811d07aded410",
+      "smiles": [
+        "C=CC#CCc1c(C)nn(NC(N)=O)c1N",
+        "CCC#CCC1C(C)NN(NC(N)=O)C1N"
+      ],
+      "queries": [
+        "amide dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/catal11121497",
+        "10.1038/ncomms7859",
+        "10.1002/chem.202502271",
+        "10.31635/ccschem.020.202000255",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 87,
+      "uid": "4993ec69ea2a0bbc9dc5c802bd40992f8accd545573c2ff6076cc60019ad3ae5",
+      "smiles": [
+        "C#CC1(C#N)NC1C(C)O",
+        "CCC1(CN)NC1C(C)O"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 85,
+      "uid": "3d655f568fd75d257cbe64237299efbc9b1cae62710680f94540bf736c04f501",
+      "smiles": [
+        "O=Cc1cc(C(O)c2ccccc2)oc1O",
+        "O=CC1CC(C(O)C2CCCCC2)OC1O"
+      ],
+      "queries": [
+        "furan dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "benzene thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/c8010007",
+        "10.1002/aenm.202103362",
+        "10.1021/acssuschemeng.1c03247",
+        "10.3390/oxygen4030015",
+        "10.1021/ie50088a009",
+        "10.1098/rspa.1954.0178"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 86,
+      "uid": "3d0c0e5b59ad9e236e8ef324a2b8371f41c4736093e03cac591331730b9df8fa",
+      "smiles": [
+        "C#CC(O)c1c(C=C)nn(C2CCCCC2)c1N",
+        "C#CC(O)C1C(CC)NN(C2CCCCC2)C1N"
+      ],
+      "queries": [
+        "hydroxyl dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "amine thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acscatal.0c03091",
+        "10.1007/s11244-021-01452-x",
+        "10.2516/stet/2023029",
+        "10.1002/cey2.70146",
+        "10.1002/ejic.200300178",
+        "10.3390/polym10080891"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 88,
+      "uid": "33c6e0a3b8fab02ca69891d05cdc05ecd5bf395dd417fd85707743d1d49e9ad3",
+      "smiles": [
+        "C#CCCC#CC#CC1CN1",
+        "CCCCCCCCC1CN1"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 89,
+      "uid": "3e53f301e17ecbb0b05cef62ea4420ff722548c63553d550ea78dd26f84586fa",
+      "smiles": [
+        "C#CC(=O)C1C=C(C#N)CC1",
+        "CCC(O)C1CCC(CN)C1"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 92,
+      "uid": "2c9a35cd385fe62d7db49a26c79928c3f12db3859ee04df2f96b1d443fb58e01",
+      "smiles": [
+        "CC(=O)C#CC1=NCCN1",
+        "CC(O)CCC1NCCN1"
+      ],
+      "queries": [
+        "carbonyl dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acscatal.1c03283",
+        "10.3390/catal11121497",
+        "10.1021/acsaem.6c00400",
+        "10.1515/recat-2015-0010",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 91,
+      "uid": "4777ffba54e8bf1e6434520dd81cd0951a67e3e9f9b16bead6f9e72c0dc782d0",
+      "smiles": [
+        "C=CCC=c1cc(O)c(OC=O)cc1=CC",
+        "CC=C1CC(OC=O)C(O)CC1=CCCC"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 90,
+      "uid": "347716da404f6b8aa6ff3d9e1c345632bb54ec79b89567cb94a5448232f07501",
+      "smiles": [
+        "C#CC(C)C(C=C)=c1cc(O)c(OC=O)cc1=CC",
+        "CC=C1CC(OC=O)C(O)CC1=C(CC)C(C)CC"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 93,
+      "uid": "3e338be1d0bf463432c1370f7970c427185d7733e55d007eb2e4db152c19eaaa",
+      "smiles": [
+        "C=CC1(C=O)C=C(C#N)CC1",
+        "CCC1(CO)CCC(CN)C1"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 96,
+      "uid": "25b50a88aaba3877da78553a03c60583f2df297c838b1d9a76a6799d0279bc19",
+      "smiles": [
+        "C#CCc1c(N)n[nH]c1N",
+        "CCCC1C(N)NNC1N"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 94,
+      "uid": "347df41217b483370963c745cb7e0b5b778e4f5185059c15ce1ab0eeb1571f15",
+      "smiles": [
+        "C#CC#CCc1c(C=C)nn(C2CCCCC2)c1N",
+        "CCC#CCC1C(CC)NN(C2CCCCC2)C1N"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 95,
+      "uid": "30fd77e028a8c2167b38126c9ba574ff71fdd1d1b48133a3b295de59bc9cb665",
+      "smiles": [
+        "C#CCc1c(C)nn(C2CCCCC2)c1N",
+        "C#CCC1C(C)NN(C2CCCCC2)C1N"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 97,
+      "uid": "ce0dcc9fa23439d2dabcaf00230b2e524fa5b6471fe74ac45b2140bf41a0d9a8",
+      "smiles": [
+        "C#CC1(C#CC#CCC)CN1",
+        "CCCCCCC1(CC)CN1"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 98,
+      "uid": "3a75e2e6e903fa59e513bfbc15ae014c06f21d2195371dbf7b91203ce56f5d9f",
+      "smiles": [
+        "C=CC(CC)=c1c(N)c(O)c(OC(C)=O)cc1=C(C)C",
+        "CCC(CC)=C1C(=C(C)C)CC(OC(C)=O)C(O)C1N"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 99,
+      "uid": "4f0e28c8c80785882662882bf70740e6430d38b89c01b876b6830dbf63165411",
+      "smiles": [
+        "CC(=O)c1cnc(N)nc1",
+        "CC(O)C1CNC(N)NC1"
+      ],
+      "queries": [
+        "pyrimidine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/app112411758",
+        "10.3390/catal16010048",
+        "10.1021/acscatal.5b01090",
+        "10.1038/s41467-026-71137-0",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 102,
+      "uid": "271f660a67f3ccd4435b6a660d477decdc44920679c04de3b0502e42652b19e1",
+      "smiles": [
+        "C=CC(O)(c1ccccc1)c1cc(C=O)c(O)o1",
+        "CCC(O)(C1CCCCC1)C1CC(C=O)C(O)O1"
+      ],
+      "queries": [
+        "furan dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "benzene thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/c8010007",
+        "10.1002/aenm.202103362",
+        "10.1021/acssuschemeng.1c03247",
+        "10.3390/oxygen4030015",
+        "10.1021/ie50088a009",
+        "10.1098/rspa.1954.0178"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 101,
+      "uid": "090a23ba22ba359022d77fd741f6f2edbbb48d150c3abf3c74a3a05dabd36076",
+      "smiles": [
+        "C=CC(=O)C#CC1=NCCN1",
+        "CCC(O)CCC1NCCN1"
+      ],
+      "queries": [
+        "carbonyl dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acscatal.1c03283",
+        "10.3390/catal11121497",
+        "10.1021/acsaem.6c00400",
+        "10.1515/recat-2015-0010",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 100,
+      "uid": "0b59c681e5c1ce503004b44f8f4734c5ce8eafd28a223e57e4db3a02bbe8f455",
+      "smiles": [
+        "C=CC(C)=c1c(N)c(O)c(OC(C)=O)cc1=C(C)CN",
+        "CCC(C)=C1C(=C(C)CN)CC(OC(C)=O)C(O)C1N"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 103,
+      "uid": "51ed5eaed05ff9e38b9b616ec6944d14551261933b39c63b277aea830c730e60",
+      "smiles": [
+        "C#CC(O)C1NC1(C#C)C#N",
+        "CCC(O)C1NC1(CC)CN"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 104,
+      "uid": "596389452ceeedfb07130cdf993f7e49bf50412782953b8d3c8e04721c1c6c4d",
+      "smiles": [
+        "CC(=CO)c1ccccc1COc1ccc(O)cc1",
+        "CC(=CO)C1CCCCC1COC1CCC(O)CC1"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "phenol thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.1002/pol.1964.100020635",
+        "10.1007/s00894-025-06602-6"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 105,
+      "uid": "2c2335fb0cb55ac98ca0fd462d303e6e657801165b579458baf372606b401e95",
+      "smiles": [
+        "O=C=COc1c(O)cc(OC=CC=CCO)cc1O",
+        "O=C=COC1C(O)CC(OC=CC=CCO)CC1O"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 106,
+      "uid": "706b3b63d7b4baf8e6251cd79374145415e057aef82125af5f0796dace622e1d",
+      "smiles": [
+        "C#CC1C(C#CC#N)C2NC12",
+        "CCC1C(CCCN)C2NC12"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "amine thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.1002/ejic.200300178",
+        "10.3390/polym10080891"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 108,
+      "uid": "4e3501ec773e97e0b20f1ae8c4bafc01e4ef60771a1a374ffde1452299d8de73",
+      "smiles": [
+        "C=CCC=c1c(O)c(O)c(OC=O)cc1=CC",
+        "CC=C1CC(OC=O)C(O)C(O)C1=CCCC"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 109,
+      "uid": "b42859e08c39796ccb65938128ed29ab42c848d9b566f2385727fc2f012e3908",
+      "smiles": [
+        "C=CC(CN)=c1c(N)c(O)c(OC(C)=O)cc1=C(C)C",
+        "CCC(CN)=C1C(=C(C)C)CC(OC(C)=O)C(O)C1N"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 107,
+      "uid": "79a5a3eb4766a63a1f08ad7d8de81bfcbbff9d9d78486e1a2e2ca0a5f06eed37",
+      "smiles": [
+        "C=CC#CCc1c(CC)nn(NC(N)=O)c1N",
+        "CCC#CCC1C(CC)NN(NC(N)=O)C1N"
+      ],
+      "queries": [
+        "amide dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/catal11121497",
+        "10.1038/ncomms7859",
+        "10.1002/chem.202502271",
+        "10.31635/ccschem.020.202000255",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 110,
+      "uid": "54b43f7c6ef433d4eccd11afcbde712a7600fe438b2dbf82ab6ebd929981b947",
+      "smiles": [
+        "C#CC(C)c1cn[nH]c1N",
+        "CCC(C)C1CNNC1N"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 111,
+      "uid": "1c94465f993252cb42df17f0335cab84bf763cc9d5756197bfa9501a9ae2a75e",
+      "smiles": [
+        "CC#CCc1c(C)nn(NC(N)=O)c1N",
+        "CC#CCC1C(C)NN(NC(N)=O)C1N"
+      ],
+      "queries": [
+        "amide dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/catal11121497",
+        "10.1038/ncomms7859",
+        "10.1002/chem.202502271",
+        "10.31635/ccschem.020.202000255",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 113,
+      "uid": "2bc4c12e5d863d7ac066273073bacb663d34521508ea704f3aa735ebada162c2",
+      "smiles": [
+        "NC(=O)C#CC1=NCCN1",
+        "NC(O)CCC1NCCN1"
+      ],
+      "queries": [
+        "amide dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/catal11121497",
+        "10.1038/ncomms7859",
+        "10.1002/chem.202502271",
+        "10.31635/ccschem.020.202000255",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 112,
+      "uid": "d987818cc18d61953fb893755918849b43d0c0e0a5d98f9b60f828b0bd755e38",
+      "smiles": [
+        "C#CC12CC(C#CC#N)C1N2",
+        "CCC12CC(CCCN)C1N2"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "amine thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.1002/ejic.200300178",
+        "10.3390/polym10080891"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 114,
+      "uid": "1b80165f0ccc351b6ed9d67ccf0b0d9131829d148956773c3c68867431331019",
+      "smiles": [
+        "CCc1nn(NC(N)=O)c(N)c1CC#CCO",
+        "CCC1NN(NC(N)=O)C(N)C1CC#CCO"
+      ],
+      "queries": [
+        "amide dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/catal11121497",
+        "10.1038/ncomms7859",
+        "10.1002/chem.202502271",
+        "10.31635/ccschem.020.202000255",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 118,
+      "uid": "5cfb46d9af5b90f4e6fa09551e4d0182f8333675b30fd1e026eabf5f65239096",
+      "smiles": [
+        "CC#CC1(C#N)NC1CO",
+        "CCCC1(CN)NC1CO"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 116,
+      "uid": "0d82b99ea523450988dc8c743b7f58b3b03daa7ac9e0e2615ead39c36c27c8be",
+      "smiles": [
+        "CC(=O)c1cnc(N)nc1C",
+        "CC(O)C1CNC(N)NC1C"
+      ],
+      "queries": [
+        "pyrimidine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/app112411758",
+        "10.3390/catal16010048",
+        "10.1021/acscatal.5b01090",
+        "10.1038/s41467-026-71137-0",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 117,
+      "uid": "27a055bdee90d4213e7227913d1edb75a0f97cf920e9df9b7e5ccb69077067c2",
+      "smiles": [
+        "CC(=O)c1cnc(N)nc1N",
+        "CC(O)C1CNC(N)NC1N"
+      ],
+      "queries": [
+        "pyrimidine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/app112411758",
+        "10.3390/catal16010048",
+        "10.1021/acscatal.5b01090",
+        "10.1038/s41467-026-71137-0",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 115,
+      "uid": "df2c77c083968f63c54085e3a1ac87f0b0342805ae51e28ca10390cb1d76ece0",
+      "smiles": [
+        "C#CCc1cnn(N2CCNCC2)c1N",
+        "C#CCC1CNN(N2CCNCC2)C1N"
+      ],
+      "queries": [
+        "amine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "alkyne thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/d4gc01275e",
+        "10.1002/chem.202502271",
+        "10.3390/catal11121497",
+        "10.1002/chem.201603423",
+        "10.1038/s41467-018-05052-4",
+        "10.1126/sciadv.aaw2774"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 119,
+      "uid": "48dbacd188267a7fbe1866aaffbea1c23ae7601264573757e1f21969826d1df2",
+      "smiles": [
+        "C#CC(O)(c1ccccc1)c1cc(C=O)c(O)o1",
+        "CCC(O)(C1CCCCC1)C1CC(C=O)C(O)O1"
+      ],
+      "queries": [
+        "furan dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "benzene thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/c8010007",
+        "10.1002/aenm.202103362",
+        "10.1021/acssuschemeng.1c03247",
+        "10.3390/oxygen4030015",
+        "10.1021/ie50088a009",
+        "10.1098/rspa.1954.0178"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 120,
+      "uid": "5b2f3a5ad0626938e8505f18fe98ec0d26004c3d50245025fbd2a67ae746fd3a",
+      "smiles": [
+        "C#CC1(C#N)NC1(O)CO",
+        "CCC1(CN)NC1(O)CO"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 121,
+      "uid": "58aab35b6d47af86584ab64f0ce86ede956c6c94170d5b2a29b2cb2ecc291530",
+      "smiles": [
+        "C#CC1CC(C#N)=CC1C=O",
+        "CCC1CC(CN)CC1CO"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 122,
+      "uid": "2e829fdf88b7d3ed2cb630693d8b7affe59e9c42c7b273b8c9a7c351be7e20bc",
+      "smiles": [
+        "C=CC(=O)c1cc(C(O)c2ccccc2)oc1O",
+        "CCC(=O)C1CC(C(O)C2CCCCC2)OC1O"
+      ],
+      "queries": [
+        "furan dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "benzene thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/c8010007",
+        "10.1002/aenm.202103362",
+        "10.1021/acssuschemeng.1c03247",
+        "10.3390/oxygen4030015",
+        "10.1021/ie50088a009",
+        "10.1098/rspa.1954.0178"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 123,
+      "uid": "4e7d297b1b56ce1ae8b00f903b07fbedcdeac3c6e16cc6b78c2baae35d3c8aea",
+      "smiles": [
+        "C=CC(C#CC)c1c(C)nn(NC(N)=O)c1N",
+        "CC#CC(CC)C1C(C)NN(NC(N)=O)C1N"
+      ],
+      "queries": [
+        "amide dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/catal11121497",
+        "10.1038/ncomms7859",
+        "10.1002/chem.202502271",
+        "10.31635/ccschem.020.202000255",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 125,
+      "uid": "564cccb4f7d947fcd41572877b8e9258e5e6861702025540fb17caa7444d4ed8",
+      "smiles": [
+        "C#CC1(C=O)C=C(C#N)CC1",
+        "CCC1(CO)CCC(CN)C1"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 126,
+      "uid": "562cb65e208e27af60028223fb8b715cd160608e21aa79c9172c0983e7b27c66",
+      "smiles": [
+        "CC=c1cc(OC=O)c(O)cc1=CCC",
+        "CC=C1CC(OC=O)C(O)CC1=CCC"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 124,
+      "uid": "31ed827714f97ed0793581e7005a434eb33619518baf0cffa4ab1f9b36e072bf",
+      "smiles": [
+        "C=CCC(=O)c1cnc(N)nc1",
+        "CCCC(O)C1CNC(N)NC1"
+      ],
+      "queries": [
+        "pyrimidine dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/app112411758",
+        "10.3390/catal16010048",
+        "10.1021/acscatal.5b01090",
+        "10.1038/s41467-026-71137-0",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 127,
+      "uid": "62fffbce8a6704adb948dddfe329607fddbbf0b11719712ce856382ee489672c",
+      "smiles": [
+        "C#CC(=O)c1cc(Cc2ccccc2)oc1O",
+        "CCC(=O)C1CC(CC2CCCCC2)OC1O"
+      ],
+      "queries": [
+        "furan dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "benzene thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.3390/c8010007",
+        "10.1002/aenm.202103362",
+        "10.1021/acssuschemeng.1c03247",
+        "10.3390/oxygen4030015",
+        "10.1021/ie50088a009",
+        "10.1098/rspa.1954.0178"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 128,
+      "uid": "0a7c4f55cf42d105f3c83eda93db3f2a96dc68a1ecc49a19cc2e55e243c3c23b",
+      "smiles": [
+        "C=CCC(C=C)=c1c(O)c(O)c(OC=O)cc1=CC",
+        "CC=C1CC(OC=O)C(O)C(O)C1=C(CC)CCC"
+      ],
+      "queries": [
+        "benzene dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "carbonyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.iecr.3c00408",
+        "10.1007/s11244-021-01452-x",
+        "10.3390/catal11121497",
+        "10.1002/cctc.202401278",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1002/kin.20828"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 129,
+      "uid": "4d181d7c1df86602b86b264b317bf6015d4ee158c088107d952d5a13099bf434",
+      "smiles": [
+        "O=CC#CC1=NCC(O)N1",
+        "OCCCC1NCC(O)N1"
+      ],
+      "queries": [
+        "carbonyl dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acscatal.1c03283",
+        "10.3390/catal11121497",
+        "10.1021/acsaem.6c00400",
+        "10.1515/recat-2015-0010",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 130,
+      "uid": "01741bfd2642c92294823ace7c37dbcdf504580537fdae54c09bd2317186a5b3",
+      "smiles": [
+        "C#CC#CC1(C#N)NC1CO",
+        "CCCCC1(CN)NC1CO"
+      ],
+      "queries": [
+        "nitrile dehydrogenation hydrogenation liquid organic hydrogen carrier",
+        "hydroxyl thermal stability decomposition hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/chem.202502271",
+        "10.1039/d4gc01275e",
+        "10.1039/c1fd00002k",
+        "10.1002/chem.201603423",
+        "10.26850/1678-4618eqj.v39.4.2009.p21-26",
+        "10.1021/jp013698r"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    }
+  ]
+}

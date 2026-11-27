@@ -1,0 +1,22 @@
+{
+  "answer": {
+    "edit_ids": [
+      "A1"
+    ],
+    "reason": "A1 is the only candidate with positive net_pred_delta (+0.023) and a slight SA reduction (delta_sa -0.036), while targeting unexplored cell 95. It preserves H2 near baseline (2.044→1.908 wt%) with minimal local loss (-0.139) and small whole gain (+0.09), a synthetically clean methyl edit rather than higher-SA hydroxyl/amino/vinyl alternatives. Skipping continuations since A1B1/A1B2 both flip net_pred negative and lose more H2/local score."
+  },
+  "audit": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 4781,
+      "completion_tokens": 128,
+      "total_tokens": 4909,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 4653
+    },
+    "http_status": 200
+  }
+}

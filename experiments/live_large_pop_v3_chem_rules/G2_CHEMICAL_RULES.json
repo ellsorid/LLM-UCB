@@ -1,0 +1,215 @@
+{
+  "generation": 2,
+  "induction": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 4059,
+      "completion_tokens": 863,
+      "total_tokens": 4922,
+      "prompt_tokens_details": {
+        "cached_tokens": 512
+      },
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 3547
+    },
+    "event": {
+      "generation": 2,
+      "accepted": [
+        "R_ef63c6fdfc",
+        "R_2ee568398a",
+        "R_644f8083a6"
+      ],
+      "revised": [
+        "R_adf4bddc5e"
+      ],
+      "falsified": [
+        "R_793f0d1a70"
+      ],
+      "rejected": []
+    }
+  },
+  "fit_summary": {
+    "n_observations": 64,
+    "active_rules": 5,
+    "newly_falsified": []
+  },
+  "rules": [
+    {
+      "rule_id": "R_adf4bddc5e",
+      "name": "alkynyl_nitrile_thermal_polymerization_penalty",
+      "chemical_statement": "Conjugated alkynyl–nitrile/alkynyl-cyano and alkyne+strained-ring motifs are thermally labile toward polymerization/cross-linking and score ~18–24 points below additive H2-capacity predictions despite high H2 wt%.",
+      "predicate_type": "smarts_lean",
+      "smarts_lean": "[CX2]#[CX2]-[CX2]#[NX1]",
+      "smarts_rich": "",
+      "partner_smarts": "",
+      "expected_direction": "unfavorable",
+      "scope_tier": 3,
+      "endpoint": "storage_stability",
+      "boundary_conditions": "Lean carriers with conjugated diyne/nitrile or alkyne adjacent to aziridine/cyclopropane; penalty strongest at SA>3.5 and H2 wt%>6.",
+      "supporting_dois": [
+        "obs:9662b1f9ef67",
+        "obs:73a413dee9fa",
+        "obs:8a749f5fdb2d",
+        "obs:c59ad6a8c912"
+      ],
+      "contradicting_dois": [],
+      "generation_created": 1,
+      "status": "revised",
+      "beta_points": -15.7663,
+      "sd_points": 15.2293,
+      "z_score": 1.035,
+      "n_matched_observed": 1
+    },
+    {
+      "rule_id": "R_4210aca2ae",
+      "name": "hydroxyl_on_alkynyl_enone_ring_favorable",
+      "chemical_statement": "Adding a tertiary hydroxyl at the alpha-carbon bearing an alkynyl group on a maleimide/enone ring raises composite score by ~20 points with negligible SA change, indicating favorable polarity/hydrogen-bonding stabilization of the carrier.",
+      "predicate_type": "smarts_pair",
+      "smarts_lean": "[CX2]#[CX2]-[CX4;R]",
+      "smarts_rich": "[OX2H]-[CX4;R](-[CX2]#[CX2])-[#6]",
+      "partner_smarts": "",
+      "expected_direction": "favorable",
+      "scope_tier": 2,
+      "endpoint": "cycle_reversibility",
+      "boundary_conditions": "Observed for propargyl-substituted cyclic enone/maleimide scaffolds; benefit may invert if the OH enables dehydration under dehydrogenation temperatures.",
+      "supporting_dois": [
+        "obs:9c74ab30e844",
+        "obs:a93aedea5936"
+      ],
+      "contradicting_dois": [],
+      "generation_created": 1,
+      "status": "tentative",
+      "beta_points": 2.34,
+      "sd_points": 20.0,
+      "z_score": 0.117,
+      "n_matched_observed": 0
+    },
+    {
+      "rule_id": "R_793f0d1a70",
+      "name": "vinyl_appendage_on_alkynyl_enone_favorable",
+      "chemical_statement": "Appending a vinyl (C=C) group to an alkynyl-substituted enone/lactam ring increases score by ~19–20 points with only minor SA cost, consistent with favorable conjugation/unsaturation for reversible H2 storage.",
+      "predicate_type": "smarts_pair",
+      "smarts_lean": "[CX3]=[CX3]",
+      "smarts_rich": "[CX3]=[CX3]-[CX4;R](-[CX2]#[CX2])",
+      "partner_smarts": "",
+      "expected_direction": "favorable",
+      "scope_tier": 2,
+      "endpoint": "cycle_reversibility",
+      "boundary_conditions": "Benefit observed when vinyl is attached to a ring carbon already bearing an alkynyl substituent; may become unfavorable if it creates extended diyne conjugation prone to polymeriza",
+      "supporting_dois": [
+        "obs:d02b2fcbf90a",
+        "obs:205614c9c980",
+        "obs:2173f668172b"
+      ],
+      "contradicting_dois": [],
+      "generation_created": 1,
+      "status": "falsified",
+      "beta_points": 2.7,
+      "sd_points": 20.0,
+      "z_score": 0.135,
+      "n_matched_observed": 0
+    },
+    {
+      "rule_id": "R_ef63c6fdfc",
+      "name": "alkynyl_nitrile_or_alkynyl_aziridine_thermal_penalty",
+      "chemical_statement": "Terminal/conjugated alkyne adjacent to a nitrile or strained aziridine/cyclopropane-fused ring is thermally labile toward polymerization and scores ~18–24 points below additive H2-capacity predictions despite high H2 wt%.",
+      "predicate_type": "smarts_lean",
+      "smarts_lean": "[CX2]#[CX2]-[CX2]#[CX2]",
+      "smarts_rich": "",
+      "partner_smarts": "",
+      "expected_direction": "unfavorable",
+      "scope_tier": 3,
+      "endpoint": "storage_stability",
+      "boundary_conditions": "Applies to lean carriers with conjugated diyne/nitrile or alkyne+strained-ring motifs; penalty observed at SA>3.5 and H2 wt%>6 where thermal cross-linking dominates real score.",
+      "supporting_dois": [
+        "obs:73a413dee9fa",
+        "obs:9662b1f9ef67",
+        "obs:8a749f5fdb2d",
+        "obs:c59ad6a8c912"
+      ],
+      "contradicting_dois": [],
+      "generation_created": 2,
+      "status": "tentative",
+      "beta_points": -6.602,
+      "sd_points": 16.8383,
+      "z_score": 0.392,
+      "n_matched_observed": 1
+    },
+    {
+      "rule_id": "R_2ee568398a",
+      "name": "n_alkyl_carbazole_dealkylation_risk",
+      "chemical_statement": "N-alkyl carbazole carriers undergo stepwise dehydrogenation before C–N alkyl cleavage at 380–390 K on Pt, so long N-alkyl chains impose a dealkylation/regeneration penalty relative to short or ring-constrained N substituents.",
+      "predicate_type": "smarts_lean",
+      "smarts_lean": "[nX3](-[CX4;H2,H3])-[CX4;H2,H3]",
+      "smarts_rich": "",
+      "partner_smarts": "",
+      "expected_direction": "unfavorable",
+      "scope_tier": 1,
+      "endpoint": "cycle_reversibility",
+      "boundary_conditions": "Pt-group catalysis at 380–390 K; penalty scales with N-alkyl chain length (ethyl<propyl<butyl) and is mitigated by ortho-methyl steric shielding of ring N.",
+      "supporting_dois": [
+        "fresh_gleichweit_2014_abstract",
+        "fresh_amende_2014_abstract"
+      ],
+      "contradicting_dois": [],
+      "generation_created": 2,
+      "status": "tentative",
+      "beta_points": -3.25,
+      "sd_points": 20.0,
+      "z_score": 0.162,
+      "n_matched_observed": 0
+    },
+    {
+      "rule_id": "R_644f8083a6",
+      "name": "ortho_methyl_shielding_of_ring_n_favorable",
+      "chemical_statement": "An ortho-methyl substituent adjacent to a ring nitrogen sterically shields the N–C(alkyl) bond, suppressing dealkylation and preserving reversible dehydrogenation, giving a favorable score contribution.",
+      "predicate_type": "smarts_lean",
+      "smarts_lean": "[cH0]([CH3])[nX3]",
+      "smarts_rich": "",
+      "partner_smarts": "",
+      "expected_direction": "favorable",
+      "scope_tier": 2,
+      "endpoint": "cycle_reversibility",
+      "boundary_conditions": "Heterocyclic LOHC scaffolds with N-alkyl substituents under Pt catalysis; effect requires the methyl to be ortho to the ring N and is lost if the methyl is removed or the N is quat",
+      "supporting_dois": [
+        "fresh_amende_2014_abstract",
+        "fresh_gleichweit_2014_abstract"
+      ],
+      "contradicting_dois": [],
+      "generation_created": 2,
+      "status": "tentative",
+      "beta_points": 2.34,
+      "sd_points": 20.0,
+      "z_score": 0.117,
+      "n_matched_observed": 0
+    }
+  ],
+  "history": [
+    {
+      "generation": 1,
+      "accepted": [
+        "R_adf4bddc5e",
+        "R_4210aca2ae",
+        "R_793f0d1a70"
+      ],
+      "revised": [],
+      "falsified": [],
+      "rejected": []
+    },
+    {
+      "generation": 2,
+      "accepted": [
+        "R_ef63c6fdfc",
+        "R_2ee568398a",
+        "R_644f8083a6"
+      ],
+      "revised": [
+        "R_adf4bddc5e"
+      ],
+      "falsified": [
+        "R_793f0d1a70"
+      ],
+      "rejected": []
+    }
+  ]
+}

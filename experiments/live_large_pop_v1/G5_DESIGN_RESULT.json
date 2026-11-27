@@ -1,0 +1,23 @@
+{
+  "answer": {
+    "edit_ids": [
+      "A1",
+      "A1B1"
+    ],
+    "reason": "A1 moves toward reachable cell 51 with positive local/whole gains and low risk; A1B1 continues to cell 78 with the largest local and whole predicted gains while retaining overall performance, exploring a reachable SOM cell with rich matched evidence."
+  },
+  "audit": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 2220,
+      "completion_tokens": 69,
+      "total_tokens": 2289,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 2220
+    },
+    "http_status": 200
+  }
+}

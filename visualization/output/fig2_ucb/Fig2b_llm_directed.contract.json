@@ -1,0 +1,34 @@
+{
+  "figure": "Fig2b_llm_directed",
+  "width_mm": 180.0,
+  "height_mm": 120.0,
+  "run_dir": "D:\\LLM-UCB\\runs\\live_large_pop_v1",
+  "generation": 6,
+  "chosen_ids": [
+    "A1",
+    "A1B2"
+  ],
+  "argmax_cells": {
+    "root": 95,
+    "step1": 51,
+    "step2": 78
+  },
+  "path_cells": [
+    95,
+    51,
+    78
+  ],
+  "h2_wt_percent": [
+    2.0859416226059784,
+    2.7323490612067873,
+    4.0416676690644024
+  ],
+  "delta_psi_at_dst": 0.009107932635091548,
+  "arrows": false,
+  "outputs": [
+    "D:\\LLM-UCB\\visualization\\output\\fig2_ucb\\Fig2b_llm_directed.svg",
+    "D:\\LLM-UCB\\visualization\\output\\fig2_ucb\\Fig2b_llm_directed.pdf",
+    "D:\\LLM-UCB\\visualization\\output\\fig2_ucb\\Fig2b_llm_directed.png",
+    "D:\\LLM-UCB\\visualization\\output\\fig2_ucb\\Fig2b_llm_directed.tiff"
+  ]
+}

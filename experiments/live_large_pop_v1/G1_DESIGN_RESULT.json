@@ -1,0 +1,22 @@
+{
+  "answer": {
+    "edit_ids": [
+      "A4"
+    ],
+    "reason": "A4 adds amine plus conjugated-component units at site 0, targeting reachable cell 86 with the best whole-delta (0.005) and smallest local penalty (-0.042) among single edits, while covering an extra uncovered unit kind (ring/conjugation) versus A1/A2 and avoiding the larger local losses of two-step paths."
+  },
+  "audit": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 2235,
+      "completion_tokens": 83,
+      "total_tokens": 2318,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 2235
+    },
+    "http_status": 200
+  }
+}

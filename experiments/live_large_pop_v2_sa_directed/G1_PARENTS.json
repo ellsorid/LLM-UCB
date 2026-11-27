@@ -1,0 +1,166 @@
+[
+  {
+    "uid": "ddce1ed04d78fbf028ea1e3ca7f11189a3e0bef5f114f6fb97e5367a2f4e8346",
+    "states": [
+      "C#CCc1c(C)n[nH]c1N",
+      "CCCC1C(C)NNC1N"
+    ],
+    "parent": "0b2e885ae5b4e5c25437c651d986792f47cc84d36442fdc01ca991cc1a0cf4a8",
+    "edit": {
+      "parent_index": 0,
+      "site": 6,
+      "kind": "methyl",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "0b2e885ae5b4e5c25437c651d986792f47cc84d36442fdc01ca991cc1a0cf4a8",
+    "states": [
+      "C#CCc1cn[nH]c1N",
+      "CCCC1CNNC1N"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "52a3e1f2261315408fa4d5b62c48c37d0eb84cadd6b2da72fe46f2499a640e67",
+    "states": [
+      "O=CC#CC1=NCCN1",
+      "OCCCC1NCCN1"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "16e963ca1e06bdce9de374dae3c45bd7f1e611798d604d8c82613e4456a0b786",
+    "states": [
+      "C#CC(C)=c1cc(O)c(OC=O)cc1=CC",
+      "CC=C1CC(OC=O)C(O)CC1=C(C)CC"
+    ],
+    "parent": "625e67eb2fd51b1c26823849258fa210a072eda9109eceaf2ccbf3661606f553",
+    "edit": {
+      "parent_index": 0,
+      "site": 1,
+      "kind": "ethynyl_ethyl",
+      "delta_nH2": 2
+    }
+  },
+  {
+    "uid": "f082d00dd58afe85cfe713329b991e31e97b4f05c98d4db9a129b13120a2bf84",
+    "states": [
+      "C=C(C)c1ccccc1COc1ccc(O)cc1",
+      "C=C(C)C1CCCCC1COC1CCC(O)CC1"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "a5c390f948ecd591fbe7fafb0304e7f26ae867d343db93acb611ed95837397c9",
+    "states": [
+      "O=Cc1cc(Cc2ccccc2)oc1O",
+      "O=CC1CC(CC2CCCCC2)OC1O"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "98a30a333542f7fca5e43fb5ffa2f9510895bc0ef92b052ab8d36cb5a1690e91",
+    "states": [
+      "C#CCc1cnn(C2CCCCC2)c1N",
+      "C#CCC1CNN(C2CCCCC2)C1N"
+    ],
+    "parent": "0b2e885ae5b4e5c25437c651d986792f47cc84d36442fdc01ca991cc1a0cf4a8",
+    "edit": null
+  },
+  {
+    "uid": "183e3712ea22f0430e5c93e813f1dfd95d059baf270b70322993c9f17244a47c",
+    "states": [
+      "CC1(C=O)C=C(C#N)CC1",
+      "CC1(CO)CCC(CN)C1"
+    ],
+    "parent": "ecb390209d5819e496e0e69e3ce27ad3b7ff5fbdce8ced232ef215668eaee01f",
+    "edit": {
+      "parent_index": 0,
+      "site": 2,
+      "kind": "methyl",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "768f92dce719aec4523bad082dee6ea89cb3cf99c51ddb3182c02fc9f6c6bef6",
+    "states": [
+      "C=CC=CC=c1c(=CCC)oc2cc(C)ccc12",
+      "C=CC=CC=C1C(=CCC)OC2CC(C)CCC12"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "16be2813f48326e4f8fe1b4131fe9e5a7b3296bc817789cd85829ac5d193db1b",
+    "states": [
+      "O=Cc1ncco1",
+      "O=CC1NCCO1"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "9f8674b48bc19c507a29f25320f2f39c1b92e325e1a4c4cff5acc457cb53e41d",
+    "states": [
+      "CC(=O)c1cncnc1",
+      "CC(O)C1CNCNC1"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "e2c067ce68bba9c0c2e468d1cff3b820cd83c329302930413c8452c370f98d84",
+    "states": [
+      "O=C=COc1ccc(OC=CC=CCO)cc1O",
+      "O=C=COC1CCC(OC=CC=CCO)CC1O"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "bb65a9829833dce086353746cbda586db543d7039c8a14e6b6d1b33c6e3dddd9",
+    "states": [
+      "C#CC1(C#N)NC1CO",
+      "CCC1(CN)NC1CO"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "625e67eb2fd51b1c26823849258fa210a072eda9109eceaf2ccbf3661606f553",
+    "states": [
+      "CC=c1cc(O)c(OC=O)cc1=CC",
+      "CC=C1CC(O)C(OC=O)CC1=CC"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "ecb390209d5819e496e0e69e3ce27ad3b7ff5fbdce8ced232ef215668eaee01f",
+    "states": [
+      "N#CC1=CC(C=O)CC1",
+      "NCC1CCC(CO)C1"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "a2d14a46c24e8cc89b1492fda8a27e1333a1303be066a3505d37332aa2557844",
+    "states": [
+      "CCC#CC#CC1(N)CN1",
+      "CCCCCCC1(N)CN1"
+    ],
+    "parent": "6ac448e8346fce941a98899fc5969bb6391d36a2c4466a5b828e3ecab6704497",
+    "edit": {
+      "parent_index": 0,
+      "site": 6,
+      "kind": "amino",
+      "delta_nH2": 0
+    }
+  }
+]

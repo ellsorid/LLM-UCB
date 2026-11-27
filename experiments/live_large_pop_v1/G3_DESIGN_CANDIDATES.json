@@ -1,0 +1,185 @@
+{
+  "root": {
+    "uid": "8d54644c147c01bbc16e96266994af16c5a792f6cf4866436638d4f27c1bde53",
+    "cell": 71,
+    "lean_smiles": "C#CCc1c(O)nn(CC(=O)OC)c1N",
+    "rich_smiles": "C#CCC1C(O)NN(CC(=O)OC)C1N",
+    "score": 60.63938829443255,
+    "nH2": 2.0,
+    "h2_wt_percent": 1.890853838686532
+  },
+  "candidates": [
+    {
+      "edit_path": [
+        "A1"
+      ],
+      "id": "A1",
+      "step": 1,
+      "uid": "74dd4fc4e49565d98e02bfce1e1f246da5a46e2354cf2f0cb0612a37cda9eb44",
+      "cell": 71,
+      "operator": "amino",
+      "site": 8,
+      "lean_smiles": "C#CCc1c(O)nn(C(N)C(=O)OC)c1N",
+      "rich_smiles": "C#CCC1C(O)NN(C(N)C(=O)OC)C1N",
+      "nH2": 2.0,
+      "h2_wt_percent": 1.7664686399242944,
+      "whole_delta_points": 0.061,
+      "local_delta_points": -0.033,
+      "whole_sd_points": 0.45,
+      "local_sd_points": 0.51,
+      "destination_response_delta": 0.002346,
+      "evidence_gap": 0.25
+    },
+    {
+      "edit_path": [
+        "A1",
+        "A1B1"
+      ],
+      "id": "A1B1",
+      "step": 2,
+      "uid": "a99091509317d0abb1bbda8ac80f94dc7ead0a9304dc48bf53fe924ed169ccbe",
+      "cell": 71,
+      "operator": "amino",
+      "site": 8,
+      "lean_smiles": "C#CCc1c(O)nn(C(N)(N)C(=O)OC)c1N",
+      "rich_smiles": "C#CCC1C(O)NN(C(N)(N)C(=O)OC)C1N",
+      "nH2": 2.0,
+      "h2_wt_percent": 1.6574381235432674,
+      "whole_delta_points": 0.094,
+      "local_delta_points": -0.055,
+      "whole_sd_points": 0.83,
+      "local_sd_points": 0.91,
+      "destination_response_delta": 0.004554,
+      "evidence_gap": 0.25
+    },
+    {
+      "edit_path": [
+        "A1",
+        "A1B2"
+      ],
+      "id": "A1B2",
+      "step": 2,
+      "uid": "ae4b0de30b72736e87c1e2bbc333af39abfea0907cecb87b425a38479f2eab7a",
+      "cell": 71,
+      "operator": "hydroxyl",
+      "site": 8,
+      "lean_smiles": "C#CCc1c(O)nn(C(N)(O)C(=O)OC)c1N",
+      "rich_smiles": "C#CCC1C(O)NN(C(N)(O)C(=O)OC)C1N",
+      "nH2": 2.0,
+      "h2_wt_percent": 1.650760897601238,
+      "whole_delta_points": 0.115,
+      "local_delta_points": -0.065,
+      "whole_sd_points": 0.96,
+      "local_sd_points": 1.06,
+      "destination_response_delta": 0.005838,
+      "evidence_gap": 0.25
+    },
+    {
+      "edit_path": [
+        "A2"
+      ],
+      "id": "A2",
+      "step": 1,
+      "uid": "ccb26922bd56d1fb0ba70e293a5f7e27efd8251e270bc4c1787dcdc6e632bc19",
+      "cell": 71,
+      "operator": "amino",
+      "site": 2,
+      "lean_smiles": "C#CC(N)c1c(O)nn(CC(=O)OC)c1N",
+      "rich_smiles": "C#CC(N)C1C(O)NN(CC(=O)OC)C1N",
+      "nH2": 2.0,
+      "h2_wt_percent": 1.7664686399242944,
+      "whole_delta_points": 0.068,
+      "local_delta_points": -0.037,
+      "whole_sd_points": 0.5,
+      "local_sd_points": 0.57,
+      "destination_response_delta": 0.002536,
+      "evidence_gap": 0.25
+    },
+    {
+      "edit_path": [
+        "A2",
+        "A2B1"
+      ],
+      "id": "A2B1",
+      "step": 2,
+      "uid": "5935f1128a066f44396b3c4903a195bccc27c8a848ac4031847d098f2fd69a71",
+      "cell": 71,
+      "operator": "amino",
+      "site": 2,
+      "lean_smiles": "C#CC(N)(N)c1c(O)nn(CC(=O)OC)c1N",
+      "rich_smiles": "C#CC(N)(N)C1C(O)NN(CC(=O)OC)C1N",
+      "nH2": 2.0,
+      "h2_wt_percent": 1.6574381235432674,
+      "whole_delta_points": 0.109,
+      "local_delta_points": -0.063,
+      "whole_sd_points": 0.92,
+      "local_sd_points": 1.02,
+      "destination_response_delta": 0.00482,
+      "evidence_gap": 0.25
+    },
+    {
+      "edit_path": [
+        "A2",
+        "A2B2"
+      ],
+      "id": "A2B2",
+      "step": 2,
+      "uid": "99bc218f6934ac097aabefd7f934b561312b34d8b9732cf74fd76c1bff48cf93",
+      "cell": 71,
+      "operator": "hydroxyl",
+      "site": 2,
+      "lean_smiles": "C#CC(N)(O)c1c(O)nn(CC(=O)OC)c1N",
+      "rich_smiles": "C#CC(N)(O)C1C(O)NN(CC(=O)OC)C1N",
+      "nH2": 2.0,
+      "h2_wt_percent": 1.650760897601238,
+      "whole_delta_points": 0.131,
+      "local_delta_points": -0.074,
+      "whole_sd_points": 1.06,
+      "local_sd_points": 1.17,
+      "destination_response_delta": 0.006139,
+      "evidence_gap": 0.25
+    },
+    {
+      "edit_path": [
+        "A3"
+      ],
+      "id": "A3",
+      "step": 1,
+      "uid": "bcc719b4b529a5cf4a553ecb09e0c21d633cc9089533e988c8f7f71e9af9cc8e",
+      "cell": 71,
+      "operator": "hydroxyl",
+      "site": 8,
+      "lean_smiles": "C#CCc1c(O)nn(C(O)C(=O)OC)c1N",
+      "rich_smiles": "C#CCC1C(O)NN(C(O)C(=O)OC)C1N",
+      "nH2": 2.0,
+      "h2_wt_percent": 1.7588860388420666,
+      "whole_delta_points": 0.083,
+      "local_delta_points": -0.043,
+      "whole_sd_points": 0.61,
+      "local_sd_points": 0.69,
+      "destination_response_delta": 0.003543,
+      "evidence_gap": 0.25
+    },
+    {
+      "edit_path": [
+        "A4"
+      ],
+      "id": "A4",
+      "step": 1,
+      "uid": "70f0dc30dbc43a16bb86f624ae94dfe52832727f188422ed79298c1684aa89bf",
+      "cell": 71,
+      "operator": "methyl",
+      "site": 8,
+      "lean_smiles": "C#CCc1c(O)nn(C(C)C(=O)OC)c1N",
+      "rich_smiles": "C#CCC1C(O)NN(C(C)C(=O)OC)C1N",
+      "nH2": 2.0,
+      "h2_wt_percent": 1.774148127288088,
+      "whole_delta_points": 0.08,
+      "local_delta_points": -0.044,
+      "whole_sd_points": 0.57,
+      "local_sd_points": 0.64,
+      "destination_response_delta": 0.001946,
+      "evidence_gap": 0.25
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "figure": "Fig2_density_cube",
+  "width_mm": 180.0,
+  "height_mm": 120.0,
+  "run_dir": "D:\\LLM-UCB\\runs\\live_large_pop_v1",
+  "n_molecules": 144,
+  "occupied_cells": [
+    24,
+    42
+  ],
+  "score_pc1_var_ratio": 0.6169569560320327,
+  "score_pc1_loadings": [
+    0.698951553249479,
+    -0.0668989727974163,
+    0.7120331829688776
+  ],
+  "z_pc1_gen_means": [
+    -1.0940259771976644,
+    -0.5220823499045341,
+    -0.3531980441215281,
+    0.44645232404268853,
+    0.35117548227884166,
+    0.603349064729188,
+    0.7871346956125822
+  ],
+  "planar_movement_mean": 0.3805943372617584,
+  "z_ascent_mean": 0.29824615684882194,
+  "arrows": false,
+  "outputs": [
+    "D:\\LLM-UCB\\visualization\\output\\fig2_saddle\\Fig2_density_cube.svg",
+    "D:\\LLM-UCB\\visualization\\output\\fig2_saddle\\Fig2_density_cube.pdf",
+    "D:\\LLM-UCB\\visualization\\output\\fig2_saddle\\Fig2_density_cube.png",
+    "D:\\LLM-UCB\\visualization\\output\\fig2_saddle\\Fig2_density_cube.tiff"
+  ]
+}

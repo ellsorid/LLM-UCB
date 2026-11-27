@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 1,
+    "exemptions": 0
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 518.740157480315,
+      "height_pt": 323.1496062992126
+    },
+    "panels": [
+      {
+        "id": "a1",
+        "bbox_pt": [
+          48.32362204724409,
+          176.11653543307088,
+          156.57874015748035,
+          284.37165354330716
+        ]
+      },
+      {
+        "id": "a2",
+        "bbox_pt": [
+          48.32362204724409,
+          29.72976377952756,
+          156.57874015748035,
+          137.9848818897638
+        ]
+      },
+      {
+        "id": "a3",
+        "bbox_pt": [
+          240.66992125984254,
+          45.240944881889774,
+          481.41637795275597,
+          285.9874015748032
+        ]
+      }
+    ],
+    "row_groups": [],
+    "column_groups": [
+      {
+        "id": "column-1",
+        "panels": [
+          "a1",
+          "a2"
+        ]
+      }
+    ],
+    "boundary_groups": [],
+    "exemptions": []
+  },
+  "findings": []
+}

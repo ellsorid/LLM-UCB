@@ -1,0 +1,1246 @@
+[
+  {
+    "uid": "1b80165f0ccc351b6ed9d67ccf0b0d9131829d148956773c3c68867431331019",
+    "cell": 71,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 7,
+    "cache_misses": 0,
+    "local": {
+      "score": 65.71751923947488,
+      "weight": 0.5606496152105025,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear direct effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different hydrogen carrier, so its relevance to the target's performance is unclear."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Alcohol dehydrogenation is a general functional-group property and its net effect on carrier performance is not established."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Catalytic reversibility of alcohol-carbonyl systems enables reusable hydrogen carriers."
+        },
+        {
+          "id": "E7",
+          "direction": "favorable",
+          "reason": "Long-chain primary amines suppress imine byproduct formation, improving selectivity of the dehydrogenation carrier system."
+        },
+        {
+          "id": "E8",
+          "direction": "unfavorable",
+          "reason": "Thermal decomposition via C-C cleavage and retro-ene channels indicates carrier instability."
+        }
+      ]
+    },
+    "raw_combined": 59.554303622834965,
+    "sa_score": 3.593307050067981,
+    "sa_penalty": 0.18661410013596225,
+    "combined": 59.367689522699,
+    "overall": 56.09889915890643,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/functional_group/lean/0",
+      "doi:10.1002/kin.20828/functional_group/lean/0",
+      "doi:10.1021/acscatal.1c03283/functional_group/lean/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "89e150c0578a76191ad82348914f4c9ca7127c6ff9477e9766425fa6c36d89de",
+    "cell": 104,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 5,
+    "cache_misses": 0,
+    "local": {
+      "score": 61.634349030470915,
+      "weight": 0.4673130193905817,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear direct effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different hydrogen carrier, so its relevance to the target's performance is unclear."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Describes thermodynamic property derivation for related LOHC compounds without measuring the target carrier's performance."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Long-chain primary amines suppress imine byproduct formation, improving selectivity of the dehydrogenation carrier system."
+        }
+      ]
+    },
+    "raw_combined": 57.80767968359863,
+    "sa_score": 3.4126721241536773,
+    "sa_penalty": 0.0,
+    "combined": 57.80767968359863,
+    "overall": 56.01942727690235,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.5
+  },
+  {
+    "uid": "df2c77c083968f63c54085e3a1ac87f0b0342805ae51e28ca10390cb1d76ece0",
+    "cell": 95,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 4,
+    "cache_misses": 0,
+    "local": {
+      "score": 65.26785714285714,
+      "weight": 0.39464285714285713,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear favorable or unfavorable effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier structure."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation from a different hydrogen carrier does not establish a favorable or unfavorable effect for the target."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Long-chain primary amines suppress imine byproduct formation, improving selectivity of the dehydrogenation carrier system."
+        }
+      ]
+    },
+    "raw_combined": 58.54856752403494,
+    "sa_score": 3.636723458696582,
+    "sa_penalty": 0.27344691739316396,
+    "combined": 58.27512060664177,
+    "overall": 55.89684787089261,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "3a69a60e67ca09e3dbe1f005116e4ad1b06b4b88abc3fe8745b61b0a19889b72",
+    "cell": 126,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 4,
+    "cache_misses": 0,
+    "local": {
+      "score": 58.76447306238185,
+      "weight": 0.524710538752363,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear direct effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different hydrogen carrier, so its relevance to the target's performance is unclear."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Long-chain primary amines suppress imine byproduct formation, improving selectivity of the dehydrogenation carrier system."
+        }
+      ]
+    },
+    "raw_combined": 57.1033915256771,
+    "sa_score": 2.491347072292289,
+    "sa_penalty": 0.0,
+    "combined": 57.1033915256771,
+    "overall": 56.23180453764114,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.5
+  },
+  {
+    "uid": "c6596f27194dc7d4b4d101aa8813a3978671cfe71710c53d22d29050036399f9",
+    "cell": 26,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 7,
+    "cache_misses": 0,
+    "local": {
+      "score": 64.78822314049586,
+      "weight": 0.7542355371900826,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with unclear net effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier rather than useful conversion."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "A different hydrogen carrier's dehydrogenation order is not attributable to the target and its effect is unclear."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Reversible hydrogen storage under mild conditions supports efficient carrier cycling."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Catalytic reversibility of alcohol-carbonyl systems enables reusable hydrogen carriers."
+        },
+        {
+          "id": "E7",
+          "direction": "favorable",
+          "reason": "Long-chain primary amines suppress imine byproduct formation, improving selectivity of the dehydrogenation carrier system."
+        },
+        {
+          "id": "E8",
+          "direction": "unfavorable",
+          "reason": "Thermal decomposition via C-C cleavage and retro-ene channels indicates carrier instability."
+        }
+      ]
+    },
+    "raw_combined": 59.69130425345124,
+    "sa_score": 3.322609859898936,
+    "sa_penalty": 0.0,
+    "combined": 59.69130425345124,
+    "overall": 55.847026898666876,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/functional_group/lean/0",
+      "doi:10.1002/kin.20828/functional_group/lean/0",
+      "doi:10.1021/acsaem.6c00400/functional_group/lean/1",
+      "doi:10.1021/acscatal.1c03283/functional_group/lean/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.5
+  },
+  {
+    "uid": "0d82b99ea523450988dc8c743b7f58b3b03daa7ac9e0e2615ead39c36c27c8be",
+    "cell": 41,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 7,
+    "cache_misses": 0,
+    "local": {
+      "score": 65.24778106508876,
+      "weight": 0.7450443786982248,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear favorable or unfavorable effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier structure."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation from a different hydrogen carrier does not establish a favorable or unfavorable effect for the target."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Reversible hydrogen storage under mild conditions supports efficient carrier cycling."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Catalytic reversibility of alcohol-carbonyl systems enables reusable hydrogen carriers."
+        },
+        {
+          "id": "E7",
+          "direction": "favorable",
+          "reason": "Long-chain primary amines suppress imine byproduct formation, improving selectivity of the dehydrogenation carrier system."
+        },
+        {
+          "id": "E8",
+          "direction": "unfavorable",
+          "reason": "Thermal decomposition via C-C cleavage and retro-ene channels indicates carrier instability."
+        }
+      ]
+    },
+    "raw_combined": 59.80852943613254,
+    "sa_score": 2.2147807076500143,
+    "sa_penalty": 0.0,
+    "combined": 59.80852943613254,
+    "overall": 55.75604558565354,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/functional_group/lean/0",
+      "doi:10.1002/kin.20828/functional_group/lean/0",
+      "doi:10.1021/acsaem.6c00400/functional_group/lean/1",
+      "doi:10.1021/acscatal.1c03283/functional_group/lean/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "27a055bdee90d4213e7227913d1edb75a0f97cf920e9df9b7e5ccb69077067c2",
+    "cell": 42,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 7,
+    "cache_misses": 0,
+    "local": {
+      "score": 65.24778106508876,
+      "weight": 0.7450443786982248,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear favorable or unfavorable effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier structure."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation from a different hydrogen carrier does not establish a favorable or unfavorable effect for the target."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Reversible hydrogen storage under mild conditions supports efficient carrier cycling."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Catalytic reversibility of alcohol-carbonyl systems enables reusable hydrogen carriers."
+        },
+        {
+          "id": "E7",
+          "direction": "favorable",
+          "reason": "Long-chain primary amines suppress imine byproduct formation, improving selectivity of the dehydrogenation carrier system."
+        },
+        {
+          "id": "E8",
+          "direction": "unfavorable",
+          "reason": "Thermal decomposition via C-C cleavage and retro-ene channels indicates carrier instability."
+        }
+      ]
+    },
+    "raw_combined": 59.878673398474305,
+    "sa_score": 2.3929472858993517,
+    "sa_penalty": 0.0,
+    "combined": 59.878673398474305,
+    "overall": 55.87844991283766,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/functional_group/lean/0",
+      "doi:10.1002/kin.20828/functional_group/lean/0",
+      "doi:10.1021/acsaem.6c00400/functional_group/lean/1",
+      "doi:10.1021/acscatal.1c03283/functional_group/lean/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "5cfb46d9af5b90f4e6fa09551e4d0182f8333675b30fd1e026eabf5f65239096",
+    "cell": 33,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 4,
+    "cache_misses": 0,
+    "local": {
+      "score": 47.2,
+      "weight": 0.05600000000000001,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear favorable or unfavorable effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier structure."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation from a different hydrogen carrier does not establish a favorable or unfavorable effect for the target."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Alcohol dehydrogenation is a general functional-group property and its net effect on carrier performance is not established."
+        }
+      ]
+    },
+    "raw_combined": 53.346340284456865,
+    "sa_score": 5.221514180902739,
+    "sa_penalty": 3.443028361805478,
+    "combined": 49.90331192265138,
+    "overall": 53.690535340386454,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "48dbacd188267a7fbe1866aaffbea1c23ae7601264573757e1f21969826d1df2",
+    "cell": 116,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 7,
+    "cache_misses": 0,
+    "local": {
+      "score": 63.067116610423696,
+      "weight": 1,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear direct effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different hydrogen carrier, so its relevance to the target's performance is unclear."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Reversible hydrogen storage under mild conditions supports efficient carrier cycling."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Catalytic reversibility of alcohol-carbonyl systems enables reusable hydrogen carriers."
+        },
+        {
+          "id": "E7",
+          "direction": "unknown",
+          "reason": "Describes thermodynamic property derivation for related LOHC compounds without measuring the target carrier's performance."
+        },
+        {
+          "id": "E8",
+          "direction": "unfavorable",
+          "reason": "Thermal decomposition via C-C cleavage and retro-ene channels indicates carrier instability."
+        }
+      ]
+    },
+    "raw_combined": 59.79961526476653,
+    "sa_score": 3.6454578815266583,
+    "sa_penalty": 0.29091576305331657,
+    "combined": 59.50869950171321,
+    "overall": 56.532113919109364,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/kin.20828/functional_group/lean/0",
+      "doi:10.1021/acsaem.6c00400/functional_group/lean/1",
+      "doi:10.1021/acscatal.1c03283/functional_group/lean/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "58aab35b6d47af86584ab64f0ce86ede956c6c94170d5b2a29b2cb2ecc291530",
+    "cell": 17,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 6,
+    "cache_misses": 0,
+    "local": {
+      "score": 64.56494325346785,
+      "weight": 1,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with unclear net effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the ring carrier."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Pyrrolidine ring dehydrogenation in a different carrier is not directly attributable to the target edit."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Reversible hydrogen storage under mild conditions supports efficient carrier cycling."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Catalytic reversibility of alcohol-carbonyl systems enables reusable hydrogen carriers."
+        },
+        {
+          "id": "E7",
+          "direction": "unfavorable",
+          "reason": "Thermal decomposition via C-C cleavage and retro-ene channels indicates carrier instability."
+        }
+      ]
+    },
+    "raw_combined": 59.380146101308384,
+    "sa_score": 5.109152842832147,
+    "sa_penalty": 3.218305685664294,
+    "combined": 56.16184041564409,
+    "overall": 54.19534894914893,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/kin.20828/functional_group/lean/0",
+      "doi:10.1021/acsaem.6c00400/functional_group/lean/1",
+      "doi:10.1021/acscatal.1c03283/functional_group/lean/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "5b2f3a5ad0626938e8505f18fe98ec0d26004c3d50245025fbd2a67ae746fd3a",
+    "cell": 125,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 4,
+    "cache_misses": 0,
+    "local": {
+      "score": 47.5390625,
+      "weight": 0.04921875,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear favorable or unfavorable effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier structure."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation from a different hydrogen carrier does not establish a favorable or unfavorable effect for the target."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Alcohol dehydrogenation is a general functional-group property and its net effect on carrier performance is not established."
+        }
+      ]
+    },
+    "raw_combined": 53.54508381950276,
+    "sa_score": 5.4488165477666435,
+    "sa_penalty": 3.897633095533287,
+    "combined": 49.64745072396947,
+    "overall": 53.84069268132204,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "2e829fdf88b7d3ed2cb630693d8b7affe59e9c42c7b273b8c9a7c351be7e20bc",
+    "cell": 86,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 7,
+    "cache_misses": 0,
+    "local": {
+      "score": 51.37856718192628,
+      "weight": 0.32242865636147444,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear direct effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different hydrogen carrier, so its relevance to the target's performance is unclear."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Describes thermodynamic property derivation for related LOHC compounds without measuring the target carrier's performance."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Reversible hydrogen storage under mild conditions supports efficient carrier cycling."
+        },
+        {
+          "id": "E7",
+          "direction": "favorable",
+          "reason": "Catalytic reversibility of alcohol-carbonyl systems enables reusable hydrogen carriers."
+        },
+        {
+          "id": "E8",
+          "direction": "unfavorable",
+          "reason": "Thermal decomposition via C-C cleavage and retro-ene channels indicates carrier instability."
+        }
+      ]
+    },
+    "raw_combined": 55.374099043592324,
+    "sa_score": 3.203643727680504,
+    "sa_penalty": 0.0,
+    "combined": 55.374099043592324,
+    "overall": 56.66237301319877,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/kin.20828/functional_group/lean/0",
+      "doi:10.1021/acsaem.6c00400/functional_group/lean/1",
+      "doi:10.1021/acscatal.1c03283/functional_group/lean/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "4e7d297b1b56ce1ae8b00f903b07fbedcdeac3c6e16cc6b78c2baae35d3c8aea",
+    "cell": 71,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 7,
+    "cache_misses": 0,
+    "local": {
+      "score": 70.09251923947488,
+      "weight": 0.6481496152105024,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear direct effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different hydrogen carrier, so its relevance to the target's performance is unclear."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Reversible hydrogen storage under mild conditions supports efficient carrier cycling."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Catalytic reversibility of alcohol-carbonyl systems enables reusable hydrogen carriers."
+        },
+        {
+          "id": "E7",
+          "direction": "favorable",
+          "reason": "Long-chain primary amines suppress imine byproduct formation, improving selectivity of the dehydrogenation carrier system."
+        },
+        {
+          "id": "E8",
+          "direction": "unfavorable",
+          "reason": "Thermal decomposition via C-C cleavage and retro-ene channels indicates carrier instability."
+        }
+      ]
+    },
+    "raw_combined": 61.72457892973299,
+    "sa_score": 4.442871191221453,
+    "sa_penalty": 1.8857423824429063,
+    "combined": 59.838836547290086,
+    "overall": 56.30090163786934,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/functional_group/lean/0",
+      "doi:10.1002/kin.20828/functional_group/lean/0",
+      "doi:10.1021/acsaem.6c00400/functional_group/lean/1",
+      "doi:10.1021/acscatal.1c03283/functional_group/lean/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "31ed827714f97ed0793581e7005a434eb33619518baf0cffa4ab1f9b36e072bf",
+    "cell": 36,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 7,
+    "cache_misses": 0,
+    "local": {
+      "score": 66.80103550295857,
+      "weight": 0.7139792899408284,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear favorable or unfavorable effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier structure."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation from a different hydrogen carrier does not establish a favorable or unfavorable effect for the target."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Reversible hydrogen storage under mild conditions supports efficient carrier cycling."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Catalytic reversibility of alcohol-carbonyl systems enables reusable hydrogen carriers."
+        },
+        {
+          "id": "E7",
+          "direction": "favorable",
+          "reason": "Long-chain primary amines suppress imine byproduct formation, improving selectivity of the dehydrogenation carrier system."
+        },
+        {
+          "id": "E8",
+          "direction": "unfavorable",
+          "reason": "Thermal decomposition via C-C cleavage and retro-ene channels indicates carrier instability."
+        }
+      ]
+    },
+    "raw_combined": 60.1922691235346,
+    "sa_score": 2.6845583446246213,
+    "sa_penalty": 0.0,
+    "combined": 60.1922691235346,
+    "overall": 55.47374679656864,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/functional_group/lean/0",
+      "doi:10.1002/kin.20828/functional_group/lean/0",
+      "doi:10.1021/acsaem.6c00400/functional_group/lean/1",
+      "doi:10.1021/acscatal.1c03283/functional_group/lean/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "564cccb4f7d947fcd41572877b8e9258e5e6861702025540fb17caa7444d4ed8",
+    "cell": 99,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 3,
+    "cache_misses": 0,
+    "local": {
+      "score": 66.66666666666667,
+      "weight": 1,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "favorable",
+          "reason": "Reversible hydrogen storage under mild conditions supports efficient carrier cycling."
+        },
+        {
+          "id": "E2",
+          "direction": "favorable",
+          "reason": "Catalytic reversibility of alcohol-carbonyl systems enables reusable hydrogen carriers."
+        },
+        {
+          "id": "E3",
+          "direction": "unfavorable",
+          "reason": "Thermal decomposition via C-C cleavage and retro-ene channels indicates carrier instability."
+        }
+      ]
+    },
+    "raw_combined": 60.405184681856305,
+    "sa_score": 4.911284945678126,
+    "sa_penalty": 2.8225698913562525,
+    "combined": 57.58261479050005,
+    "overall": 54.14370269704594,
+    "evidence_refs": [
+      "doi:10.1002/kin.20828/functional_group/lean/0",
+      "doi:10.1021/acsaem.6c00400/functional_group/lean/1",
+      "doi:10.1021/acscatal.1c03283/functional_group/lean/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "562cb65e208e27af60028223fb8b715cd160608e21aa79c9172c0983e7b27c66",
+    "cell": 68,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 6,
+    "cache_misses": 0,
+    "local": {
+      "score": 64.08890782559295,
+      "weight": 1,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear direct effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different hydrogen carrier, so its relevance to the target's performance is unclear."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Reversible hydrogen storage under mild conditions supports efficient carrier cycling."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Catalytic reversibility of alcohol-carbonyl systems enables reusable hydrogen carriers."
+        },
+        {
+          "id": "E7",
+          "direction": "unfavorable",
+          "reason": "Thermal decomposition via C-C cleavage and retro-ene channels indicates carrier instability."
+        }
+      ]
+    },
+    "raw_combined": 60.37737354620809,
+    "sa_score": 3.9340032876594506,
+    "sa_penalty": 0.8680065753189012,
+    "combined": 59.50936697088919,
+    "overall": 56.66583926682323,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/kin.20828/functional_group/lean/0",
+      "doi:10.1021/acsaem.6c00400/functional_group/lean/1",
+      "doi:10.1021/acscatal.1c03283/functional_group/lean/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "62fffbce8a6704adb948dddfe329607fddbbf0b11719712ce856382ee489672c",
+    "cell": 78,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 7,
+    "cache_misses": 0,
+    "local": {
+      "score": 51.37856718192628,
+      "weight": 0.32242865636147444,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear direct effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different hydrogen carrier, so its relevance to the target's performance is unclear."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Describes thermodynamic property derivation for related LOHC compounds without measuring the target carrier's performance."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Reversible hydrogen storage under mild conditions supports efficient carrier cycling."
+        },
+        {
+          "id": "E7",
+          "direction": "favorable",
+          "reason": "Catalytic reversibility of alcohol-carbonyl systems enables reusable hydrogen carriers."
+        },
+        {
+          "id": "E8",
+          "direction": "unfavorable",
+          "reason": "Thermal decomposition via C-C cleavage and retro-ene channels indicates carrier instability."
+        }
+      ]
+    },
+    "raw_combined": 55.21445681090741,
+    "sa_score": 2.790908889532865,
+    "sa_penalty": 0.0,
+    "combined": 55.21445681090741,
+    "overall": 56.45125754993071,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/kin.20828/functional_group/lean/0",
+      "doi:10.1021/acsaem.6c00400/functional_group/lean/1",
+      "doi:10.1021/acscatal.1c03283/functional_group/lean/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "0a7c4f55cf42d105f3c83eda93db3f2a96dc68a1ecc49a19cc2e55e243c3c23b",
+    "cell": 43,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 6,
+    "cache_misses": 0,
+    "local": {
+      "score": 63.41582347921492,
+      "weight": 1,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear direct effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different hydrogen carrier, so its relevance to the target's performance is unclear."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Reversible hydrogen storage under mild conditions supports efficient carrier cycling."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Catalytic reversibility of alcohol-carbonyl systems enables reusable hydrogen carriers."
+        },
+        {
+          "id": "E7",
+          "direction": "unfavorable",
+          "reason": "Thermal decomposition via C-C cleavage and retro-ene channels indicates carrier instability."
+        }
+      ]
+    },
+    "raw_combined": 60.114197517717585,
+    "sa_score": 4.216610029497367,
+    "sa_penalty": 1.4332200589947348,
+    "combined": 58.68097745872285,
+    "overall": 56.81257155622024,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/kin.20828/functional_group/lean/0",
+      "doi:10.1021/acsaem.6c00400/functional_group/lean/1",
+      "doi:10.1021/acscatal.1c03283/functional_group/lean/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "4d181d7c1df86602b86b264b317bf6015d4ee158c088107d952d5a13099bf434",
+    "cell": 4,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 6,
+    "cache_misses": 0,
+    "local": {
+      "score": 59.19439579684764,
+      "weight": 1,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear favorable or unfavorable effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier structure."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation from a different hydrogen carrier does not establish a favorable or unfavorable effect for the target."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Reversible hydrogen storage under mild conditions supports efficient carrier cycling."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Catalytic reversibility of alcohol-carbonyl systems enables reusable hydrogen carriers."
+        },
+        {
+          "id": "E7",
+          "direction": "unfavorable",
+          "reason": "Thermal decomposition via C-C cleavage and retro-ene channels indicates carrier instability."
+        }
+      ]
+    },
+    "raw_combined": 56.64239691533323,
+    "sa_score": 5.179842767265201,
+    "sa_penalty": 3.359685534530403,
+    "combined": 53.28271138080282,
+    "overall": 54.09039803381882,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/kin.20828/functional_group/lean/0",
+      "doi:10.1021/acsaem.6c00400/functional_group/lean/1",
+      "doi:10.1021/acscatal.1c03283/functional_group/lean/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "01741bfd2642c92294823ace7c37dbcdf504580537fdae54c09bd2317186a5b3",
+    "cell": 90,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 4,
+    "cache_misses": 0,
+    "local": {
+      "score": 47.2,
+      "weight": 0.05600000000000001,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway with no clear favorable or unfavorable effect on carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier structure."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation from a different hydrogen carrier does not establish a favorable or unfavorable effect for the target."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Alcohol dehydrogenation is a general functional-group property and its net effect on carrier performance is not established."
+        }
+      ]
+    },
+    "raw_combined": 53.39276941092005,
+    "sa_score": 5.458966688985994,
+    "sa_penalty": 3.9179333779719876,
+    "combined": 49.47483603294806,
+    "overall": 53.73956449793158,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  }
+]

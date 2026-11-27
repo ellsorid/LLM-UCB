@@ -1,0 +1,23 @@
+{
+  "answer": {
+    "edit_ids": [
+      "A1",
+      "A1B2"
+    ],
+    "reason": "A1 moves from seed cell 95 to sparsely occupied cell 51 (2 members), giving a modest local gain with low SD, then A1B2 reaches cell 78 with the largest predicted local/whole gains while exploring a new reachable cell; both edits are backed by rich matched memory and keep overall performance positive."
+  },
+  "audit": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 2225,
+      "completion_tokens": 84,
+      "total_tokens": 2309,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 2225
+    },
+    "http_status": 200
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "answer": {
+    "edit_ids": [
+      "A2",
+      "A2B2"
+    ],
+    "reason": "A2 gives the best first-step whole-cell gain with minimal local loss; A2B2 adds the largest whole delta and introduces hydroxyl units, covering an uncovered functional-group kind while exploring a reachable SOM cell."
+  },
+  "audit": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 2251,
+      "completion_tokens": 60,
+      "total_tokens": 2311,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 2251
+    },
+    "http_status": 200
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "answer": {
+    "edit_ids": [
+      "A1"
+    ],
+    "reason": "A1 is the only first edit that lowers SA (3.389, delta_sa -0.053, zero SA penalty) while keeping H2 at 4.0 and giving the smallest local loss (-0.033) and near-zero net delta (-0.031); it targets an undirected cell (exploration) and avoids gratuitous poly-alkyne/high-SA chains. A1B1/A1B2 add no extra SA benefit and further cut H2, so stopping at A1 preserves the cleaner synthetic profile."
+  },
+  "audit": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 4547,
+      "completion_tokens": 122,
+      "total_tokens": 4669,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 4547
+    },
+    "http_status": 200
+  }
+}

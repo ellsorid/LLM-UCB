@@ -1,0 +1,196 @@
+[
+  {
+    "uid": "d2c7e1ddd014466e7b911555d7470d8c2031b401bb7b260cd498282f28f0a1a7",
+    "states": [
+      "C=CC(C)=C(N)c1ncnc(O)c1C(C)=O",
+      "CCC(C)C(N)C1NCNC(O)C1C(C)O"
+    ],
+    "parent": "3e5ca4bb6e7f68112360a9ab70e37a13d803aa7148fa164c76b72c9c7bb1aeff",
+    "edit": {
+      "parent_index": 0,
+      "site": 11,
+      "kind": "methyl",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "ecc0199bb61d71ad8067899a9faf444acbec1bc9fe4acefc50397d33ec72bbda",
+    "states": [
+      "CC(=O)c1c(O)ncnc1C(N)=CO",
+      "CC(O)C1C(O)NCNC1C(N)CO"
+    ],
+    "parent": "da8d3da62db41cb6944077be18dea179c7a2e9a46792efdab4ceda3dfc3f1fb9",
+    "edit": {
+      "parent_index": 0,
+      "site": 11,
+      "kind": "hydroxyl",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "d83b9f8811054b6f91c54024ecb5c19ec9bbe82f396fecf497f9fbd9bb7dd9db",
+    "states": [
+      "O=C(CO)c1c(O)nc(O)nc1O",
+      "OCC(O)C1C(O)NC(O)NC1O"
+    ],
+    "parent": "66d1caa3578d789ba0197be9b4abe20e1d8c0649aca0846be4c69cf28878af96",
+    "edit": {
+      "parent_index": 0,
+      "site": 0,
+      "kind": "hydroxyl",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "a65a8d8405048f59e446496608a7ced156ae4cdf8e4136dbc462e1002b4ff97f",
+    "states": [
+      "C=Cc1nc(O)c(C(C)=O)c(C(=C)N)n1",
+      "CCC1NC(O)C(C(C)O)C(C(C)N)N1"
+    ],
+    "parent": "da8d3da62db41cb6944077be18dea179c7a2e9a46792efdab4ceda3dfc3f1fb9",
+    "edit": {
+      "parent_index": 0,
+      "site": 6,
+      "kind": "vinyl_ethyl",
+      "delta_nH2": 1
+    }
+  },
+  {
+    "uid": "625e67eb2fd51b1c26823849258fa210a072eda9109eceaf2ccbf3661606f553",
+    "states": [
+      "CC=c1cc(O)c(OC=O)cc1=CC",
+      "CC=C1CC(O)C(OC=O)CC1=CC"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "d3bd041b3dd50a37787e0439c297fc56ef7b2dadb2c8570bb7fd8e75b992bac9",
+    "states": [
+      "CC(=O)OC(=O)Cn1nc(O)c(CC#CO)c1N",
+      "CC(=O)OC(=O)CN1NC(O)C(CC#CO)C1N"
+    ],
+    "parent": "7c4c2004921300e6613dc7bc83d2aa8e34cfbcbe73a7d380b7a4bc5247bd84a8",
+    "edit": {
+      "parent_index": 0,
+      "site": 0,
+      "kind": "hydroxyl",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "682afb5259d5167b9516c637b453ab2388df7e739984968bbded779891519021",
+    "states": [
+      "C=CC(=O)Oc1cc(=C(O)CC)c(=C(C)C)c(C)c1O",
+      "CCC(=O)OC1CC(=C(O)CC)C(=C(C)C)C(C)C1O"
+    ],
+    "parent": "73647ee7e7617941a60e9f885f604880cbe92971284f5141a2746943ccb4400f",
+    "edit": {
+      "parent_index": 0,
+      "site": 13,
+      "kind": "methyl",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "0762f0d2f8462f637f1e30921008defd9fff726b04f185ce25887a436e6e1cfe",
+    "states": [
+      "CC(=O)c1cncnc1C",
+      "CC(O)C1CNCNC1C"
+    ],
+    "parent": "9f8674b48bc19c507a29f25320f2f39c1b92e325e1a4c4cff5acc457cb53e41d",
+    "edit": {
+      "parent_index": 0,
+      "site": 4,
+      "kind": "methyl",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "8410f7dd410a68f1422893ed870f26f26dc987a76cd09bd778b5e8aeaf98fb41",
+    "states": [
+      "C=CC(OCC(C=C)C=C)=C(C)Cc1ccc(O)cc1",
+      "CCC(OCC(CC)CC)=C(C)CC1CCC(O)CC1"
+    ],
+    "parent": "b510d2c494cacf99f2e0c6350443373fbd6176c2fce5b1d763ea6e78ff69fae2",
+    "edit": {
+      "parent_index": 0,
+      "site": 4,
+      "kind": "methyl",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "0da39aa9253b490561ee34eb4023eb0c53614b1f97ad608907f2ad88af9a5932",
+    "states": [
+      "OCCOC=CCc1ccc(O)cc1",
+      "OCCOC=CCC1CCC(O)CC1"
+    ],
+    "parent": "391e363c578894cf79daf4cd2d581f3ad93cbb752e230fe8aa30a2b1d972a552",
+    "edit": {
+      "parent_index": 0,
+      "site": 0,
+      "kind": "hydroxyl",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "32d5cf156677ed0f4b28f88dc464efc18d487e49202aff90120ba80b6242e195",
+    "states": [
+      "CC(=O)c1c(N)nc(O)nc1N",
+      "CC(O)C1C(N)NC(O)NC1N"
+    ],
+    "parent": "074ebb121a28e81452eb70c2d4872fe74c6b9126a352a14631799a5ed8263c89",
+    "edit": {
+      "parent_index": 0,
+      "site": 8,
+      "kind": "amino",
+      "delta_nH2": 0
+    }
+  },
+  {
+    "uid": "e2c067ce68bba9c0c2e468d1cff3b820cd83c329302930413c8452c370f98d84",
+    "states": [
+      "O=C=COc1ccc(OC=CC=CCO)cc1O",
+      "O=C=COC1CCC(OC=CC=CCO)CC1O"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "6ac448e8346fce941a98899fc5969bb6391d36a2c4466a5b828e3ecab6704497",
+    "states": [
+      "CCC#CC#CC1CN1",
+      "CCCCCCC1CN1"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "9f8674b48bc19c507a29f25320f2f39c1b92e325e1a4c4cff5acc457cb53e41d",
+    "states": [
+      "CC(=O)c1cncnc1",
+      "CC(O)C1CNCNC1"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "a5c390f948ecd591fbe7fafb0304e7f26ae867d343db93acb611ed95837397c9",
+    "states": [
+      "O=Cc1cc(Cc2ccccc2)oc1O",
+      "O=CC1CC(CC2CCCCC2)OC1O"
+    ],
+    "parent": null,
+    "edit": null
+  },
+  {
+    "uid": "f082d00dd58afe85cfe713329b991e31e97b4f05c98d4db9a129b13120a2bf84",
+    "states": [
+      "C=C(C)c1ccccc1COc1ccc(O)cc1",
+      "C=C(C)C1CCCCC1COC1CCC(O)CC1"
+    ],
+    "parent": null,
+    "edit": null
+  }
+]

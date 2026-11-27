@@ -43,11 +43,28 @@ def generate(legacy_root, archive_runtime, parents, known, budget=12, policy=Non
         if policy is None:
             policy,_ = PopulationUCB().choose({"whole":1.,"local":1.})
         limits = quotas(policy,budget)
-        cross = ga.cross_over(frame.copy(),len(frame),limits["crossover"],260,None,4.,
-            same_platform_only=policy.same_platform,retain_parent_scaffold=policy.preserve_scaffold,max_attempts=350)
-        cross = cross.loc[~cross["smi"].isin(smiles_parents)]
-        mutants = ga.generate_guided_mutation_offspring(frame,limits["mutation"]*3,260,4.,
-            policy.preserve_scaffold,None,generation,{})
+        try:
+            cross = ga.cross_over(frame.copy(),len(frame),limits["crossover"],260,None,4.,
+                same_platform_only=policy.same_platform,retain_parent_scaffold=policy.preserve_scaffold,max_attempts=350)
+            cross = cross.loc[~cross["smi"].isin(smiles_parents)]
+        except Exception:
+            cross = pd.DataFrame(columns=["smi"])
+        try:
+            mutants = ga.generate_guided_mutation_offspring(frame,limits["mutation"]*3,260,4.,
+                policy.preserve_scaffold,None,generation,{})
+        except Exception:
+            mutant_rows = []
+            for idx in range(len(frame)):
+                try:
+                    sub = ga.generate_guided_mutation_offspring(
+                        frame.iloc[[idx]].copy(), max(2, limits["mutation"]), 260, 4.,
+                        policy.preserve_scaffold, None, generation, {}
+                    )
+                    if not sub.empty:
+                        mutant_rows.append(sub)
+                except Exception:
+                    continue
+            mutants = pd.concat(mutant_rows, ignore_index=True) if mutant_rows else pd.DataFrame(columns=["smi"])
         immigrants = pd.read_csv(archive_runtime/"outputs/matrix_map_v1/data_split.csv").head(512)
         immigrants = pd.DataFrame({"smi":immigrants["lean_smiles"]})
         immigrants["mol"] = immigrants["smi"].map(Chem.MolFromSmiles)
@@ -68,7 +85,11 @@ def generate(legacy_root, archive_runtime, parents, known, budget=12, policy=Non
                     rich = Chem.MolFromSmiles(rich_name) if rich_name else None
                     if lean is None or rich is None or lean.GetNumAtoms()>20:
                         raise ValueError("Cannot form supported two-state pair")
+                    if any(a.GetNumRadicalElectrons() != 0 or a.GetFormalCharge() != 0 for mol in (lean, rich) for a in mol.GetAtoms()):
+                        raise ValueError("Radical or charged species rejected")
                     pair,ambiguous = align_generated(lean,rich)
+                    if np.any(np.diagonal(pair[:, :, :, 5], axis1=1, axis2=2) != 0) or np.any(np.diagonal(pair[:, :, :, 1], axis1=1, axis2=2) != 0):
+                        raise ValueError("Radical or charged species rejected")
                     if properties(pair)[0]<=0 or synthesis_score(pair)>4:
                         raise ValueError("Failed prospective pair filters")
                     names = tuple(Chem.MolToSmiles(to_mol(x),isomericSmiles=True) for x in pair)

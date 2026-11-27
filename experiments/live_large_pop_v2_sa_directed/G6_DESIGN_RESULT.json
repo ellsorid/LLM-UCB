@@ -1,0 +1,23 @@
+{
+  "answer": {
+    "edit_ids": [
+      "A1",
+      "A1B1"
+    ],
+    "reason": "A1 hydroxylates the alkyne chain into cell 71 (unvisited), lowering SA (3.615, delta_sa -0.034) and adding a polar unit with positive net/local gain. A1B1 adds a methyl that further lowers SA to 3.593 and boosts net_pred_delta to 0.544 with the best whole/local deltas and response shift, staying in unexplored cell 71—clean synthetic gain without poly-alkyne penalty."
+  },
+  "audit": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 4765,
+      "completion_tokens": 116,
+      "total_tokens": 4881,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 4637
+    },
+    "http_status": 200
+  }
+}

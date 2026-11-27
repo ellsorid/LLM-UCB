@@ -1,0 +1,64 @@
+{
+  "figure": "Fig2a_composed",
+  "width_mm": 180.0,
+  "height_mm": 106.0,
+  "width_pt": 510.236,
+  "height_pt": 300.472,
+  "composed_directly_from_svg_primitives": true,
+  "panels": {
+    "a1": {
+      "source_svg": "D:\\LLM-UCB\\visualization\\output\\fig2_saddle\\Fig2_directed_saddle.svg",
+      "source_tight_bbox_pt": [
+        87.45,
+        95.9,
+        427.28,
+        251.75
+      ],
+      "target_box_pt": [
+        10.0,
+        20.0,
+        218.0,
+        140.0
+      ],
+      "scale": 0.61208
+    },
+    "a2": {
+      "source_svg": "D:\\LLM-UCB\\visualization\\output\\fig2_saddle\\Fig2_score_gradient.svg",
+      "source_tight_bbox_pt": [
+        114.44,
+        103.89,
+        417.29,
+        248.75
+      ],
+      "target_box_pt": [
+        10.0,
+        156.0,
+        218.0,
+        272.0
+      ],
+      "scale": 0.68682
+    },
+    "a3": {
+      "source_svg": "D:\\LLM-UCB\\visualization\\output\\fig2_saddle\\Fig2_som_migration_relief.svg",
+      "source_tight_bbox_pt": [
+        100.95,
+        115.38,
+        414.29,
+        282.22
+      ],
+      "target_box_pt": [
+        234.0,
+        24.0,
+        500.0,
+        270.0
+      ],
+      "scale": 0.84892
+    }
+  },
+  "outputs": [
+    "D:\\LLM-UCB\\visualization\\output\\fig2_saddle\\Fig2a_composed.svg",
+    "D:\\LLM-UCB\\visualization\\output\\fig2_saddle\\Fig2a_composed.pdf",
+    "D:\\LLM-UCB\\visualization\\output\\fig2_saddle\\Fig2a_composed.png",
+    "D:\\LLM-UCB\\visualization\\output\\fig2_saddle\\Fig2a_composed.tiff"
+  ]
+}

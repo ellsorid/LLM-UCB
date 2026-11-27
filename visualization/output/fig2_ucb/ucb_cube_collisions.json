@@ -1,0 +1,72 @@
+{
+  "pdf": "D:\\LLM-UCB\\visualization\\output\\fig2_ucb\\Fig2b_ucb_cube.pdf",
+  "auditable": true,
+  "verdict": "REVIEW REQUIRED",
+  "page_count": 1,
+  "visible_text_box_count": 17,
+  "text_trace_count": 17,
+  "stroke_path_count": 208,
+  "filled_region_count": 34,
+  "image_region_count": 6,
+  "summary": {
+    "fail": 0,
+    "warn": 2,
+    "contained_fill_overlays": 0,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": [
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "Whole structure (P_whole)",
+      "text_bbox": [
+        116.57176971435547,
+        247.62510681152344,
+        193.1483154296875,
+        254.12510681152344
+      ],
+      "other_text": null,
+      "other_bbox": [
+        159.06417846679688,
+        170.64593505859375,
+        355.33648681640625,
+        262.19439697265625
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        3
+      ]
+    },
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "Local structure (P_local)",
+      "text_bbox": [
+        333.1774597167969,
+        241.95298767089844,
+        403.2540283203125,
+        248.45298767089844
+      ],
+      "other_text": null,
+      "other_bbox": [
+        159.06417846679688,
+        170.64593505859375,
+        355.33648681640625,
+        262.19439697265625
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        3
+      ]
+    }
+  ]
+}

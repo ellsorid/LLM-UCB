@@ -1,0 +1,752 @@
+{
+  "goal": "Improve local performance and H2 storage while retaining overall score, penalizing high SA, and covering unexplored SOM cells",
+  "seed_cell": 36,
+  "root_molecule": {
+    "uid": "da8d3da62db41cb6944077be18dea179c7a2e9a46792efdab4ceda3dfc3f1fb9",
+    "cell": 36,
+    "lean_smiles": "C=C(N)c1ncnc(O)c1C(C)=O",
+    "rich_smiles": "CC(N)C1NCNC(O)C1C(C)O",
+    "score": 81.694,
+    "sa_score": 3.22,
+    "sa_penalty_points": 0.0,
+    "nH2": 5.0,
+    "h2_wt_percent": 5.326,
+    "units": [
+      "lean:C_attached_chain",
+      "lean:amine",
+      "lean:carbonyl",
+      "lean:conjugated_component",
+      "lean:hydroxyl",
+      "lean:net_hydrogenation_region",
+      "lean:phenol",
+      "lean:ring_system",
+      "rich:C_attached_chain",
+      "rich:amine",
+      "rich:hydroxyl",
+      "rich:net_hydrogenation_region",
+      "rich:ring_system"
+    ]
+  },
+  "sa_penalty_rule": {
+    "threshold": 3.5,
+    "weight": 2.0
+  },
+  "scoring_observations": 84,
+  "allowed_edit_paths": [
+    {
+      "id": "A1",
+      "site": 11,
+      "operator": "vinyl_ethyl",
+      "target_cell": 36,
+      "lean_smiles": "C=CC=C(N)c1ncnc(O)c1C(C)=O",
+      "rich_smiles": "CCCC(N)C1NCNC(O)C1C(C)O",
+      "sa_score": 3.495,
+      "delta_sa": 0.275,
+      "sa_penalty_points": 0.0,
+      "net_pred_delta_points": 0.679,
+      "nH2": 6.0,
+      "h2_wt_percent": 5.566,
+      "delta_h2_wt_percent": 0.24,
+      "dst_cell_already_directed": false,
+      "destination_response_delta": 0.000271,
+      "whole_delta_points": 0.321,
+      "local_delta_points": 0.359,
+      "whole_sd_points": 1.12,
+      "local_sd_points": 1.17,
+      "evidence_gap": 0.75,
+      "step": 1,
+      "added_units": [],
+      "removed_units": [],
+      "target_cell_kalman": {
+        "whole_mean": 63.29,
+        "whole_sd": 40.29,
+        "local_mean": 84.45,
+        "local_sd": 40.33,
+        "occupied_count": 21
+      },
+      "matched_memory": [
+        {
+          "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+          "kind": "functional_group",
+          "state": "rich",
+          "similarity": 0.538
+        },
+        {
+          "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+          "kind": "functional_group",
+          "state": "rich",
+          "similarity": 0.538
+        },
+        {
+          "source_id": "P3140ddbb70ff",
+          "kind": "functional_group",
+          "state": "rich",
+          "similarity": 0.538
+        }
+      ],
+      "uncovered_unit_kinds": [
+        "attachment",
+        "reaction_change",
+        "ring_or_conjugation"
+      ],
+      "continuations": [
+        {
+          "id": "A1B1",
+          "site": 0,
+          "operator": "methyl",
+          "target_cell": 105,
+          "lean_smiles": "C=CC=C(N)c1ncnc(O)c1C(=O)CC",
+          "rich_smiles": "CCCC(N)C1NCNC(O)C1C(O)CC",
+          "sa_score": 3.507,
+          "delta_sa": 0.287,
+          "sa_penalty_points": 0.014,
+          "net_pred_delta_points": 1.081,
+          "nH2": 6.0,
+          "h2_wt_percent": 5.229,
+          "delta_h2_wt_percent": -0.097,
+          "dst_cell_already_directed": false,
+          "destination_response_delta": 0.003611,
+          "whole_delta_points": 0.519,
+          "local_delta_points": 0.575,
+          "whole_sd_points": 1.82,
+          "local_sd_points": 1.89,
+          "evidence_gap": 0.75,
+          "step": 2,
+          "added_units": [],
+          "removed_units": [],
+          "target_cell_kalman": {
+            "whole_mean": 63.69,
+            "whole_sd": 32.46,
+            "local_mean": 84.58,
+            "local_sd": 32.54,
+            "occupied_count": 0
+          },
+          "matched_memory": [
+            {
+              "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.538
+            },
+            {
+              "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.538
+            },
+            {
+              "source_id": "P3140ddbb70ff",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.538
+            }
+          ],
+          "uncovered_unit_kinds": [
+            "attachment",
+            "reaction_change",
+            "ring_or_conjugation"
+          ]
+        },
+        {
+          "id": "A1B2",
+          "site": 11,
+          "operator": "methyl",
+          "target_cell": 18,
+          "lean_smiles": "C=CC(C)=C(N)c1ncnc(O)c1C(C)=O",
+          "rich_smiles": "CCC(C)C(N)C1NCNC(O)C1C(C)O",
+          "sa_score": 3.454,
+          "delta_sa": 0.234,
+          "sa_penalty_points": 0.0,
+          "net_pred_delta_points": 1.035,
+          "nH2": 6.0,
+          "h2_wt_percent": 5.229,
+          "delta_h2_wt_percent": -0.097,
+          "dst_cell_already_directed": false,
+          "destination_response_delta": 0.00417,
+          "whole_delta_points": 0.486,
+          "local_delta_points": 0.548,
+          "whole_sd_points": 1.69,
+          "local_sd_points": 1.76,
+          "evidence_gap": 0.75,
+          "step": 2,
+          "added_units": [],
+          "removed_units": [],
+          "target_cell_kalman": {
+            "whole_mean": 64.21,
+            "whole_sd": 40.32,
+            "local_mean": 85.72,
+            "local_sd": 40.39,
+            "occupied_count": 1
+          },
+          "matched_memory": [
+            {
+              "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.538
+            },
+            {
+              "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.538
+            },
+            {
+              "source_id": "P3140ddbb70ff",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.538
+            }
+          ],
+          "uncovered_unit_kinds": [
+            "attachment",
+            "reaction_change",
+            "ring_or_conjugation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "site": 0,
+      "operator": "vinyl_ethyl",
+      "target_cell": 36,
+      "lean_smiles": "C=CCC(=O)c1c(O)ncnc1C(=C)N",
+      "rich_smiles": "CCCC(O)C1C(O)NCNC1C(C)N",
+      "sa_score": 3.546,
+      "delta_sa": 0.326,
+      "sa_penalty_points": 0.091,
+      "net_pred_delta_points": 0.566,
+      "nH2": 6.0,
+      "h2_wt_percent": 5.566,
+      "delta_h2_wt_percent": 0.24,
+      "dst_cell_already_directed": false,
+      "destination_response_delta": 0.000247,
+      "whole_delta_points": 0.31,
+      "local_delta_points": 0.347,
+      "whole_sd_points": 1.08,
+      "local_sd_points": 1.13,
+      "evidence_gap": 0.75,
+      "step": 1,
+      "added_units": [],
+      "removed_units": [],
+      "target_cell_kalman": {
+        "whole_mean": 63.29,
+        "whole_sd": 40.29,
+        "local_mean": 84.45,
+        "local_sd": 40.33,
+        "occupied_count": 21
+      },
+      "matched_memory": [
+        {
+          "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+          "kind": "functional_group",
+          "state": "rich",
+          "similarity": 0.538
+        },
+        {
+          "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+          "kind": "functional_group",
+          "state": "rich",
+          "similarity": 0.538
+        },
+        {
+          "source_id": "P3140ddbb70ff",
+          "kind": "functional_group",
+          "state": "rich",
+          "similarity": 0.538
+        }
+      ],
+      "uncovered_unit_kinds": [
+        "attachment",
+        "reaction_change",
+        "ring_or_conjugation"
+      ],
+      "continuations": [
+        {
+          "id": "A2B1",
+          "site": 6,
+          "operator": "methyl",
+          "target_cell": 18,
+          "lean_smiles": "C=CCC(=O)c1c(O)nc(C)nc1C(=C)N",
+          "rich_smiles": "CCCC(O)C1C(O)NC(C)NC1C(C)N",
+          "sa_score": 3.514,
+          "delta_sa": 0.294,
+          "sa_penalty_points": 0.027,
+          "net_pred_delta_points": 1.022,
+          "nH2": 6.0,
+          "h2_wt_percent": 5.229,
+          "delta_h2_wt_percent": -0.097,
+          "dst_cell_already_directed": false,
+          "destination_response_delta": 0.003954,
+          "whole_delta_points": 0.494,
+          "local_delta_points": 0.555,
+          "whole_sd_points": 1.72,
+          "local_sd_points": 1.79,
+          "evidence_gap": 0.75,
+          "step": 2,
+          "added_units": [],
+          "removed_units": [],
+          "target_cell_kalman": {
+            "whole_mean": 64.21,
+            "whole_sd": 40.32,
+            "local_mean": 85.72,
+            "local_sd": 40.39,
+            "occupied_count": 1
+          },
+          "matched_memory": [
+            {
+              "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.615
+            },
+            {
+              "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.615
+            },
+            {
+              "source_id": "P3140ddbb70ff",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.615
+            }
+          ],
+          "uncovered_unit_kinds": [
+            "attachment",
+            "reaction_change",
+            "ring_or_conjugation"
+          ]
+        },
+        {
+          "id": "A2B2",
+          "site": 6,
+          "operator": "amino",
+          "target_cell": 18,
+          "lean_smiles": "C=CCC(=O)c1c(O)nc(N)nc1C(=C)N",
+          "rich_smiles": "CCCC(O)C1C(O)NC(N)NC1C(C)N",
+          "sa_score": 3.504,
+          "delta_sa": 0.284,
+          "sa_penalty_points": 0.008,
+          "net_pred_delta_points": 0.983,
+          "nH2": 6.0,
+          "h2_wt_percent": 5.206,
+          "delta_h2_wt_percent": -0.12,
+          "dst_cell_already_directed": false,
+          "destination_response_delta": 0.003775,
+          "whole_delta_points": 0.466,
+          "local_delta_points": 0.525,
+          "whole_sd_points": 1.61,
+          "local_sd_points": 1.68,
+          "evidence_gap": 0.75,
+          "step": 2,
+          "added_units": [],
+          "removed_units": [],
+          "target_cell_kalman": {
+            "whole_mean": 64.21,
+            "whole_sd": 40.32,
+            "local_mean": 85.72,
+            "local_sd": 40.39,
+            "occupied_count": 1
+          },
+          "matched_memory": [
+            {
+              "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.615
+            },
+            {
+              "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.615
+            },
+            {
+              "source_id": "P3140ddbb70ff",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.615
+            }
+          ],
+          "uncovered_unit_kinds": [
+            "attachment",
+            "reaction_change",
+            "ring_or_conjugation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "site": 11,
+      "operator": "hydroxyl",
+      "target_cell": 36,
+      "lean_smiles": "CC(=O)c1c(O)ncnc1C(N)=CO",
+      "rich_smiles": "CC(O)C1C(O)NCNC1C(N)CO",
+      "sa_score": 3.465,
+      "delta_sa": 0.246,
+      "sa_penalty_points": 0.0,
+      "net_pred_delta_points": 0.364,
+      "nH2": 5.0,
+      "h2_wt_percent": 4.911,
+      "delta_h2_wt_percent": -0.415,
+      "dst_cell_already_directed": false,
+      "destination_response_delta": 0.000505,
+      "whole_delta_points": 0.164,
+      "local_delta_points": 0.199,
+      "whole_sd_points": 0.56,
+      "local_sd_points": 0.58,
+      "evidence_gap": 0.75,
+      "step": 1,
+      "added_units": [],
+      "removed_units": [],
+      "target_cell_kalman": {
+        "whole_mean": 63.29,
+        "whole_sd": 40.29,
+        "local_mean": 84.45,
+        "local_sd": 40.33,
+        "occupied_count": 21
+      },
+      "matched_memory": [
+        {
+          "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+          "kind": "functional_group",
+          "state": "rich",
+          "similarity": 0.538
+        },
+        {
+          "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+          "kind": "functional_group",
+          "state": "rich",
+          "similarity": 0.538
+        },
+        {
+          "source_id": "P3140ddbb70ff",
+          "kind": "functional_group",
+          "state": "rich",
+          "similarity": 0.538
+        }
+      ],
+      "uncovered_unit_kinds": [
+        "attachment",
+        "reaction_change",
+        "ring_or_conjugation"
+      ],
+      "continuations": [
+        {
+          "id": "A3B1",
+          "site": 11,
+          "operator": "vinyl_ethyl",
+          "target_cell": 18,
+          "lean_smiles": "C=CC(O)=C(N)c1ncnc(O)c1C(C)=O",
+          "rich_smiles": "CCC(O)C(N)C1NCNC(O)C1C(C)O",
+          "sa_score": 3.54,
+          "delta_sa": 0.32,
+          "sa_penalty_points": 0.08,
+          "net_pred_delta_points": 0.997,
+          "nH2": 6.0,
+          "h2_wt_percent": 5.184,
+          "delta_h2_wt_percent": -0.142,
+          "dst_cell_already_directed": false,
+          "destination_response_delta": 0.004253,
+          "whole_delta_points": 0.501,
+          "local_delta_points": 0.576,
+          "whole_sd_points": 1.72,
+          "local_sd_points": 1.79,
+          "evidence_gap": 0.75,
+          "step": 2,
+          "added_units": [],
+          "removed_units": [],
+          "target_cell_kalman": {
+            "whole_mean": 64.21,
+            "whole_sd": 40.32,
+            "local_mean": 85.72,
+            "local_sd": 40.39,
+            "occupied_count": 1
+          },
+          "matched_memory": [
+            {
+              "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.538
+            },
+            {
+              "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.538
+            },
+            {
+              "source_id": "P3140ddbb70ff",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.538
+            }
+          ],
+          "uncovered_unit_kinds": [
+            "attachment",
+            "reaction_change",
+            "ring_or_conjugation"
+          ]
+        },
+        {
+          "id": "A3B2",
+          "site": 11,
+          "operator": "hydroxyl",
+          "target_cell": 71,
+          "lean_smiles": "CC(=O)c1c(O)ncnc1C(N)=C(O)O",
+          "rich_smiles": "CC(O)C1C(O)NCNC1C(N)C(O)O",
+          "sa_score": 3.311,
+          "delta_sa": 0.092,
+          "sa_penalty_points": 0.0,
+          "net_pred_delta_points": 0.726,
+          "nH2": 5.0,
+          "h2_wt_percent": 4.556,
+          "delta_h2_wt_percent": -0.77,
+          "dst_cell_already_directed": false,
+          "destination_response_delta": 0.004717,
+          "whole_delta_points": 0.326,
+          "local_delta_points": 0.4,
+          "whole_sd_points": 1.12,
+          "local_sd_points": 1.16,
+          "evidence_gap": 0.75,
+          "step": 2,
+          "added_units": [],
+          "removed_units": [],
+          "target_cell_kalman": {
+            "whole_mean": 64.3,
+            "whole_sd": 35.83,
+            "local_mean": 86.02,
+            "local_sd": 35.92,
+            "occupied_count": 2
+          },
+          "matched_memory": [
+            {
+              "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.538
+            },
+            {
+              "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.538
+            },
+            {
+              "source_id": "P3140ddbb70ff",
+              "kind": "functional_group",
+              "state": "rich",
+              "similarity": 0.538
+            }
+          ],
+          "uncovered_unit_kinds": [
+            "attachment",
+            "reaction_change",
+            "ring_or_conjugation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A4",
+      "site": 0,
+      "operator": "hydroxyl",
+      "target_cell": 36,
+      "lean_smiles": "C=C(N)c1ncnc(O)c1C(=O)CO",
+      "rich_smiles": "CC(N)C1NCNC(O)C1C(O)CO",
+      "sa_score": 3.444,
+      "delta_sa": 0.225,
+      "sa_penalty_points": 0.0,
+      "net_pred_delta_points": 0.354,
+      "nH2": 5.0,
+      "h2_wt_percent": 4.911,
+      "delta_h2_wt_percent": -0.415,
+      "dst_cell_already_directed": false,
+      "destination_response_delta": 0.000479,
+      "whole_delta_points": 0.16,
+      "local_delta_points": 0.194,
+      "whole_sd_points": 0.55,
+      "local_sd_points": 0.57,
+      "evidence_gap": 0.75,
+      "step": 1,
+      "added_units": [],
+      "removed_units": [],
+      "target_cell_kalman": {
+        "whole_mean": 63.29,
+        "whole_sd": 40.29,
+        "local_mean": 84.45,
+        "local_sd": 40.33,
+        "occupied_count": 21
+      },
+      "matched_memory": [
+        {
+          "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+          "kind": "functional_group",
+          "state": "rich",
+          "similarity": 0.538
+        },
+        {
+          "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+          "kind": "functional_group",
+          "state": "rich",
+          "similarity": 0.538
+        },
+        {
+          "source_id": "P3140ddbb70ff",
+          "kind": "functional_group",
+          "state": "rich",
+          "similarity": 0.538
+        }
+      ],
+      "uncovered_unit_kinds": [
+        "attachment",
+        "reaction_change",
+        "ring_or_conjugation"
+      ],
+      "continuations": []
+    },
+    {
+      "id": "A5",
+      "site": 6,
+      "operator": "hydroxyl",
+      "target_cell": 36,
+      "lean_smiles": "C=C(N)c1nc(O)nc(O)c1C(C)=O",
+      "rich_smiles": "CC(N)C1NC(O)NC(O)C1C(C)O",
+      "sa_score": 3.409,
+      "delta_sa": 0.19,
+      "sa_penalty_points": 0.0,
+      "net_pred_delta_points": 0.351,
+      "nH2": 5.0,
+      "h2_wt_percent": 4.911,
+      "delta_h2_wt_percent": -0.415,
+      "dst_cell_already_directed": false,
+      "destination_response_delta": 0.000361,
+      "whole_delta_points": 0.156,
+      "local_delta_points": 0.195,
+      "whole_sd_points": 0.54,
+      "local_sd_points": 0.56,
+      "evidence_gap": 0.75,
+      "step": 1,
+      "added_units": [],
+      "removed_units": [],
+      "target_cell_kalman": {
+        "whole_mean": 63.29,
+        "whole_sd": 40.29,
+        "local_mean": 84.45,
+        "local_sd": 40.33,
+        "occupied_count": 21
+      },
+      "matched_memory": [
+        {
+          "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+          "kind": "functional_group",
+          "state": "rich",
+          "similarity": 0.615
+        },
+        {
+          "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+          "kind": "functional_group",
+          "state": "rich",
+          "similarity": 0.615
+        },
+        {
+          "source_id": "P3140ddbb70ff",
+          "kind": "functional_group",
+          "state": "rich",
+          "similarity": 0.615
+        }
+      ],
+      "uncovered_unit_kinds": [
+        "attachment",
+        "reaction_change",
+        "ring_or_conjugation"
+      ],
+      "continuations": []
+    }
+  ],
+  "discovered_chemical_rules": [
+    {
+      "rule_id": "R_ef63c6fdfc",
+      "name": "alkynyl_nitrile_or_alkynyl_aziridine_thermal_penalty",
+      "chemical_statement": "Terminal/conjugated alkyne adjacent to a nitrile or strained aziridine/cyclopropane-fused ring is thermally labile toward polymerization and scores ~18–24 points below additive H2-capacity predictions despite high H2 wt%.",
+      "predicate_type": "smarts_lean",
+      "expected_direction": "unfavorable",
+      "scope_tier": 3,
+      "status": "tentative",
+      "beta_points": -7.519,
+      "sd_points": 16.836,
+      "z_score": 0.45,
+      "n_matched": 1
+    },
+    {
+      "rule_id": "R_2ee568398a",
+      "name": "n_alkyl_carbazole_dealkylation_risk",
+      "chemical_statement": "N-alkyl carbazole carriers dehydrogenate stepwise before C–N alkyl cleavage at 380–390 K on Pt(111); longer N-alkyl chains (propyl/butyl) lower the onset of dealkylation relative to ethyl, imposing a regeneration penalty that scales with chain length.",
+      "predicate_type": "smarts_lean",
+      "expected_direction": "unfavorable",
+      "scope_tier": 1,
+      "status": "revised",
+      "beta_points": -3.25,
+      "sd_points": 20.0,
+      "z_score": 0.16,
+      "n_matched": 0
+    },
+    {
+      "rule_id": "R_644f8083a6",
+      "name": "ortho_methyl_shielding_of_ring_n_favorable",
+      "chemical_statement": "An ortho-methyl substituent adjacent to a ring nitrogen sterically shields the N–C(alkyl) bond and suppresses dealkylation, preserving reversible dehydrogenation and giving a modest favorable score contribution.",
+      "predicate_type": "smarts_lean",
+      "expected_direction": "favorable",
+      "scope_tier": 2,
+      "status": "revised",
+      "beta_points": 2.7,
+      "sd_points": 20.0,
+      "z_score": 0.14,
+      "n_matched": 0
+    },
+    {
+      "rule_id": "R_f739b3c00b",
+      "name": "alkynyl_cyano_aziridine_crosslinking_penalty",
+      "chemical_statement": "Conjugated alkyne–nitrile motifs fused to or adjacent to strained aziridine/cyclopropane rings are thermally prone to polymerization/cross-linking, so real composite scores fall ~20–27 points below additive H2-capacity predictions despite high H2 wt%.",
+      "predicate_type": "smarts_rich",
+      "expected_direction": "unfavorable",
+      "scope_tier": 3,
+      "status": "tentative",
+      "beta_points": -2.1,
+      "sd_points": 20.0,
+      "z_score": 0.1,
+      "n_matched": 0
+    },
+    {
+      "rule_id": "R_e32b433031",
+      "name": "aryl_aldehyde_ortho_carboxyl_deactivation_penalty",
+      "chemical_statement": "Aryl aldehydes bearing an ortho/adjacent carboxylic acid (or fused aryl aldehyde–acid) are deactivated toward reversible carbonyl hydrogenation by intramolecular H-bonding/cyclization, lowering real scores ~20–23 points versus additive predictions.",
+      "predicate_type": "smarts_pair",
+      "expected_direction": "unfavorable",
+      "scope_tier": 2,
+      "status": "tentative",
+      "beta_points": -2.34,
+      "sd_points": 20.0,
+      "z_score": 0.12,
+      "n_matched": 0
+    },
+    {
+      "rule_id": "R_f005c3ca87",
+      "name": "furan_alkynyl_ring_opening_penalty",
+      "chemical_statement": "Alkynyl-substituted furans/oxazoles are prone to C–O ring-opening and alkyne side-reactions under hydrogenation cycling, so real scores fall ~20–27 points below additive H2 predictions.",
+      "predicate_type": "smarts_lean",
+      "expected_direction": "unfavorable",
+      "scope_tier": 3,
+      "status": "supported",
+      "beta_points": -18.706,
+      "sd_points": 11.123,
+      "z_score": 1.68,
+      "n_matched": 2
+    }
+  ]
+}

@@ -1,0 +1,1114 @@
+[
+  {
+    "uid": "99bc218f6934ac097aabefd7f934b561312b34d8b9732cf74fd76c1bff48cf93",
+    "cell": 71,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 6,
+    "cache_misses": 0,
+    "local": {
+      "score": 56.940321217244296,
+      "weight": 0.34176500422654266,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near the ring nitrogen is a mechanistic detail whose impact on overall carrier performance is not determinable from this observation alone."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule rather than useful reversible hydrogen storage."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "This is an observation in a different hydrogen carrier, so it cannot be attributed to the target carrier's performance."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Safe and reversible H2 storage via hydrogenation and dehydrogenation is a desirable property for an LOHC carrier."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Avoiding imine byproducts via long-chain amines improves selectivity, a useful conversion outcome."
+        },
+        {
+          "id": "E7",
+          "direction": "unknown",
+          "reason": "Describes reversible LOHC chemistry broadly, not the specific carrier performance."
+        }
+      ]
+    },
+    "combined": 56.39388255488647,
+    "overall": 56.207128943136205,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/attachment/lean/1",
+      "doi:10.1021/acsaem.6c00400/reaction_change/rich/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.25
+  },
+  {
+    "uid": "c30aff42fbcae3a36ec650d4dc2c79b3db2434d9485bf0c646a57254aaa3e3aa",
+    "cell": 86,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 6,
+    "cache_misses": 0,
+    "local": {
+      "score": 63.21328778059547,
+      "weight": 0.5535514698976237,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway step, not a direct carrier performance measure."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation from a different hydrogen carrier does not directly establish effect on the target carrier."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Avoiding imine byproducts via long-chain amines improves selectivity, a useful conversion outcome."
+        },
+        {
+          "id": "E6",
+          "direction": "unknown",
+          "reason": "Comparison of hydrogenation thermodynamics across related LOHC scaffolds does not indicate a direction of effect on the target carrier."
+        },
+        {
+          "id": "E7",
+          "direction": "favorable",
+          "reason": "Safe and reversible H2 storage via hydrogenation and dehydrogenation is a desirable property for an LOHC carrier."
+        }
+      ]
+    },
+    "combined": 58.8605899453223,
+    "overall": 56.451147660586635,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/attachment/lean/1",
+      "doi:10.1021/acsaem.6c00400/reaction_change/rich/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.25
+  },
+  {
+    "uid": "4f4bd1735d34715332f884785de8df82cae4d285e579f79af03edb9983cea22d",
+    "cell": 95,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 6,
+    "cache_misses": 0,
+    "local": {
+      "score": 73.71736400290833,
+      "weight": 0.5521250578359442,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic observation not directly tied to carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier framework."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different hydrogen carrier, so it cannot be attributed to this edit's effect."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Avoiding imine byproducts via long-chain amines improves selectivity, a useful conversion outcome."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Safe and reversible H2 storage via hydrogenation and dehydrogenation is a desirable property for an LOHC carrier."
+        },
+        {
+          "id": "E7",
+          "direction": "unknown",
+          "reason": "Describes thermodynamic property derivation for related LOHC compounds, not a direct measurement of carrier performance."
+        }
+      ]
+    },
+    "combined": 62.47044808782425,
+    "overall": 56.260743987732454,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/attachment/lean/1",
+      "doi:10.1021/acsaem.6c00400/reaction_change/rich/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.5
+  },
+  {
+    "uid": "d700d8b6d75a21a6b3cab7cc86fbf2707fbaac4d36012bfa264b137b4f1b98e3",
+    "cell": 95,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 6,
+    "cache_misses": 0,
+    "local": {
+      "score": 70.58784395031134,
+      "weight": 0.6147154588878837,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near the ring nitrogen is a mechanistic detail whose impact on overall carrier performance is not determinable from this observation alone."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule rather than useful reversible hydrogen storage."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "This is an observation in a different hydrogen carrier, so it cannot be attributed to the target carrier's performance."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Avoiding imine byproducts via long-chain amines improves selectivity, a useful conversion outcome."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Safe and reversible H2 storage via hydrogenation and dehydrogenation is a desirable property for an LOHC carrier."
+        },
+        {
+          "id": "E7",
+          "direction": "unknown",
+          "reason": "Describes reversible LOHC chemistry broadly, not the specific carrier performance."
+        }
+      ]
+    },
+    "combined": 61.6340991372362,
+    "overall": 56.1300937857017,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/attachment/lean/1",
+      "doi:10.1021/acsaem.6c00400/reaction_change/rich/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.25
+  },
+  {
+    "uid": "9eaba63338b7938a4748d347a5c7b95b3751f84acd27efa129fe2dda4b22a705",
+    "cell": 43,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 7,
+    "cache_misses": 0,
+    "local": {
+      "score": 52.82646530578817,
+      "weight": 0.19204930611576337,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway step, not a direct carrier performance measure."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation from a different hydrogen carrier does not directly establish effect on the target carrier."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Comparison of oxygenated versus non-oxygenated carriers does not itself establish favorable or unfavorable effect on the target."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Safe and reversible H2 storage via hydrogenation and dehydrogenation is a desirable property for an LOHC carrier."
+        },
+        {
+          "id": "E7",
+          "direction": "favorable",
+          "reason": "Avoiding imine byproducts via long-chain amines improves selectivity, a useful conversion outcome."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Describes reversible LOHC chemistry broadly, not the specific carrier performance."
+        }
+      ]
+    },
+    "combined": 55.82763269158261,
+    "overall": 56.404004805561684,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/attachment/lean/1",
+      "doi:10.1021/acsaem.6c00400/reaction_change/rich/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "4f70063cf0a052a33270f7196a5160076cefe2bf3cc351abc3a7d8c53f86cea6",
+    "cell": 54,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 3,
+    "cache_misses": 0,
+    "local": {
+      "score": 47.767857142857146,
+      "weight": 0.044642857142857144,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation is a mechanistic step whose effect on carrier performance is not specified."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different carrier, so relevance to the target is uncertain."
+        }
+      ]
+    },
+    "combined": 55.14507748872254,
+    "overall": 55.4744176827344,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 1.0
+  },
+  {
+    "uid": "31ee2cd744a31fffbd8fe9a8794676e61e9b38e8a7b06af6382d2a422875b010",
+    "cell": 10,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 5,
+    "cache_misses": 0,
+    "local": {
+      "score": 55.71784175778065,
+      "weight": 0.3287314227699026,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway step, not a direct carrier performance measure."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation from a different hydrogen carrier does not directly establish effect on the target carrier."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Avoiding imine byproducts via long-chain amines improves selectivity, a useful conversion outcome."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Safe and reversible H2 storage via hydrogenation and dehydrogenation is a desirable property for an LOHC carrier."
+        }
+      ]
+    },
+    "combined": 56.188456690144385,
+    "overall": 56.343162606437076,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/attachment/lean/1",
+      "doi:10.1021/acsaem.6c00400/reaction_change/rich/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.5
+  },
+  {
+    "uid": "0eb30b1ade1ed7f4b1e7a591b30cedb88bc5be2b6e6df867ffe764902e7a333f",
+    "cell": 51,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 6,
+    "cache_misses": 0,
+    "local": {
+      "score": 70.82973760932944,
+      "weight": 0.5285947521865889,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic observation not directly tied to carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier framework."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different hydrogen carrier, so it cannot be attributed to this edit's effect."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Avoiding imine byproducts via long-chain amines improves selectivity, a useful conversion outcome."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Safe and reversible H2 storage via hydrogenation and dehydrogenation is a desirable property for an LOHC carrier."
+        },
+        {
+          "id": "E7",
+          "direction": "unknown",
+          "reason": "Describes thermodynamic property derivation for related LOHC compounds, not a direct measurement of carrier performance."
+        }
+      ]
+    },
+    "combined": 61.36180097818533,
+    "overall": 56.35709936092739,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/attachment/lean/1",
+      "doi:10.1021/acsaem.6c00400/reaction_change/rich/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.5
+  },
+  {
+    "uid": "02a0807ad8469695b952f4d9b8186e063b991945055ab4f14c45092a9b365f41",
+    "cell": 116,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 5,
+    "cache_misses": 0,
+    "local": {
+      "score": 55.71784175778065,
+      "weight": 0.3287314227699026,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway step, not a direct carrier performance measure."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation from a different hydrogen carrier does not directly establish effect on the target carrier."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Avoiding imine byproducts via long-chain amines improves selectivity, a useful conversion outcome."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Safe and reversible H2 storage via hydrogenation and dehydrogenation is a desirable property for an LOHC carrier."
+        }
+      ]
+    },
+    "combined": 56.172715777812265,
+    "overall": 56.32224716159831,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/attachment/lean/1",
+      "doi:10.1021/acsaem.6c00400/reaction_change/rich/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.5
+  },
+  {
+    "uid": "35709fac9beb2a6517664e400039c74e3ef9e9f1a54c472f4be4edd96b724436",
+    "cell": 105,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 5,
+    "cache_misses": 0,
+    "local": {
+      "score": 55.71784175778065,
+      "weight": 0.3287314227699026,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway step, not a direct carrier performance measure."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation from a different hydrogen carrier does not directly establish effect on the target carrier."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Avoiding imine byproducts via long-chain amines improves selectivity, a useful conversion outcome."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Safe and reversible H2 storage via hydrogenation and dehydrogenation is a desirable property for an LOHC carrier."
+        }
+      ]
+    },
+    "combined": 56.18601736466129,
+    "overall": 56.33992139801732,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/attachment/lean/1",
+      "doi:10.1021/acsaem.6c00400/reaction_change/rich/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.5
+  },
+  {
+    "uid": "30932009e2fc47e199bb9ed0413e05cd95f0845a4a7a30a94057ffe687ac5c05",
+    "cell": 39,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 5,
+    "cache_misses": 0,
+    "local": {
+      "score": 63.541200193860675,
+      "weight": 0.33709619322632595,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation is a mechanistic step whose effect on carrier performance is not specified."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different carrier, so relevance to the target is uncertain."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Avoiding imine byproducts via long-chain amines improves selectivity, a useful conversion outcome."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Safe and reversible H2 storage via hydrogenation and dehydrogenation is a desirable property for an LOHC carrier."
+        }
+      ]
+    },
+    "combined": 57.90582726040876,
+    "overall": 56.00616449713145,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/attachment/lean/1",
+      "doi:10.1021/acsaem.6c00400/reaction_change/rich/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.5
+  },
+  {
+    "uid": "3c7ee93be9fcebc535aa611ffe84e871b474ad9b548b99193aa144467e03057e",
+    "cell": 99,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 6,
+    "cache_misses": 0,
+    "local": {
+      "score": 48.34319526627219,
+      "weight": 0.033136094674556214,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation is a mechanistic step whose effect on carrier performance is not specified."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different carrier, so relevance to the target is uncertain."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "General LOHC property of alcohols/carbonyls, not a measurement of the target edit."
+        },
+        {
+          "id": "E6",
+          "direction": "unknown",
+          "reason": "Describes reversible LOHC chemistry broadly, not the specific carrier performance."
+        },
+        {
+          "id": "E7",
+          "direction": "unknown",
+          "reason": "Describes thermodynamic property derivation for related LOHC compounds, not a direct measurement of carrier performance."
+        }
+      ]
+    },
+    "combined": 55.24309016680927,
+    "overall": 55.47172573747795,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "1370cd28defddf669f4c6cdf57e5f1df72c1495f2fd2a279099289c28889c2d0",
+    "cell": 42,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 5,
+    "cache_misses": 0,
+    "local": {
+      "score": 65.79717291255753,
+      "weight": 0.382215647600263,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation is a mechanistic step whose effect on carrier performance is not specified."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different carrier, so relevance to the target is uncertain."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Safe and reversible H2 storage via hydrogenation and dehydrogenation is a desirable property for an LOHC carrier."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Avoiding imine byproducts via long-chain amines improves selectivity, a useful conversion outcome."
+        }
+      ]
+    },
+    "combined": 58.68116322659378,
+    "overall": 55.96131297614341,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/attachment/lean/1",
+      "doi:10.1021/acsaem.6c00400/reaction_change/rich/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.5
+  },
+  {
+    "uid": "03b91a87c564087295d45b39de509b2eb973684461b3e2a66dc82151879e3351",
+    "cell": 121,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 3,
+    "cache_misses": 0,
+    "local": {
+      "score": 46.785714285714285,
+      "weight": 0.06428571428571428,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation is a mechanistic step whose effect on carrier performance is not specified."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different carrier, so relevance to the target is uncertain."
+        }
+      ]
+    },
+    "combined": 55.00809087472533,
+    "overall": 55.53667222687604,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 1.0
+  },
+  {
+    "uid": "445f5d587ca2e9e5219a0cad7ec9973f11d06c282fb3be35d2d22375fedcbe2b",
+    "cell": 17,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 6,
+    "cache_misses": 0,
+    "local": {
+      "score": 48.291015625,
+      "weight": 0.0341796875,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic observation not directly tied to carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier framework."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different hydrogen carrier, so it cannot be attributed to this edit's effect."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "General LOHC property of alcohols/carbonyls, not a measurement of the target edit."
+        },
+        {
+          "id": "E6",
+          "direction": "unknown",
+          "reason": "Describes reversible LOHC chemistry broadly, not the specific carrier performance."
+        },
+        {
+          "id": "E7",
+          "direction": "unknown",
+          "reason": "Describes thermodynamic property derivation for related LOHC compounds, not a direct measurement of carrier performance."
+        }
+      ]
+    },
+    "combined": 55.34254176123601,
+    "overall": 55.583560720970645,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "9e05ac3f7c178f65ebeb6c516474c26f93f1748046460ec72bf91a8b8a873376",
+    "cell": 3,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 7,
+    "cache_misses": 0,
+    "local": {
+      "score": 52.59876282644933,
+      "weight": 0.19660335570254023,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway step, not a direct carrier performance measure."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier molecule."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation from a different hydrogen carrier does not directly establish effect on the target carrier."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Comparison of oxygenated versus non-oxygenated carriers does not itself establish favorable or unfavorable effect on the target."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Safe and reversible H2 storage via hydrogenation and dehydrogenation is a desirable property for an LOHC carrier."
+        },
+        {
+          "id": "E7",
+          "direction": "favorable",
+          "reason": "Avoiding imine byproducts via long-chain amines improves selectivity, a useful conversion outcome."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Describes reversible LOHC chemistry broadly, not the specific carrier performance."
+        }
+      ]
+    },
+    "combined": 55.83625778715783,
+    "overall": 56.47276016050317,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/attachment/lean/1",
+      "doi:10.1021/acsaem.6c00400/reaction_change/rich/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "995e52bdd8f9e5c5ce0fc1baaa45674428caccfc383319df98ada1f39714ebf1",
+    "cell": 90,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 5,
+    "cache_misses": 0,
+    "local": {
+      "score": 48.442519019442095,
+      "weight": 0.0974218089602705,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation is a mechanistic step whose effect on carrier performance is not specified."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different carrier, so relevance to the target is uncertain."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Describes thermodynamic property derivation for related LOHC compounds, not a direct measurement of carrier performance."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Avoiding imine byproducts via long-chain amines improves selectivity, a useful conversion outcome."
+        }
+      ]
+    },
+    "combined": 54.930986022931314,
+    "overall": 55.56310421579027,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/attachment/lean/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 1.0
+  },
+  {
+    "uid": "00adcbfde4a10febea036efcf6d55b82db18d2b0311360b11648b05c3ff289bb",
+    "cell": 95,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 6,
+    "cache_misses": 0,
+    "local": {
+      "score": 63.13958622513054,
+      "weight": 0.3747917245026109,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic observation not directly tied to carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier framework."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different hydrogen carrier, so it cannot be attributed to this edit's effect."
+        },
+        {
+          "id": "E5",
+          "direction": "favorable",
+          "reason": "Safe and reversible H2 storage via hydrogenation and dehydrogenation is a desirable property for an LOHC carrier."
+        },
+        {
+          "id": "E6",
+          "direction": "favorable",
+          "reason": "Avoiding imine byproducts via long-chain amines improves selectivity, a useful conversion outcome."
+        },
+        {
+          "id": "E7",
+          "direction": "unknown",
+          "reason": "Describes thermodynamic property derivation for related LOHC compounds, not a direct measurement of carrier performance."
+        }
+      ]
+    },
+    "combined": 58.111168924592164,
+    "overall": 56.22655973300462,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/chem.201603423/attachment/lean/1",
+      "doi:10.1021/acsaem.6c00400/reaction_change/rich/1"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.5
+  },
+  {
+    "uid": "ae7a3fbba1bb678e8cd520f8d2d2116ecd6290d52141d3c800ccc3b48182d0fc",
+    "cell": 54,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 3,
+    "cache_misses": 0,
+    "local": {
+      "score": 47.767857142857146,
+      "weight": 0.044642857142857144,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation is a mechanistic step whose effect on carrier performance is not specified."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different carrier, so relevance to the target is uncertain."
+        }
+      ]
+    },
+    "combined": 55.14755421205455,
+    "overall": 55.4770049740723,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 1.0
+  },
+  {
+    "uid": "d7564ef3f2ed372c14aaafb6f5bc285db791db210b2d1b6d1f8fc95db6fa8ad6",
+    "cell": 90,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 4,
+    "cache_misses": 0,
+    "local": {
+      "score": 46.785714285714285,
+      "weight": 0.06428571428571428,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation is a mechanistic step whose effect on carrier performance is not specified."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different carrier, so relevance to the target is uncertain."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Describes thermodynamic property derivation for related LOHC compounds, not a direct measurement of carrier performance."
+        }
+      ]
+    },
+    "combined": 54.95348001891901,
+    "overall": 55.47855067319646,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 1.0
+  }
+]

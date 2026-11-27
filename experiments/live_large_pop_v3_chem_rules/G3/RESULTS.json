@@ -1,0 +1,2285 @@
+[
+  {
+    "uid": "682afb5259d5167b9516c637b453ab2388df7e739984968bbded779891519021",
+    "cell": 43,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 14,
+    "cache_misses": 0,
+    "local": {
+      "score": 94.08404203442416,
+      "weight": 1,
+      "coupling_status": "unknown",
+      "coupling_multiplier": 1.0,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Same mechanistic C–H activation observation, not attributable to carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier framework."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Dehydrogenation order in a different carrier is mechanistic, not a performance outcome."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Same mechanistic C–H activation observation, not attributable to carrier performance."
+        },
+        {
+          "id": "E6",
+          "direction": "unknown",
+          "reason": "Dehydrogenation order in a different carrier is mechanistic, not a performance outcome."
+        },
+        {
+          "id": "E7",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E8",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E13",
+          "direction": "unknown",
+          "reason": "Tolerance of N-substituents indicates scope but does not itself establish carrier performance."
+        },
+        {
+          "id": "E14",
+          "direction": "mixed",
+          "reason": "Furan hydrogenation and facile ring opening create a reactive intermediate that can control selectivity but may also lead to side pathways."
+        },
+        {
+          "id": "E15",
+          "direction": "unfavorable",
+          "reason": "Covalent hydrogen binding with high dehydrogenation enthalpy and thermal limits impairs cycling performance of the carrier."
+        }
+      ]
+    },
+    "raw_combined": 81.92171471486324,
+    "sa_score": 3.4205344344446917,
+    "sa_penalty": 0.0,
+    "combined": 81.92171471486324,
+    "overall": 69.75938739530233,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0",
+      "doi:10.2516/stet/2023029/ring_or_conjugation/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.5
+  },
+  {
+    "uid": "b510d2c494cacf99f2e0c6350443373fbd6176c2fce5b1d763ea6e78ff69fae2",
+    "cell": 86,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 13,
+    "cache_misses": 0,
+    "local": {
+      "score": 90.74917066926623,
+      "weight": 1,
+      "coupling_status": "unknown",
+      "coupling_multiplier": 1.0,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Same mechanistic C–H activation observation, not attributable to carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier framework."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Dehydrogenation order in a different carrier is mechanistic, not a performance outcome."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Same mechanistic C–H activation observation, not attributable to carrier performance."
+        },
+        {
+          "id": "E6",
+          "direction": "unknown",
+          "reason": "Dehydrogenation order in a different carrier is mechanistic, not a performance outcome."
+        },
+        {
+          "id": "E7",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E8",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E9",
+          "direction": "unknown",
+          "reason": "Tolerance of N-substituents indicates scope but does not itself establish carrier performance."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Hydrogen bonding that stabilizes the ligand during transfer can facilitate reversible hydrogen transfer."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E12",
+          "direction": "mixed",
+          "reason": "Furan hydrogenation and facile ring opening create a reactive intermediate that can control selectivity but may also lead to side pathways."
+        },
+        {
+          "id": "E13",
+          "direction": "unfavorable",
+          "reason": "High dehydrogenation enthalpy and thermal stability are identified bottlenecks for LOHC performance."
+        },
+        {
+          "id": "E14",
+          "direction": "unknown",
+          "reason": "In situ conversion of carbonyls to heterocycles may divert intermediates but its net effect on carrier performance is unclear."
+        }
+      ]
+    },
+    "raw_combined": 79.62431372247858,
+    "sa_score": 3.4748483629729927,
+    "sa_penalty": 0.0,
+    "combined": 79.62431372247858,
+    "overall": 68.4994567756909,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/1",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.2516/stet/2023029/ring_or_conjugation/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.5
+  },
+  {
+    "uid": "66d1caa3578d789ba0197be9b4abe20e1d8c0649aca0846be4c69cf28878af96",
+    "cell": 28,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 15,
+    "cache_misses": 0,
+    "local": {
+      "score": 92.54804654388533,
+      "weight": 1,
+      "coupling_status": "supported",
+      "coupling_multiplier": 0.973491124260355,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E6",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E13",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E14",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E15",
+          "direction": "unknown",
+          "reason": "Equilibrium-limited reversible nitrile/amine hydrogenation is a storage concept, not evidence of effect on the target carrier."
+        },
+        {
+          "id": "E16",
+          "direction": "unknown",
+          "reason": "Cooperative bifunctional mechanism describes a related catalyst's pathway, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E17",
+          "direction": "unknown",
+          "reason": "Ring opening of hydrofuran as a reactive intermediate determines selectivity but its overall favorability is unclear."
+        }
+      ]
+    },
+    "raw_combined": 81.02027521216604,
+    "sa_score": 3.12095148696615,
+    "sa_penalty": 0.0,
+    "combined": 81.02027521216604,
+    "overall": 69.49250388044676,
+    "evidence_refs": [
+      "COUPLING_f4809d6d83b50986a6950eb483a42e114c002b096ddcbd19da39aba0e481dbb8/C2",
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "da8d3da62db41cb6944077be18dea179c7a2e9a46792efdab4ceda3dfc3f1fb9",
+    "cell": 36,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 16,
+    "cache_misses": 0,
+    "local": {
+      "score": 94.22787869338116,
+      "weight": 1,
+      "coupling_status": "supported",
+      "coupling_multiplier": 0.9797041420118343,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E6",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E13",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E14",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E15",
+          "direction": "unknown",
+          "reason": "Equilibrium-limited reversible nitrile/amine hydrogenation is a storage concept, not evidence of effect on the target carrier."
+        },
+        {
+          "id": "E16",
+          "direction": "unknown",
+          "reason": "Reversible amine/nitrile LOHC behavior of related compounds does not directly indicate target carrier performance."
+        },
+        {
+          "id": "E17",
+          "direction": "unknown",
+          "reason": "Cooperative bifunctional mechanism describes a related catalyst's pathway, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E18",
+          "direction": "unknown",
+          "reason": "Ring opening of hydrofuran as a reactive intermediate determines selectivity but its overall favorability is unclear."
+        }
+      ]
+    },
+    "raw_combined": 81.69366654373034,
+    "sa_score": 3.2195139581536223,
+    "sa_penalty": 0.0,
+    "combined": 81.69366654373034,
+    "overall": 69.15945439407953,
+    "evidence_refs": [
+      "COUPLING_f4809d6d83b50986a6950eb483a42e114c002b096ddcbd19da39aba0e481dbb8/C2",
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "f21ededb0ce87ac9a75c64fe8d0cc93f05e6fc20847bc868944f59fe51a5fe04",
+    "cell": 86,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 13,
+    "cache_misses": 0,
+    "local": {
+      "score": 90.74917066926623,
+      "weight": 1,
+      "coupling_status": "unknown",
+      "coupling_multiplier": 1.0,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Same mechanistic C–H activation observation, not attributable to carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier framework."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Dehydrogenation order in a different carrier is mechanistic, not a performance outcome."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Same mechanistic C–H activation observation, not attributable to carrier performance."
+        },
+        {
+          "id": "E6",
+          "direction": "unknown",
+          "reason": "Dehydrogenation order in a different carrier is mechanistic, not a performance outcome."
+        },
+        {
+          "id": "E7",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E8",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E9",
+          "direction": "unknown",
+          "reason": "Tolerance of N-substituents indicates scope but does not itself establish carrier performance."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Hydrogen bonding that stabilizes the ligand during transfer can facilitate reversible hydrogen transfer."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E12",
+          "direction": "mixed",
+          "reason": "Furan hydrogenation and facile ring opening create a reactive intermediate that can control selectivity but may also lead to side pathways."
+        },
+        {
+          "id": "E13",
+          "direction": "unfavorable",
+          "reason": "High dehydrogenation enthalpy and thermal stability are identified bottlenecks for LOHC performance."
+        },
+        {
+          "id": "E14",
+          "direction": "unknown",
+          "reason": "In situ conversion of carbonyls to heterocycles may divert intermediates but its net effect on carrier performance is unclear."
+        }
+      ]
+    },
+    "raw_combined": 79.51950872132448,
+    "sa_score": 2.9136443490688375,
+    "sa_penalty": 0.0,
+    "combined": 79.51950872132448,
+    "overall": 68.28984677338273,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/1",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.2516/stet/2023029/ring_or_conjugation/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.5
+  },
+  {
+    "uid": "7c4c2004921300e6613dc7bc83d2aa8e34cfbcbe73a7d380b7a4bc5247bd84a8",
+    "cell": 71,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 16,
+    "cache_misses": 0,
+    "local": {
+      "score": 93.06381615649056,
+      "weight": 1,
+      "coupling_status": "supported",
+      "coupling_multiplier": 0.9904986149584487,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Initial C–H activation near ring nitrogen is a mechanistic pathway whose effect on carrier performance is not directly stated."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "C–N bond cleavage after dehydrogenation indicates carrier degradation."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Observation concerns a different hydrogen carrier, so it cannot be attributed to the target carrier's performance."
+        },
+        {
+          "id": "E5",
+          "direction": "unfavorable",
+          "reason": "C–N bond cleavage after dehydrogenation indicates carrier degradation."
+        },
+        {
+          "id": "E7",
+          "direction": "unknown",
+          "reason": "Same mechanistic C–H activation observation, not attributable to carrier performance."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Dehydrogenation order in a different carrier is mechanistic, not a performance outcome."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E13",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E14",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E15",
+          "direction": "unknown",
+          "reason": "Reversible amine/nitrile LOHC behavior of related compounds does not directly indicate target carrier performance."
+        },
+        {
+          "id": "E16",
+          "direction": "unfavorable",
+          "reason": "Low thermodynamic driving force limits conversion of the amine dehydrogenation step, hindering overall carrier performance."
+        },
+        {
+          "id": "E17",
+          "direction": "unknown",
+          "reason": "Cooperative bifunctional mechanism describes a related catalyst's pathway, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E18",
+          "direction": "unknown",
+          "reason": "Ring opening of hydrofuran as a reactive intermediate determines selectivity but its overall favorability is unclear."
+        }
+      ]
+    },
+    "raw_combined": 80.42263580106089,
+    "sa_score": 3.430645043379018,
+    "sa_penalty": 0.0,
+    "combined": 80.42263580106089,
+    "overall": 67.78145544563122,
+    "evidence_refs": [
+      "COUPLING_f4809d6d83b50986a6950eb483a42e114c002b096ddcbd19da39aba0e481dbb8/C2",
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1002/ente.202200468/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "03b91a87c564087295d45b39de509b2eb973684461b3e2a66dc82151879e3351",
+    "cell": 121,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 11,
+    "cache_misses": 0,
+    "local": {
+      "score": 28.86652935248173,
+      "weight": 0.5534215167548501,
+      "coupling_status": "supported",
+      "coupling_multiplier": 0.9871428571428571,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E6",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E9",
+          "direction": "unknown",
+          "reason": "General statement about architecture determining catalyst needs, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E10",
+          "direction": "unknown",
+          "reason": "Describes a dehydrogenation pathway for amine/nitrile pairs without indicating favorable or unfavorable carrier performance."
+        },
+        {
+          "id": "E11",
+          "direction": "unfavorable",
+          "reason": "Low thermodynamic driving force requiring nitrogen dilution limits practical conversion and hydrogen release."
+        },
+        {
+          "id": "E12",
+          "direction": "unknown",
+          "reason": "Cooperative bifunctional mechanism describes a related catalyst's pathway, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E13",
+          "direction": "favorable",
+          "reason": "A stable dihydrofuran intermediate resisting ring opening supports reversible, selective hydrogenation behavior."
+        }
+      ]
+    },
+    "raw_combined": 51.26091907100913,
+    "sa_score": 5.556256405646264,
+    "sa_penalty": 4.112512811292529,
+    "combined": 47.148406259716594,
+    "overall": 63.65445619583578,
+    "evidence_refs": [
+      "COUPLING_f4809d6d83b50986a6950eb483a42e114c002b096ddcbd19da39aba0e481dbb8/C2",
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/ente.202200468/functional_group/lean/1",
+      "doi:10.1039/c3gc41183d/ring_or_conjugation/rich/4"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.5
+  },
+  {
+    "uid": "571965521ff6a9a61dd3ff29e796a0c725975884b620f3c408c5953886e92a13",
+    "cell": 43,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 14,
+    "cache_misses": 0,
+    "local": {
+      "score": 93.98065583453376,
+      "weight": 1,
+      "coupling_status": "unknown",
+      "coupling_multiplier": 1.0,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Same mechanistic C–H activation observation, not attributable to carrier performance."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "Cleavage of the N–alkyl C–N bond indicates degradation of the carrier framework."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Dehydrogenation order in a different carrier is mechanistic, not a performance outcome."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Same mechanistic C–H activation observation, not attributable to carrier performance."
+        },
+        {
+          "id": "E6",
+          "direction": "unknown",
+          "reason": "Dehydrogenation order in a different carrier is mechanistic, not a performance outcome."
+        },
+        {
+          "id": "E7",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E8",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E13",
+          "direction": "unknown",
+          "reason": "Tolerance of N-substituents indicates scope but does not itself establish carrier performance."
+        },
+        {
+          "id": "E14",
+          "direction": "unfavorable",
+          "reason": "Covalent hydrogen binding with high dehydrogenation enthalpy and thermal limits impairs cycling performance of the carrier."
+        },
+        {
+          "id": "E15",
+          "direction": "unknown",
+          "reason": "Ring opening of hydrofuran as a reactive intermediate determines selectivity but its overall favorability is unclear."
+        }
+      ]
+    },
+    "raw_combined": 81.75942159367244,
+    "sa_score": 3.748991830894396,
+    "sa_penalty": 0.4979836617887923,
+    "combined": 81.26143793188365,
+    "overall": 69.53818735281111,
+    "evidence_refs": [
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0",
+      "doi:10.2516/stet/2023029/ring_or_conjugation/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "32d5cf156677ed0f4b28f88dc464efc18d487e49202aff90120ba80b6242e195",
+    "cell": 42,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 16,
+    "cache_misses": 0,
+    "local": {
+      "score": 92.54804654388533,
+      "weight": 1,
+      "coupling_status": "supported",
+      "coupling_multiplier": 0.973491124260355,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E6",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E13",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E14",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E15",
+          "direction": "unknown",
+          "reason": "Equilibrium-limited reversible nitrile/amine hydrogenation is a storage concept, not evidence of effect on the target carrier."
+        },
+        {
+          "id": "E16",
+          "direction": "unknown",
+          "reason": "Reversible amine/nitrile LOHC behavior of related compounds does not directly indicate target carrier performance."
+        },
+        {
+          "id": "E17",
+          "direction": "unknown",
+          "reason": "Cooperative bifunctional mechanism describes a related catalyst's pathway, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E18",
+          "direction": "unknown",
+          "reason": "Ring opening of hydrofuran as a reactive intermediate determines selectivity but its overall favorability is unclear."
+        }
+      ]
+    },
+    "raw_combined": 80.89658041702683,
+    "sa_score": 3.063315754956224,
+    "sa_penalty": 0.0,
+    "combined": 80.89658041702683,
+    "overall": 69.24511429016832,
+    "evidence_refs": [
+      "COUPLING_f4809d6d83b50986a6950eb483a42e114c002b096ddcbd19da39aba0e481dbb8/C2",
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "d93640559703c698257d6cef3e70d4709eaf69827b60cdf5c43ba01378d85d18",
+    "cell": 36,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 16,
+    "cache_misses": 0,
+    "local": {
+      "score": 92.54804654388533,
+      "weight": 1,
+      "coupling_status": "supported",
+      "coupling_multiplier": 0.973491124260355,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E6",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E13",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E14",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E15",
+          "direction": "unknown",
+          "reason": "Equilibrium-limited reversible nitrile/amine hydrogenation is a storage concept, not evidence of effect on the target carrier."
+        },
+        {
+          "id": "E16",
+          "direction": "unknown",
+          "reason": "Reversible amine/nitrile LOHC behavior of related compounds does not directly indicate target carrier performance."
+        },
+        {
+          "id": "E17",
+          "direction": "unknown",
+          "reason": "Cooperative bifunctional mechanism describes a related catalyst's pathway, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E18",
+          "direction": "unknown",
+          "reason": "Ring opening of hydrofuran as a reactive intermediate determines selectivity but its overall favorability is unclear."
+        }
+      ]
+    },
+    "raw_combined": 80.58850395086814,
+    "sa_score": 3.6043513983604747,
+    "sa_penalty": 0.20870279672094938,
+    "combined": 80.3798011541472,
+    "overall": 68.62896135785095,
+    "evidence_refs": [
+      "COUPLING_f4809d6d83b50986a6950eb483a42e114c002b096ddcbd19da39aba0e481dbb8/C2",
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "b98e6b479c36fac871e85a678ea060d9d9f0b13d37ee974632f83458a657c8af",
+    "cell": 36,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 15,
+    "cache_misses": 0,
+    "local": {
+      "score": 92.54804654388533,
+      "weight": 1,
+      "coupling_status": "supported",
+      "coupling_multiplier": 0.973491124260355,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E6",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E13",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E14",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E15",
+          "direction": "unknown",
+          "reason": "Equilibrium-limited reversible nitrile/amine hydrogenation is a storage concept, not evidence of effect on the target carrier."
+        },
+        {
+          "id": "E16",
+          "direction": "unknown",
+          "reason": "Cooperative bifunctional mechanism describes a related catalyst's pathway, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E17",
+          "direction": "unknown",
+          "reason": "Ring opening of hydrofuran as a reactive intermediate determines selectivity but its overall favorability is unclear."
+        }
+      ]
+    },
+    "raw_combined": 80.80963707484105,
+    "sa_score": 3.6352701906817426,
+    "sa_penalty": 0.27054038136348524,
+    "combined": 80.53909669347756,
+    "overall": 69.07122760579678,
+    "evidence_refs": [
+      "COUPLING_f4809d6d83b50986a6950eb483a42e114c002b096ddcbd19da39aba0e481dbb8/C2",
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "14ab4ff634025bf46e0f9b0aafe766285070ae6516143f937694b21d75ad5150",
+    "cell": 36,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 16,
+    "cache_misses": 0,
+    "local": {
+      "score": 94.22787869338116,
+      "weight": 1,
+      "coupling_status": "supported",
+      "coupling_multiplier": 0.9797041420118343,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E6",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E13",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E14",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E15",
+          "direction": "unknown",
+          "reason": "Equilibrium-limited reversible nitrile/amine hydrogenation is a storage concept, not evidence of effect on the target carrier."
+        },
+        {
+          "id": "E16",
+          "direction": "unknown",
+          "reason": "Reversible amine/nitrile LOHC behavior of related compounds does not directly indicate target carrier performance."
+        },
+        {
+          "id": "E17",
+          "direction": "unknown",
+          "reason": "Cooperative bifunctional mechanism describes a related catalyst's pathway, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E18",
+          "direction": "unknown",
+          "reason": "Ring opening of hydrofuran as a reactive intermediate determines selectivity but its overall favorability is unclear."
+        }
+      ]
+    },
+    "raw_combined": 81.69340009095065,
+    "sa_score": 3.399530065941618,
+    "sa_penalty": 0.0,
+    "combined": 81.69340009095065,
+    "overall": 69.15892148852014,
+    "evidence_refs": [
+      "COUPLING_f4809d6d83b50986a6950eb483a42e114c002b096ddcbd19da39aba0e481dbb8/C2",
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "952a8239f5e255cba4e148f6a346fccc82ad0541cbf8fe60e25489763a9cf3b8",
+    "cell": 36,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 16,
+    "cache_misses": 0,
+    "local": {
+      "score": 94.22787869338116,
+      "weight": 1,
+      "coupling_status": "supported",
+      "coupling_multiplier": 0.9797041420118343,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E6",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E13",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E14",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E15",
+          "direction": "unknown",
+          "reason": "Equilibrium-limited reversible nitrile/amine hydrogenation is a storage concept, not evidence of effect on the target carrier."
+        },
+        {
+          "id": "E16",
+          "direction": "unknown",
+          "reason": "Reversible amine/nitrile LOHC behavior of related compounds does not directly indicate target carrier performance."
+        },
+        {
+          "id": "E17",
+          "direction": "unknown",
+          "reason": "Cooperative bifunctional mechanism describes a related catalyst's pathway, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E18",
+          "direction": "unknown",
+          "reason": "Ring opening of hydrofuran as a reactive intermediate determines selectivity but its overall favorability is unclear."
+        }
+      ]
+    },
+    "raw_combined": 81.56978855151743,
+    "sa_score": 3.576581209392762,
+    "sa_penalty": 0.1531624187855236,
+    "combined": 81.4166261327319,
+    "overall": 68.91169840965372,
+    "evidence_refs": [
+      "COUPLING_f4809d6d83b50986a6950eb483a42e114c002b096ddcbd19da39aba0e481dbb8/C2",
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "0c60b2017799a0942d91e652086b2c6ed8fdd65b7c72ec1f4b3bcb3b6c22b8eb",
+    "cell": 36,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 15,
+    "cache_misses": 0,
+    "local": {
+      "score": 92.54804654388533,
+      "weight": 1,
+      "coupling_status": "supported",
+      "coupling_multiplier": 0.973491124260355,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E6",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E13",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E14",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E15",
+          "direction": "unknown",
+          "reason": "Equilibrium-limited reversible nitrile/amine hydrogenation is a storage concept, not evidence of effect on the target carrier."
+        },
+        {
+          "id": "E16",
+          "direction": "unknown",
+          "reason": "Cooperative bifunctional mechanism describes a related catalyst's pathway, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E17",
+          "direction": "unknown",
+          "reason": "Ring opening of hydrofuran as a reactive intermediate determines selectivity but its overall favorability is unclear."
+        }
+      ]
+    },
+    "raw_combined": 80.81467225086342,
+    "sa_score": 3.506662826931903,
+    "sa_penalty": 0.013325653863805798,
+    "combined": 80.80134659699962,
+    "overall": 69.08129795784153,
+    "evidence_refs": [
+      "COUPLING_f4809d6d83b50986a6950eb483a42e114c002b096ddcbd19da39aba0e481dbb8/C2",
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "310f4e4907926126834996ff2621c1f75b01863ba06de57ec38c23c6a2687c17",
+    "cell": 36,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 15,
+    "cache_misses": 0,
+    "local": {
+      "score": 92.54804654388533,
+      "weight": 1,
+      "coupling_status": "supported",
+      "coupling_multiplier": 0.973491124260355,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E6",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E13",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E14",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E15",
+          "direction": "unknown",
+          "reason": "Equilibrium-limited reversible nitrile/amine hydrogenation is a storage concept, not evidence of effect on the target carrier."
+        },
+        {
+          "id": "E16",
+          "direction": "unknown",
+          "reason": "Cooperative bifunctional mechanism describes a related catalyst's pathway, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E17",
+          "direction": "unknown",
+          "reason": "Ring opening of hydrofuran as a reactive intermediate determines selectivity but its overall favorability is unclear."
+        }
+      ]
+    },
+    "raw_combined": 80.96389275927223,
+    "sa_score": 3.3975144106423105,
+    "sa_penalty": 0.0,
+    "combined": 80.96389275927223,
+    "overall": 69.37973897465912,
+    "evidence_refs": [
+      "COUPLING_f4809d6d83b50986a6950eb483a42e114c002b096ddcbd19da39aba0e481dbb8/C2",
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "2ba51535c23fbb6d8d329f7a48306029c50bea935db0df1174893f9c069eee9c",
+    "cell": 36,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 15,
+    "cache_misses": 0,
+    "local": {
+      "score": 92.54804654388533,
+      "weight": 1,
+      "coupling_status": "supported",
+      "coupling_multiplier": 0.973491124260355,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E6",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E13",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E14",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E15",
+          "direction": "unknown",
+          "reason": "Equilibrium-limited reversible nitrile/amine hydrogenation is a storage concept, not evidence of effect on the target carrier."
+        },
+        {
+          "id": "E16",
+          "direction": "unknown",
+          "reason": "Cooperative bifunctional mechanism describes a related catalyst's pathway, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E17",
+          "direction": "unknown",
+          "reason": "Ring opening of hydrofuran as a reactive intermediate determines selectivity but its overall favorability is unclear."
+        }
+      ]
+    },
+    "raw_combined": 81.0459179772681,
+    "sa_score": 2.906219973318507,
+    "sa_penalty": 0.0,
+    "combined": 81.0459179772681,
+    "overall": 69.54378941065087,
+    "evidence_refs": [
+      "COUPLING_f4809d6d83b50986a6950eb483a42e114c002b096ddcbd19da39aba0e481dbb8/C2",
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "7a472884d9b00c3250b3f52a9748a1988de411a8545318fca415bdf394a352ec",
+    "cell": 36,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 15,
+    "cache_misses": 0,
+    "local": {
+      "score": 92.54804654388533,
+      "weight": 1,
+      "coupling_status": "supported",
+      "coupling_multiplier": 0.973491124260355,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E6",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E13",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E14",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E15",
+          "direction": "unknown",
+          "reason": "Equilibrium-limited reversible nitrile/amine hydrogenation is a storage concept, not evidence of effect on the target carrier."
+        },
+        {
+          "id": "E16",
+          "direction": "unknown",
+          "reason": "Cooperative bifunctional mechanism describes a related catalyst's pathway, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E17",
+          "direction": "unknown",
+          "reason": "Ring opening of hydrofuran as a reactive intermediate determines selectivity but its overall favorability is unclear."
+        }
+      ]
+    },
+    "raw_combined": 80.68226654078696,
+    "sa_score": 3.7513795461910986,
+    "sa_penalty": 0.5027590923821972,
+    "combined": 80.17950744840476,
+    "overall": 68.81648653768858,
+    "evidence_refs": [
+      "COUPLING_f4809d6d83b50986a6950eb483a42e114c002b096ddcbd19da39aba0e481dbb8/C2",
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "b7de81c6ddcbaec641c323686c83e2e83b6e2c4425e543137d39538d372be7ed",
+    "cell": 36,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 15,
+    "cache_misses": 0,
+    "local": {
+      "score": 92.54804654388533,
+      "weight": 1,
+      "coupling_status": "supported",
+      "coupling_multiplier": 0.973491124260355,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E6",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E13",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E14",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E15",
+          "direction": "unknown",
+          "reason": "Equilibrium-limited reversible nitrile/amine hydrogenation is a storage concept, not evidence of effect on the target carrier."
+        },
+        {
+          "id": "E16",
+          "direction": "unknown",
+          "reason": "Cooperative bifunctional mechanism describes a related catalyst's pathway, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E17",
+          "direction": "unknown",
+          "reason": "Ring opening of hydrofuran as a reactive intermediate determines selectivity but its overall favorability is unclear."
+        }
+      ]
+    },
+    "raw_combined": 80.91786600164409,
+    "sa_score": 3.1718017409590527,
+    "sa_penalty": 0.0,
+    "combined": 80.91786600164409,
+    "overall": 69.28768545940284,
+    "evidence_refs": [
+      "COUPLING_f4809d6d83b50986a6950eb483a42e114c002b096ddcbd19da39aba0e481dbb8/C2",
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "865c1a5ce7290ca1fa211ff0faedbbac45b56aeefa108d7e52e549019c3d5a28",
+    "cell": 36,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 16,
+    "cache_misses": 0,
+    "local": {
+      "score": 92.54804654388533,
+      "weight": 1,
+      "coupling_status": "supported",
+      "coupling_multiplier": 0.973491124260355,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E6",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E13",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E14",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E15",
+          "direction": "unknown",
+          "reason": "Equilibrium-limited reversible nitrile/amine hydrogenation is a storage concept, not evidence of effect on the target carrier."
+        },
+        {
+          "id": "E16",
+          "direction": "unknown",
+          "reason": "Reversible amine/nitrile LOHC behavior of related compounds does not directly indicate target carrier performance."
+        },
+        {
+          "id": "E17",
+          "direction": "unknown",
+          "reason": "Cooperative bifunctional mechanism describes a related catalyst's pathway, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E18",
+          "direction": "unknown",
+          "reason": "Ring opening of hydrofuran as a reactive intermediate determines selectivity but its overall favorability is unclear."
+        }
+      ]
+    },
+    "raw_combined": 80.96448779219898,
+    "sa_score": 3.092133620961187,
+    "sa_penalty": 0.0,
+    "combined": 80.96448779219898,
+    "overall": 69.38092904051263,
+    "evidence_refs": [
+      "COUPLING_f4809d6d83b50986a6950eb483a42e114c002b096ddcbd19da39aba0e481dbb8/C2",
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  },
+  {
+    "uid": "e6182075177b7a5fe1189835cccd103bc6944bbd1c82a810ad357e73777782c5",
+    "cell": 36,
+    "attempt": "first",
+    "api_status": "ok",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "prompt_cache_hit_tokens": 0
+    },
+    "cache_hits": 16,
+    "cache_misses": 0,
+    "local": {
+      "score": 92.54804654388533,
+      "weight": 1,
+      "coupling_status": "supported",
+      "coupling_multiplier": 0.973491124260355,
+      "judgements": [
+        {
+          "id": "E1",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E2",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E4",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E5",
+          "direction": "unknown",
+          "reason": "Coupling-stream restatement of a mechanistic step with no stated performance effect."
+        },
+        {
+          "id": "E6",
+          "direction": "unfavorable",
+          "reason": "N–alkyl C–N bond cleavage in the coupling stream suggests carrier degradation."
+        },
+        {
+          "id": "E8",
+          "direction": "unknown",
+          "reason": "Refers to a different hydrogen carrier, so effect on this carrier is indeterminate."
+        },
+        {
+          "id": "E9",
+          "direction": "favorable",
+          "reason": "Reversible alcohol dehydrogenation/rehydrogenation supports efficient hydrogen storage cycling."
+        },
+        {
+          "id": "E10",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/hydrogenation by the same catalyst supports useful cycling."
+        },
+        {
+          "id": "E11",
+          "direction": "favorable",
+          "reason": "Ligand NH2 groups enabling proton transfer can facilitate catalytic turnover in FA decomposition and CO2 hydrogenation."
+        },
+        {
+          "id": "E12",
+          "direction": "favorable",
+          "reason": "Substrate binding enabling reversible hydrogen transfer supports catalytic activity."
+        },
+        {
+          "id": "E13",
+          "direction": "favorable",
+          "reason": "Reversible dehydrogenation/rehydrogenation over Fe/Ir complexes is a useful hydrogen carrier pathway."
+        },
+        {
+          "id": "E14",
+          "direction": "favorable",
+          "reason": "Reversible hydrogenation/dehydrogenation enables hydrogen storage cycling."
+        },
+        {
+          "id": "E15",
+          "direction": "unknown",
+          "reason": "Equilibrium-limited reversible nitrile/amine hydrogenation is a storage concept, not evidence of effect on the target carrier."
+        },
+        {
+          "id": "E16",
+          "direction": "unknown",
+          "reason": "Reversible amine/nitrile LOHC behavior of related compounds does not directly indicate target carrier performance."
+        },
+        {
+          "id": "E17",
+          "direction": "unknown",
+          "reason": "Cooperative bifunctional mechanism describes a related catalyst's pathway, not a measured effect on carrier performance."
+        },
+        {
+          "id": "E18",
+          "direction": "unknown",
+          "reason": "Ring opening of hydrofuran as a reactive intermediate determines selectivity but its overall favorability is unclear."
+        }
+      ]
+    },
+    "raw_combined": 80.81371102267633,
+    "sa_score": 3.3712392975201384,
+    "sa_penalty": 0.0,
+    "combined": 80.81371102267633,
+    "overall": 69.07937550146731,
+    "evidence_refs": [
+      "COUPLING_f4809d6d83b50986a6950eb483a42e114c002b096ddcbd19da39aba0e481dbb8/C2",
+      "LOCAL_f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317/C3",
+      "doi:10.1002/asia.202500799/functional_group/lean/0",
+      "doi:10.1021/acs.accounts.8b00149/functional_group/lean/0",
+      "doi:10.1021/acs.inorgchem.8b02164/functional_group/lean/1",
+      "doi:10.1021/ja991638h/functional_group/lean/0",
+      "doi:10.1073/pnas.1420199112/functional_group/lean/0",
+      "doi:10.1515/recat-2015-0010/functional_group/lean/0"
+    ],
+    "evidence_status": "full",
+    "refreshed_evidence_gap": 0.75
+  }
+]

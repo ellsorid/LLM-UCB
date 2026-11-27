@@ -1,0 +1,23 @@
+{
+  "answer": {
+    "edit_ids": [
+      "A1",
+      "A1B2"
+    ],
+    "reason": "A1 gives the largest first-step local gain (0.025) with modest whole SD cost, and A1B2 continues to cell 78 with higher local delta (0.047) and target-cell response while keeping whole/local SD increases comparable to alternatives; rich matched memory supports ring/conjugation coverage."
+  },
+  "audit": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 2233,
+      "completion_tokens": 79,
+      "total_tokens": 2312,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 2233
+    },
+    "http_status": 200
+  }
+}

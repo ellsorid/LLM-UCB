@@ -1,0 +1,93 @@
+{
+  "figure": "Fig2b_ucb_cube",
+  "perspective_mode": "option2_glass_shell_plus_3wall_projections",
+  "width_mm": 180.0,
+  "height_mm": 120.0,
+  "run_dir": "D:\\LLM-UCB\\runs\\live_large_pop_v1",
+  "axes": [
+    "Whole structure (P_whole)",
+    "Local structure (P_local)",
+    "Score (P_score)"
+  ],
+  "mean_probs": [
+    0.6167,
+    0.8083,
+    0.5
+  ],
+  "g6_probs": [
+    0.8,
+    0.75,
+    0.75
+  ],
+  "j_rel_min": 1.1157391269884966,
+  "bounds_ok": true,
+  "gen_table": [
+    {
+      "generation": 1,
+      "n": 20,
+      "p_whole": 0.7,
+      "p_local": 0.85,
+      "p_score_above_g0": 0.3,
+      "p_score_above_parent": 0.4,
+      "policy": "local_mutation",
+      "local_gap": 0.631578947368421
+    },
+    {
+      "generation": 2,
+      "n": 20,
+      "p_whole": 0.65,
+      "p_local": 0.85,
+      "p_score_above_g0": 0.2,
+      "p_score_above_parent": 0.4,
+      "policy": "local_mutation",
+      "local_gap": 0.6384976525821596
+    },
+    {
+      "generation": 3,
+      "n": 20,
+      "p_whole": 0.45,
+      "p_local": 0.8,
+      "p_score_above_g0": 0.55,
+      "p_score_above_parent": 0.25,
+      "policy": "local_mutation",
+      "local_gap": 0.5542452830188679
+    },
+    {
+      "generation": 4,
+      "n": 20,
+      "p_whole": 0.6,
+      "p_local": 0.75,
+      "p_score_above_g0": 0.6,
+      "p_score_above_parent": 0.5,
+      "policy": "local_balanced",
+      "local_gap": 0.5578817733990148
+    },
+    {
+      "generation": 5,
+      "n": 20,
+      "p_whole": 0.5,
+      "p_local": 0.85,
+      "p_score_above_g0": 0.6,
+      "p_score_above_parent": 0.3,
+      "policy": "local_mutation",
+      "local_gap": 0.5144927536231884
+    },
+    {
+      "generation": 6,
+      "n": 20,
+      "p_whole": 0.8,
+      "p_local": 0.75,
+      "p_score_above_g0": 0.75,
+      "p_score_above_parent": 0.3,
+      "policy": "local_mutation",
+      "local_gap": 0.5
+    }
+  ],
+  "arrows": false,
+  "outputs": [
+    "D:\\LLM-UCB\\visualization\\output\\fig2_ucb\\Fig2b_ucb_cube.svg",
+    "D:\\LLM-UCB\\visualization\\output\\fig2_ucb\\Fig2b_ucb_cube.pdf",
+    "D:\\LLM-UCB\\visualization\\output\\fig2_ucb\\Fig2b_ucb_cube.png",
+    "D:\\LLM-UCB\\visualization\\output\\fig2_ucb\\Fig2b_ucb_cube.tiff"
+  ]
+}

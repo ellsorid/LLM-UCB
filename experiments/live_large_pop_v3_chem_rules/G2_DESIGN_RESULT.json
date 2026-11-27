@@ -1,0 +1,23 @@
+{
+  "answer": {
+    "edit_ids": [
+      "A1",
+      "A1B1"
+    ],
+    "reason": "A1 gives a clean vinyl_ethyl edit on the phenol's conjugated chain with low SA (2.68, no penalty), +0.30 net points and +0.52 H2 wt%, staying in cell 95. Its continuation A1B1 reaches unexplored cell 78 with the best combined net gain (+0.65), +0.91 H2 wt% and still no SA penalty, balancing exploration and synthetically clean H2 improvement."
+  },
+  "audit": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 5023,
+      "completion_tokens": 111,
+      "total_tokens": 5134,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 4895
+    },
+    "http_status": 200
+  }
+}

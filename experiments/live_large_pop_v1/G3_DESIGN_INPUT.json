@@ -1,0 +1,373 @@
+{
+  "goal": "Improve local performance while retaining overall performance and exploring reachable SOM cells",
+  "seed_cell": 71,
+  "scoring_observations": 64,
+  "allowed_edit_paths": [
+    {
+      "id": "A1",
+      "site": 8,
+      "operator": "amino",
+      "target_cell": 71,
+      "destination_response_delta": 0.002346,
+      "whole_delta_points": 0.061,
+      "local_delta_points": -0.033,
+      "whole_sd_points": 0.45,
+      "local_sd_points": 0.51,
+      "evidence_gap": 0.25,
+      "step": 1,
+      "added_units": [],
+      "removed_units": [],
+      "target_cell_kalman": {
+        "whole_mean": 58.05,
+        "whole_sd": 36.01,
+        "local_mean": 49.04,
+        "local_sd": 36.5,
+        "occupied_count": 1
+      },
+      "matched_memory": [
+        {
+          "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+          "kind": "attachment",
+          "state": "rich",
+          "similarity": 0.375
+        },
+        {
+          "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+          "kind": "attachment",
+          "state": "rich",
+          "similarity": 0.375
+        },
+        {
+          "source_id": "P3140ddbb70ff",
+          "kind": "attachment",
+          "state": "rich",
+          "similarity": 0.375
+        }
+      ],
+      "uncovered_unit_kinds": [
+        "ring_or_conjugation"
+      ],
+      "continuations": [
+        {
+          "id": "A1B1",
+          "site": 8,
+          "operator": "amino",
+          "target_cell": 71,
+          "destination_response_delta": 0.004554,
+          "whole_delta_points": 0.094,
+          "local_delta_points": -0.055,
+          "whole_sd_points": 0.83,
+          "local_sd_points": 0.91,
+          "evidence_gap": 0.25,
+          "step": 2,
+          "added_units": [],
+          "removed_units": [],
+          "target_cell_kalman": {
+            "whole_mean": 58.05,
+            "whole_sd": 36.01,
+            "local_mean": 49.04,
+            "local_sd": 36.5,
+            "occupied_count": 1
+          },
+          "matched_memory": [
+            {
+              "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+              "kind": "attachment",
+              "state": "rich",
+              "similarity": 0.333
+            },
+            {
+              "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+              "kind": "attachment",
+              "state": "rich",
+              "similarity": 0.333
+            },
+            {
+              "source_id": "P3140ddbb70ff",
+              "kind": "attachment",
+              "state": "rich",
+              "similarity": 0.333
+            }
+          ],
+          "uncovered_unit_kinds": [
+            "ring_or_conjugation"
+          ]
+        },
+        {
+          "id": "A1B2",
+          "site": 8,
+          "operator": "hydroxyl",
+          "target_cell": 71,
+          "destination_response_delta": 0.005838,
+          "whole_delta_points": 0.115,
+          "local_delta_points": -0.065,
+          "whole_sd_points": 0.96,
+          "local_sd_points": 1.06,
+          "evidence_gap": 0.25,
+          "step": 2,
+          "added_units": [],
+          "removed_units": [],
+          "target_cell_kalman": {
+            "whole_mean": 58.05,
+            "whole_sd": 36.01,
+            "local_mean": 49.04,
+            "local_sd": 36.5,
+            "occupied_count": 1
+          },
+          "matched_memory": [
+            {
+              "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+              "kind": "attachment",
+              "state": "rich",
+              "similarity": 0.368
+            },
+            {
+              "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+              "kind": "attachment",
+              "state": "rich",
+              "similarity": 0.368
+            },
+            {
+              "source_id": "P3140ddbb70ff",
+              "kind": "attachment",
+              "state": "rich",
+              "similarity": 0.368
+            }
+          ],
+          "uncovered_unit_kinds": [
+            "ring_or_conjugation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "site": 2,
+      "operator": "amino",
+      "target_cell": 71,
+      "destination_response_delta": 0.002536,
+      "whole_delta_points": 0.068,
+      "local_delta_points": -0.037,
+      "whole_sd_points": 0.5,
+      "local_sd_points": 0.57,
+      "evidence_gap": 0.25,
+      "step": 1,
+      "added_units": [],
+      "removed_units": [],
+      "target_cell_kalman": {
+        "whole_mean": 58.05,
+        "whole_sd": 36.01,
+        "local_mean": 49.04,
+        "local_sd": 36.5,
+        "occupied_count": 1
+      },
+      "matched_memory": [
+        {
+          "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+          "kind": "attachment",
+          "state": "rich",
+          "similarity": 0.538
+        },
+        {
+          "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+          "kind": "attachment",
+          "state": "rich",
+          "similarity": 0.538
+        },
+        {
+          "source_id": "P3140ddbb70ff",
+          "kind": "attachment",
+          "state": "rich",
+          "similarity": 0.538
+        }
+      ],
+      "uncovered_unit_kinds": [
+        "ring_or_conjugation"
+      ],
+      "continuations": [
+        {
+          "id": "A2B1",
+          "site": 2,
+          "operator": "amino",
+          "target_cell": 71,
+          "destination_response_delta": 0.00482,
+          "whole_delta_points": 0.109,
+          "local_delta_points": -0.063,
+          "whole_sd_points": 0.92,
+          "local_sd_points": 1.02,
+          "evidence_gap": 0.25,
+          "step": 2,
+          "added_units": [],
+          "removed_units": [],
+          "target_cell_kalman": {
+            "whole_mean": 58.05,
+            "whole_sd": 36.01,
+            "local_mean": 49.04,
+            "local_sd": 36.5,
+            "occupied_count": 1
+          },
+          "matched_memory": [
+            {
+              "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+              "kind": "attachment",
+              "state": "rich",
+              "similarity": 0.538
+            },
+            {
+              "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+              "kind": "attachment",
+              "state": "rich",
+              "similarity": 0.538
+            },
+            {
+              "source_id": "P3140ddbb70ff",
+              "kind": "attachment",
+              "state": "rich",
+              "similarity": 0.538
+            }
+          ],
+          "uncovered_unit_kinds": [
+            "ring_or_conjugation"
+          ]
+        },
+        {
+          "id": "A2B2",
+          "site": 2,
+          "operator": "hydroxyl",
+          "target_cell": 71,
+          "destination_response_delta": 0.006139,
+          "whole_delta_points": 0.131,
+          "local_delta_points": -0.074,
+          "whole_sd_points": 1.06,
+          "local_sd_points": 1.17,
+          "evidence_gap": 0.25,
+          "step": 2,
+          "added_units": [],
+          "removed_units": [],
+          "target_cell_kalman": {
+            "whole_mean": 58.05,
+            "whole_sd": 36.01,
+            "local_mean": 49.04,
+            "local_sd": 36.5,
+            "occupied_count": 1
+          },
+          "matched_memory": [
+            {
+              "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+              "kind": "attachment",
+              "state": "rich",
+              "similarity": 0.538
+            },
+            {
+              "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+              "kind": "attachment",
+              "state": "rich",
+              "similarity": 0.538
+            },
+            {
+              "source_id": "P3140ddbb70ff",
+              "kind": "attachment",
+              "state": "rich",
+              "similarity": 0.538
+            }
+          ],
+          "uncovered_unit_kinds": [
+            "ring_or_conjugation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "site": 8,
+      "operator": "hydroxyl",
+      "target_cell": 71,
+      "destination_response_delta": 0.003543,
+      "whole_delta_points": 0.083,
+      "local_delta_points": -0.043,
+      "whole_sd_points": 0.61,
+      "local_sd_points": 0.69,
+      "evidence_gap": 0.25,
+      "step": 1,
+      "added_units": [],
+      "removed_units": [],
+      "target_cell_kalman": {
+        "whole_mean": 58.05,
+        "whole_sd": 36.01,
+        "local_mean": 49.04,
+        "local_sd": 36.5,
+        "occupied_count": 1
+      },
+      "matched_memory": [
+        {
+          "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+          "kind": "attachment",
+          "state": "rich",
+          "similarity": 0.412
+        },
+        {
+          "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+          "kind": "attachment",
+          "state": "rich",
+          "similarity": 0.412
+        },
+        {
+          "source_id": "P3140ddbb70ff",
+          "kind": "attachment",
+          "state": "rich",
+          "similarity": 0.412
+        }
+      ],
+      "uncovered_unit_kinds": [
+        "ring_or_conjugation"
+      ],
+      "continuations": []
+    },
+    {
+      "id": "A4",
+      "site": 8,
+      "operator": "methyl",
+      "target_cell": 71,
+      "destination_response_delta": 0.001946,
+      "whole_delta_points": 0.08,
+      "local_delta_points": -0.044,
+      "whole_sd_points": 0.57,
+      "local_sd_points": 0.64,
+      "evidence_gap": 0.25,
+      "step": 1,
+      "added_units": [],
+      "removed_units": [],
+      "target_cell_kalman": {
+        "whole_mean": 58.05,
+        "whole_sd": 36.01,
+        "local_mean": 49.04,
+        "local_sd": 36.5,
+        "occupied_count": 1
+      },
+      "matched_memory": [
+        {
+          "source_id": "FRESH_AMENDE_2014_ABSTRACT",
+          "kind": "attachment",
+          "state": "rich",
+          "similarity": 0.375
+        },
+        {
+          "source_id": "FRESH_GLEICHWEIT_2014_ABSTRACT",
+          "kind": "attachment",
+          "state": "rich",
+          "similarity": 0.375
+        },
+        {
+          "source_id": "P3140ddbb70ff",
+          "kind": "attachment",
+          "state": "rich",
+          "similarity": 0.375
+        }
+      ],
+      "uncovered_unit_kinds": [
+        "ring_or_conjugation"
+      ],
+      "continuations": []
+    }
+  ]
+}

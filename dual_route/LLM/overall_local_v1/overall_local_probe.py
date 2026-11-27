@@ -37,7 +37,7 @@ def whole_prior(pair, uid, memory):
     for r in memory:
         e = r.get("evaluation",{})
         prior = e.get("score",{})
-        if r["case"]==uid or not e.get("critic",{}).get("accept") or e.get("source")!="LIVE_LLM":
+        if r["case"]==uid or not e.get("critic",{}).get("accept") or e.get("source") not in ("LIVE_LLM","CLOSED_LOOP_COMMITTED"):
             continue
         val = prior.get("overall",{}).get("score")
         if prior.get("molecule_id")!=r["case"] or type(val) not in (int,float) or not math.isfinite(val):
@@ -53,23 +53,33 @@ def whole_prior(pair, uid, memory):
             if total else None,"weight":min(1,total)}
 
 
-def prepare_local(target, memory):
+def prepare_local(target, memory, observations_override=None, allow_general_claims=True):
+    obs_table = OBSERVATIONS if observations_override is None else observations_override
     rows, audit = {}, []
     endpoints = {r["evidence"]["endpoint"] for group in memory["unit_index"].values() for r in group}
     for endpoint in sorted(endpoints):
         for hit in retrieve(target,memory,endpoint,limit=10):
-            if hit["stream"] != "local" or hit["source_id"] in rows:
+            stream = hit.get("stream", "local")
+            if stream not in ("local", "coupling") or (stream, hit["source_id"]) in rows:
                 continue
             source = hit["source_id"]
-            if source not in OBSERVATIONS:
+            if source in obs_table:
+                catalyst, observation = obs_table[source]
+            elif allow_general_claims:
+                if hit.get("attribution") == "external_intervention":
+                    continue
+                observation = hit.get("observation") or hit.get("quote")
+                if not isinstance(observation,str) or not observation.strip():
+                    continue
+                catalyst = hit.get("source_catalyst") or hit.get("source_conditions") or "unspecified"
+            else:
                 continue
-            rows[source] = hit
-            catalyst, observation = OBSERVATIONS[source]
+            rows[(stream, source)] = hit
             audit.append(hit | {"id":f"E{len(audit)+1}","source_catalyst":catalyst,
                                 "molecular_observation":observation,
                                 "used_for_judgement":observation is not None})
     return audit, [{"id":r["id"],"unit_type":r["kind"],"parent_ids":r["target_ids"],"state":r["state"],
-                    "observation":r["molecular_observation"]} for r in audit if r["used_for_judgement"]]
+                    "stream":r.get("stream", "local"),"observation":r["molecular_observation"]} for r in audit if r["used_for_judgement"]]
 
 
 def local_result(packet, result, audit):
@@ -78,8 +88,9 @@ def local_result(packet, result, audit):
     if not isinstance(result,dict) or set(result)!={"judgements"} or not isinstance(result["judgements"],list):
         raise ValueError("Invalid judgement envelope")
     allowed = {"favorable":1,"unfavorable":-1,"mixed":0,"unknown":0}
+    tier_applicability = {1: 0.75, 2: 0.60, 3: 0.50}
     seen = set()
-    items = []
+    local_items, coupling_items = [], []
     for r in result["judgements"]:
         if (not isinstance(r,dict) or set(r)!={"id","direction","reason"} or
                 r["id"] not in candidates or r["id"] in seen or r["direction"] not in allowed or
@@ -88,12 +99,23 @@ def local_result(packet, result, audit):
         seen.add(r["id"])
         if allowed[r["direction"]]:
             hit = rows[r["id"]]
-            items.append({"source_id":hit["source_id"],"similarity":hit["similarity"],
-                          "direction":allowed[r["direction"]],"quality":.7,"applicability":.5})
+            app = tier_applicability.get(hit.get("scope_tier"), 0.5)
+            item = {"source_id":hit["source_id"],"similarity":hit["similarity"],
+                    "direction":allowed[r["direction"]],"quality":.7,"applicability":app}
+            if hit.get("stream", "local") == "coupling":
+                coupling_items.append(item)
+            else:
+                local_items.append(item)
     if seen != set(candidates):
         raise ValueError("Missing program-selected evidence")
-    local = score([],items,[])
-    return {"score":local["score"],"weight":local["coverage"]["local"],"judgements":result["judgements"]}
+    local = score([], local_items, coupling_items)
+    return {
+        "score": local["score"],
+        "weight": local["coverage"]["local"],
+        "coupling_status": local.get("coupling_status", "unknown"),
+        "coupling_multiplier": local.get("coupling_multiplier", 1.0),
+        "judgements": result["judgements"],
+    }
 
 
 if __name__=="__main__":

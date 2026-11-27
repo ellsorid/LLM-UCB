@@ -80,8 +80,12 @@ def retrieve(target, memory, endpoint, floor=.30, limit=3):
                 hits.append({"kind":kind,"unit":unit["unit_id"],"state":unit["state"],
                              "target_ids":unit["parent_ids"],"similarity":value,
                              "source_id":row["source_id"],"reference":row["reference"],
-                             "stream":row["stream"],"source_conditions":evidence["conditions"],
-                             "quote":evidence["quote"]})
+                             "stream":row["stream"],"scope_tier":evidence.get("scope_tier"),
+                             "source_conditions":evidence.get("conditions", ""),
+                             "source_catalyst":evidence.get("catalyst"),
+                             "quote":evidence.get("quote", ""),
+                             "observation":evidence.get("observation"),
+                             "attribution":evidence.get("attribution", "molecular_structure")})
     unique = {}
     for row in sorted(hits,key=lambda r:(-r["similarity"],r["reference"],r["unit"])):
         unique.setdefault((row["stream"],row["kind"],row["source_id"],row["state"]),row)

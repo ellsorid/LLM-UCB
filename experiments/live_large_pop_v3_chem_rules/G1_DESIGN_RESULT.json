@@ -1,0 +1,23 @@
+{
+  "answer": {
+    "edit_ids": [
+      "A1",
+      "A1B1"
+    ],
+    "reason": "A1 lowers SA (-0.219) with positive local gain and targets unexplored cell 68; its continuation A1B1 adds strong H2 (+0.483 wt%) and local (+0.903) improvement while cutting SA further to 3.525 (near-zero penalty), giving the best exploration/performance/SA balance."
+  },
+  "audit": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 4678,
+      "completion_tokens": 86,
+      "total_tokens": 4764,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 4550
+    },
+    "http_status": 200
+  }
+}

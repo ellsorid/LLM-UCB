@@ -1,0 +1,23 @@
+{
+  "answer": {
+    "edit_ids": [
+      "A1",
+      "A1B1"
+    ],
+    "reason": "A1 adds a vinyl-ethyl at the carbonyl site, giving +1.55 net points, +0.30 H2 wt%, and only 0.21 SA penalty while targeting an undirected cell (71) for exploration. Its continuation A1B1 reaches cell 67 with the best net gain (+3.24), +0.53 H2 wt%, and modest SA (3.77), balancing exploration, H2 improvement, and synthetic accessibility better than the higher-SA A5 ethynyl route."
+  },
+  "audit": {
+    "status": "ok",
+    "usage": {
+      "prompt_tokens": 5566,
+      "completion_tokens": 123,
+      "total_tokens": 5689,
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      },
+      "prompt_cache_hit_tokens": 128,
+      "prompt_cache_miss_tokens": 5438
+    },
+    "http_status": 200
+  }
+}

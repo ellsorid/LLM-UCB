@@ -1,0 +1,659 @@
+{
+  "version": "chemical_benchmark_v1",
+  "molecule_count": 29,
+  "pair_count": 16,
+  "molecules": {
+    "nec": {
+      "key": "nec",
+      "uid": "f1c5349c2d1b89c65d1afd51f61588f125a33a4768dbd67c24521961051d3317",
+      "name": "N-Ethylcarbazole (NEC)",
+      "layer": "classic_lohc",
+      "lean_smiles": "CCn1c2ccccc2c2ccccc21",
+      "rich_smiles": "CCN1C2CCCCC2C2CCCCC21",
+      "nH2": 6.0,
+      "h2_wt_percent": 5.833,
+      "sa_score": 1.517,
+      "chemical_role": "Benchmark heteroaromatic LOHC with lowered dehydrogenation enthalpy (~50-53 kJ/mol-H2)",
+      "unit_counts": {
+        "functional_group": 1,
+        "ring_or_conjugation": 3,
+        "attachment": 2,
+        "reaction_change": 2
+      }
+    },
+    "biphenyl": {
+      "key": "biphenyl",
+      "uid": "0ab49a1d3a1a9cf1f8337e4e2aa61bbeb0f8b299e26dc87481152378a7a8ec47",
+      "name": "Biphenyl",
+      "layer": "classic_lohc",
+      "lean_smiles": "c1ccc(-c2ccccc2)cc1",
+      "rich_smiles": "C1CCC(C2CCCCC2)CC1",
+      "nH2": 6.0,
+      "h2_wt_percent": 7.273,
+      "sa_score": 1.0,
+      "chemical_role": "All-carbocyclic aromatic reference requiring higher dehydrogenation enthalpy (~65 kJ/mol-H2)",
+      "unit_counts": {
+        "functional_group": 0,
+        "ring_or_conjugation": 5,
+        "attachment": 0,
+        "reaction_change": 2
+      }
+    },
+    "2_methylindole": {
+      "key": "2_methylindole",
+      "uid": "83cb4236aaab0304918df18f317133c58e82bda0d7ddc58ab74fad9a85c1eae0",
+      "name": "2-Methylindole",
+      "layer": "classic_lohc",
+      "lean_smiles": "Cc1cc2ccccc2[nH]1",
+      "rich_smiles": "CC1CC2CCCCC2N1",
+      "nH2": 4.0,
+      "h2_wt_percent": 5.791,
+      "sa_score": 1.756,
+      "chemical_role": "C2-methylated indole with lower melting point and suppressed oligomerization",
+      "unit_counts": {
+        "functional_group": 1,
+        "ring_or_conjugation": 3,
+        "attachment": 2,
+        "reaction_change": 2
+      }
+    },
+    "indole": {
+      "key": "indole",
+      "uid": "d5c257cf0c62c05514d07fb3d623e3cede598b310048200b385ddb6d99c8ab65",
+      "name": "Indole",
+      "layer": "classic_lohc",
+      "lean_smiles": "c1ccc2[nH]ccc2c1",
+      "rich_smiles": "C1CCC2NCCC2C1",
+      "nH2": 4.0,
+      "h2_wt_percent": 6.44,
+      "sa_score": 1.74,
+      "chemical_role": "Unsubstituted indole with high melting point and higher side-reaction tendency",
+      "unit_counts": {
+        "functional_group": 1,
+        "ring_or_conjugation": 3,
+        "attachment": 0,
+        "reaction_change": 2
+      }
+    },
+    "dbt_24": {
+      "key": "dbt_24",
+      "uid": "0f970869c63c9106bcd06d014f00c3f011eae2853d091dcf0eb1343ff478db5f",
+      "name": "2,4-Dibenzyltoluene (DBT isomer)",
+      "layer": "classic_lohc",
+      "lean_smiles": "Cc1ccc(Cc2ccccc2)cc1Cc1ccccc1",
+      "rich_smiles": "CC1CCC(CC2CCCCC2)CC1CC1CCCCC1",
+      "nH2": 9.0,
+      "h2_wt_percent": 6.245,
+      "sa_score": 1.562,
+      "chemical_role": "Industrial non-volatile thermal-stable LOHC benchmark",
+      "unit_counts": {
+        "functional_group": 0,
+        "ring_or_conjugation": 9,
+        "attachment": 10,
+        "reaction_change": 6
+      }
+    },
+    "toluene": {
+      "key": "toluene",
+      "uid": "33f3c7882aa52ff80997dd9be1efb811265b31cca51dde34432594a1ba17ea78",
+      "name": "Toluene",
+      "layer": "classic_lohc",
+      "lean_smiles": "Cc1ccccc1",
+      "rich_smiles": "CC1CCCCC1",
+      "nH2": 3.0,
+      "h2_wt_percent": 6.16,
+      "sa_score": 1.0,
+      "chemical_role": "Light volatile monoaromatic LOHC (MCH/toluene) with high dehydrogenation enthalpy and boil-off loss",
+      "unit_counts": {
+        "functional_group": 0,
+        "ring_or_conjugation": 3,
+        "attachment": 2,
+        "reaction_change": 2
+      }
+    },
+    "quinaldine": {
+      "key": "quinaldine",
+      "uid": "56450aa606de8cac9212c0db83874e073b09775864b7c3be2bff9d157f744569",
+      "name": "2-Methylquinoline (Quinaldine)",
+      "layer": "classic_lohc",
+      "lean_smiles": "Cc1ccc2ccccc2n1",
+      "rich_smiles": "CC1CCC2CCCCC2N1",
+      "nH2": 5.0,
+      "h2_wt_percent": 6.577,
+      "sa_score": 1.463,
+      "chemical_role": "Sterically shielded bicyclic N-heteroaromatic LOHC with mitigated N coordination poisoning",
+      "unit_counts": {
+        "functional_group": 1,
+        "ring_or_conjugation": 3,
+        "attachment": 2,
+        "reaction_change": 2
+      }
+    },
+    "pyridine": {
+      "key": "pyridine",
+      "uid": "bab38f0674aac55717743b5969413b1aaf0a058564abc58320636ddbf1902174",
+      "name": "Pyridine",
+      "layer": "classic_lohc",
+      "lean_smiles": "c1ccncc1",
+      "rich_smiles": "C1CCNCC1",
+      "nH2": 3.0,
+      "h2_wt_percent": 7.103,
+      "sa_score": 1.372,
+      "chemical_role": "Unshielded basic sp2-N heterocycle causing strong catalyst poisoning/adsorption inhibition",
+      "unit_counts": {
+        "functional_group": 1,
+        "ring_or_conjugation": 3,
+        "attachment": 0,
+        "reaction_change": 2
+      }
+    },
+    "1_2_dimethylindole": {
+      "key": "1_2_dimethylindole",
+      "uid": "bdf089b402ae7d1eed0570dd7a7ebc03fa33c2d3ab988ff2debcae4869230106",
+      "name": "1,2-Dimethylindole",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "Cc1cc2ccccc2n1C",
+      "rich_smiles": "CC1CC2CCCCC2N1C",
+      "nH2": 4.0,
+      "h2_wt_percent": 5.261,
+      "sa_score": 1.786,
+      "chemical_role": "Short N-methyl + C2 steric block preserves reversible cycling and resists C-N dealkylation",
+      "unit_counts": {
+        "functional_group": 1,
+        "ring_or_conjugation": 3,
+        "attachment": 4,
+        "reaction_change": 2
+      }
+    },
+    "n_butylindole": {
+      "key": "n_butylindole",
+      "uid": "e446f78791447428d25465fab1042ae3d2ec9805254f95a7c9a765ac6196d50c",
+      "name": "N-Butylindole",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "CCCCn1ccc2ccccc21",
+      "rich_smiles": "CCCCN1CCC2CCCCC21",
+      "nH2": 4.0,
+      "h2_wt_percent": 4.447,
+      "sa_score": 1.732,
+      "chemical_role": "Long N-alkyl chain prone to thermal/catalytic C-N bond cleavage and dealkylation",
+      "unit_counts": {
+        "functional_group": 1,
+        "ring_or_conjugation": 3,
+        "attachment": 2,
+        "reaction_change": 2
+      }
+    },
+    "quinoline": {
+      "key": "quinoline",
+      "uid": "232254ec3acb2c715c32483191cb095a4a3b55e31467122eed90f874df5ac01b",
+      "name": "Quinoline",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "c1ccc2ncccc2c1",
+      "rich_smiles": "C1CCC2NCCCC2C1",
+      "nH2": 5.0,
+      "h2_wt_percent": 7.239,
+      "sa_score": 1.348,
+      "chemical_role": "Ring-N incorporation lowers thermodynamic dehydrogenation barrier vs pure carbocycle",
+      "unit_counts": {
+        "functional_group": 1,
+        "ring_or_conjugation": 3,
+        "attachment": 0,
+        "reaction_change": 2
+      }
+    },
+    "naphthalene": {
+      "key": "naphthalene",
+      "uid": "5db441e69858fa328318ec96573cee33a6300e5f2c68608b9f7ca3602c4e760a",
+      "name": "Naphthalene",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "c1ccc2ccccc2c1",
+      "rich_smiles": "C1CCC2CCCCC2C1",
+      "nH2": 5.0,
+      "h2_wt_percent": 7.291,
+      "sa_score": 1.0,
+      "chemical_role": "Pure bicyclic carbocycle baseline requiring higher dehydrogenation temperature",
+      "unit_counts": {
+        "functional_group": 0,
+        "ring_or_conjugation": 3,
+        "attachment": 0,
+        "reaction_change": 2
+      }
+    },
+    "2_methylbenzimidazole": {
+      "key": "2_methylbenzimidazole",
+      "uid": "33299878f20ef177386470332bcef4d81f347dd634faa12a8b8b80198289316d",
+      "name": "2-Methylbenzimidazole",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "Cc1nc2ccccc2[nH]1",
+      "rich_smiles": "CC1NC2CCCCC2N1",
+      "nH2": 4.0,
+      "h2_wt_percent": 5.751,
+      "sa_score": 1.769,
+      "chemical_role": "Dual ring-N heteroaromatic with C2-methyl protection",
+      "unit_counts": {
+        "functional_group": 2,
+        "ring_or_conjugation": 3,
+        "attachment": 2,
+        "reaction_change": 2
+      }
+    },
+    "ethylbenzene": {
+      "key": "ethylbenzene",
+      "uid": "a7ba89815cb0a188f925692a656e2ee2744f8d9ad79c6fb979362f304e4bc9f2",
+      "name": "Ethylbenzene",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "CCc1ccccc1",
+      "rich_smiles": "CCC1CCCCC1",
+      "nH2": 3.0,
+      "h2_wt_percent": 5.39,
+      "sa_score": 1.0,
+      "chemical_role": "Saturated alkylbenzene without reactive terminal unsaturated polymerizable sidechain",
+      "unit_counts": {
+        "functional_group": 0,
+        "ring_or_conjugation": 3,
+        "attachment": 2,
+        "reaction_change": 2
+      }
+    },
+    "phenylacetylene": {
+      "key": "phenylacetylene",
+      "uid": "4bcdbd6377971fae58037bdcb82535a93972a05f60d5774b0c93fb85828bbc15",
+      "name": "Phenylacetylene",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "C#Cc1ccccc1",
+      "rich_smiles": "CCC1CCCCC1",
+      "nH2": 5.0,
+      "h2_wt_percent": 8.983,
+      "sa_score": 1.782,
+      "chemical_role": "Terminal alkyne undergoes facile thermal polymerization/oligomerization and catalyst coking",
+      "unit_counts": {
+        "functional_group": 0,
+        "ring_or_conjugation": 3,
+        "attachment": 2,
+        "reaction_change": 2
+      }
+    },
+    "styrene": {
+      "key": "styrene",
+      "uid": "1b7327e34b3432c6fec383116ab05000fe68a782155151394adca235014780e7",
+      "name": "Styrene",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "C=Cc1ccccc1",
+      "rich_smiles": "CCC1CCCCC1",
+      "nH2": 4.0,
+      "h2_wt_percent": 7.186,
+      "sa_score": 1.553,
+      "chemical_role": "Conjugated vinyl substituent undergoes thermally induced polymerization and oligomer fouling",
+      "unit_counts": {
+        "functional_group": 0,
+        "ring_or_conjugation": 3,
+        "attachment": 2,
+        "reaction_change": 2
+      }
+    },
+    "propyl_amino_pyrazole": {
+      "key": "propyl_amino_pyrazole",
+      "uid": "0803506f264263f55e6c9a4ebd4caa94e7315c5c74989a4dc8cf560260bfd7ed",
+      "name": "1-Propyl-5-amino-pyrazole analogue",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "CCCc1cnn(C2CCCC2)c1N",
+      "rich_smiles": "CCCC1CNN(C2CCCC2)C1N",
+      "nH2": 2.0,
+      "h2_wt_percent": 2.043,
+      "sa_score": 2.49,
+      "chemical_role": "Unknown-region pyrazole scaffold with saturated alkyl sidechain avoiding alkyne coking",
+      "unit_counts": {
+        "functional_group": 2,
+        "ring_or_conjugation": 5,
+        "attachment": 4,
+        "reaction_change": 2
+      }
+    },
+    "propargyl_amino_pyrazole": {
+      "key": "propargyl_amino_pyrazole",
+      "uid": "0b98b5bad40ab2ec60bb4db40c54a3935bb79c92d773a0c60563d565de95472c",
+      "name": "1-Propargyl-5-amino-pyrazole (live run root)",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "C#CCc1cnn(C2CCCC2)c1N",
+      "rich_smiles": "CCCC1CNN(C2CCCC2)C1N",
+      "nH2": 4.0,
+      "h2_wt_percent": 4.087,
+      "sa_score": 2.996,
+      "chemical_role": "Terminal-alkyne pyrazole with elevated polymerization/coking risk at dehydrogenation T",
+      "unit_counts": {
+        "functional_group": 2,
+        "ring_or_conjugation": 5,
+        "attachment": 4,
+        "reaction_change": 4
+      }
+    },
+    "acetophenone": {
+      "key": "acetophenone",
+      "uid": "9a108d04a309bec6aa2ed26b10ffbf13d5a9fca7c944e5e6402753795c3291a3",
+      "name": "Acetophenone / 1-Phenylethanol",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "CC(=O)c1ccccc1",
+      "rich_smiles": "CC(O)c1ccccc1",
+      "nH2": 1.0,
+      "h2_wt_percent": 1.65,
+      "sa_score": 1.097,
+      "chemical_role": "Reversible ketone <-> secondary-alcohol hydrogen-storage motif with low enthalpy",
+      "unit_counts": {
+        "functional_group": 2,
+        "ring_or_conjugation": 4,
+        "attachment": 2,
+        "reaction_change": 2
+      }
+    },
+    "furan": {
+      "key": "furan",
+      "uid": "e9892946ad9af78ab71b231e876173c2eee2ce076638f62ea709524664a3fbfa",
+      "name": "Furan",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "c1ccoc1",
+      "rich_smiles": "C1CCOC1",
+      "nH2": 2.0,
+      "h2_wt_percent": 5.592,
+      "sa_score": 3.41,
+      "chemical_role": "Oxygen heteroaromatic vulnerable to irreversible C-O ring-opening hydrogenolysis",
+      "unit_counts": {
+        "functional_group": 1,
+        "ring_or_conjugation": 3,
+        "attachment": 0,
+        "reaction_change": 2
+      }
+    },
+    "benzophenone": {
+      "key": "benzophenone",
+      "uid": "c8e3d00801d598cd3d168d57c7e11402be9d2ce8ded9ee0ea2b8078308c876c9",
+      "name": "Benzophenone / Diphenylmethanol",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "O=C(c1ccccc1)c1ccccc1",
+      "rich_smiles": "OC(c1ccccc1)c1ccccc1",
+      "nH2": 1.0,
+      "h2_wt_percent": 1.094,
+      "sa_score": 1.154,
+      "chemical_role": "Resonance-stabilized diaryl ketone/alcohol storage motif",
+      "unit_counts": {
+        "functional_group": 2,
+        "ring_or_conjugation": 7,
+        "attachment": 4,
+        "reaction_change": 2
+      }
+    },
+    "benzyl_methyl_ether": {
+      "key": "benzyl_methyl_ether",
+      "uid": "2081652deef5c2b4f89285bc96841de0493cd5cdf48b13d7b3cb8ecc3506791d",
+      "name": "Benzyl methyl ether",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "COCc1ccccc1",
+      "rich_smiles": "COCC1CCCCC1",
+      "nH2": 3.0,
+      "h2_wt_percent": 4.717,
+      "sa_score": 1.173,
+      "chemical_role": "Benzylic C-O ether bond highly susceptible to catalytic hydrogenolysis cleavage",
+      "unit_counts": {
+        "functional_group": 2,
+        "ring_or_conjugation": 3,
+        "attachment": 2,
+        "reaction_change": 2
+      }
+    },
+    "benzonitrile": {
+      "key": "benzonitrile",
+      "uid": "f8655c62b16096200e2553b22ee77f97a365602398ee4f707039f581fec7e45c",
+      "name": "Benzonitrile / Benzylamine",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "N#Cc1ccccc1",
+      "rich_smiles": "NCc1ccccc1",
+      "nH2": 2.0,
+      "h2_wt_percent": 3.763,
+      "sa_score": 1.384,
+      "chemical_role": "Reversible nitrile <-> primary amine hydrogen-transfer motif",
+      "unit_counts": {
+        "functional_group": 2,
+        "ring_or_conjugation": 4,
+        "attachment": 2,
+        "reaction_change": 2
+      }
+    },
+    "2_methylfuran": {
+      "key": "2_methylfuran",
+      "uid": "b0d8525caca7faf5d6ad6d141b90fbfa9da4fa4c5171175e403c6d4a94535723",
+      "name": "2-Methylfuran",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "Cc1ccco1",
+      "rich_smiles": "CC1CCCO1",
+      "nH2": 2.0,
+      "h2_wt_percent": 4.681,
+      "sa_score": 2.743,
+      "chemical_role": "Furan ring prone to C-O ring opening and hydrodeoxygenation under cycling",
+      "unit_counts": {
+        "functional_group": 1,
+        "ring_or_conjugation": 3,
+        "attachment": 2,
+        "reaction_change": 2
+      }
+    },
+    "phenazine": {
+      "key": "phenazine",
+      "uid": "88837f6e663ee6d53f03c27ad5a307fbd519aaa085aac9765694e09e26c9f44d",
+      "name": "Phenazine",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "c1ccc2nc3ccccc3nc2c1",
+      "rich_smiles": "C1CCC2NC3CCCCC3NC2C1",
+      "nH2": 7.0,
+      "h2_wt_percent": 7.262,
+      "sa_score": 1.326,
+      "chemical_role": "Diazine-bridged tricyclic N-heterocycle with reversible hydrogenation without C-O scission",
+      "unit_counts": {
+        "functional_group": 2,
+        "ring_or_conjugation": 3,
+        "attachment": 0,
+        "reaction_change": 2
+      }
+    },
+    "dibenzofuran": {
+      "key": "dibenzofuran",
+      "uid": "c7fa6f8e2f1cacaf2576c82a8f1c19de00ebcdcc6a64c65d726b40111bf75b77",
+      "name": "Dibenzofuran",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "c1ccc2c(c1)oc1ccccc12",
+      "rich_smiles": "C1CCC2C(C1)OC1CCCCC12",
+      "nH2": 6.0,
+      "h2_wt_percent": 6.709,
+      "sa_score": 1.489,
+      "chemical_role": "O-bridged tricycle susceptible to C-O hydrogenolysis and high-temperature ring opening",
+      "unit_counts": {
+        "functional_group": 1,
+        "ring_or_conjugation": 3,
+        "attachment": 0,
+        "reaction_change": 2
+      }
+    },
+    "2_6_lutidine": {
+      "key": "2_6_lutidine",
+      "uid": "914eebd517664c93c9d460404f39fb0c42bebce5ee4a0bc881317db87512722d",
+      "name": "2,6-Dimethylpyridine (Lutidine)",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "Cc1cccc(C)n1",
+      "rich_smiles": "CC1CCCC(C)N1",
+      "nH2": 3.0,
+      "h2_wt_percent": 5.343,
+      "sa_score": 1.665,
+      "chemical_role": "Ortho-dimethyl steric shielding weakens destructive N lone-pair catalyst poisoning",
+      "unit_counts": {
+        "functional_group": 1,
+        "ring_or_conjugation": 3,
+        "attachment": 4,
+        "reaction_change": 2
+      }
+    },
+    "4_methylacetophenone": {
+      "key": "4_methylacetophenone",
+      "uid": "15db15b3eced616e3daa8f47f436a997f86d945939ac1e0396fc6aba67cc7c84",
+      "name": "4-Methylacetophenone",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "CC(=O)c1ccc(C)cc1",
+      "rich_smiles": "Cc1ccc(C(C)O)cc1",
+      "nH2": 1.0,
+      "h2_wt_percent": 1.48,
+      "sa_score": 1.201,
+      "chemical_role": "Clean ketone/alcohol pair free of reactive nucleophilic amine condensation partner",
+      "unit_counts": {
+        "functional_group": 2,
+        "ring_or_conjugation": 4,
+        "attachment": 4,
+        "reaction_change": 2
+      }
+    },
+    "4_aminoacetophenone": {
+      "key": "4_aminoacetophenone",
+      "uid": "fb33454da534b04d10be945bb7f1556e95721ead2c7ea05a9d78d217483f9aff",
+      "name": "4-Aminoacetophenone",
+      "layer": "motif_and_functional_group",
+      "lean_smiles": "CC(=O)c1ccc(N)cc1",
+      "rich_smiles": "CC(O)c1ccc(N)cc1",
+      "nH2": 1.0,
+      "h2_wt_percent": 1.47,
+      "sa_score": 1.477,
+      "chemical_role": "Antagonistic amine + ketone coexistence triggers intermolecular Schiff-base oligomerization",
+      "unit_counts": {
+        "functional_group": 4,
+        "ring_or_conjugation": 4,
+        "attachment": 4,
+        "reaction_change": 2
+      }
+    }
+  },
+  "contrast_pairs": [
+    {
+      "id": "A1_nec_vs_biphenyl",
+      "layer": "classic_lohc",
+      "mechanism": "ring_heteroatom_barrier_lowering",
+      "preferred": "nec",
+      "disfavored": "biphenyl",
+      "rationale": "Ring-N in NEC lowers dehydrogenation enthalpy vs all-carbon biphenyl"
+    },
+    {
+      "id": "A2_2me_indole_vs_indole",
+      "layer": "classic_lohc",
+      "mechanism": "c2_steric_stabilization",
+      "preferred": "2_methylindole",
+      "disfavored": "indole",
+      "rationale": "C2-methyl substituent reduces melting point and suppresses indole oligomerization"
+    },
+    {
+      "id": "A3_dbt_vs_toluene",
+      "layer": "classic_lohc",
+      "mechanism": "multiring_thermal_stability",
+      "preferred": "dbt_24",
+      "disfavored": "toluene",
+      "rationale": "DBT offers superior thermal stability and low vapor pressure vs volatile toluene"
+    },
+    {
+      "id": "A4_quinaldine_vs_pyridine",
+      "layer": "classic_lohc",
+      "mechanism": "ortho_shielded_bicyclic_vs_poisoning_monocycle",
+      "preferred": "quinaldine",
+      "disfavored": "pyridine",
+      "rationale": "C2-shielded bicyclic quinaldine avoids severe catalyst N-poisoning of free pyridine"
+    },
+    {
+      "id": "B1_12dmi_vs_nbutylindole",
+      "layer": "motif_and_functional_group",
+      "mechanism": "heteroatom_vs_cn_cleavage",
+      "preferred": "1_2_dimethylindole",
+      "disfavored": "n_butylindole",
+      "rationale": "Protected N-methyl avoids facile C-N dealkylation of long N-butyl chain"
+    },
+    {
+      "id": "B2_quinoline_vs_naphthalene",
+      "layer": "motif_and_functional_group",
+      "mechanism": "heteroatom_vs_cn_cleavage",
+      "preferred": "quinoline",
+      "disfavored": "naphthalene",
+      "rationale": "Endocyclic N facilitates reversible catalytic dehydrogenation vs pure naphthalene"
+    },
+    {
+      "id": "B3_2mebenzimidazole_vs_naphthalene",
+      "layer": "motif_and_functional_group",
+      "mechanism": "heteroatom_vs_cn_cleavage",
+      "preferred": "2_methylbenzimidazole",
+      "disfavored": "naphthalene",
+      "rationale": "Protected diazole lowers thermodynamic dehydrogenation barrier vs carbocycle"
+    },
+    {
+      "id": "B4_ethylbenzene_vs_phenylacetylene",
+      "layer": "motif_and_functional_group",
+      "mechanism": "unsaturated_polymerization_trap",
+      "preferred": "ethylbenzene",
+      "disfavored": "phenylacetylene",
+      "rationale": "Terminal alkyne induces severe thermal polymerization and coking"
+    },
+    {
+      "id": "B5_ethylbenzene_vs_styrene",
+      "layer": "motif_and_functional_group",
+      "mechanism": "unsaturated_polymerization_trap",
+      "preferred": "ethylbenzene",
+      "disfavored": "styrene",
+      "rationale": "Unprotected conjugated vinyl substituent polymerizes under thermal storage/cycling"
+    },
+    {
+      "id": "B6_propyl_vs_propargyl_pyrazole",
+      "layer": "motif_and_functional_group",
+      "mechanism": "unsaturated_polymerization_trap",
+      "preferred": "propyl_amino_pyrazole",
+      "disfavored": "propargyl_amino_pyrazole",
+      "rationale": "Unknown-region scaffold comparison: saturated alkyl avoids terminal-alkyne coking trap"
+    },
+    {
+      "id": "B7_acetophenone_vs_furan",
+      "layer": "motif_and_functional_group",
+      "mechanism": "reversible_fg_vs_co_cleavage",
+      "preferred": "acetophenone",
+      "disfavored": "furan",
+      "rationale": "Ketone/alcohol cycling is cleanly reversible whereas furan suffers ring-opening hydrogenolysis"
+    },
+    {
+      "id": "B8_benzophenone_vs_benzylether",
+      "layer": "motif_and_functional_group",
+      "mechanism": "reversible_fg_vs_co_cleavage",
+      "preferred": "benzophenone",
+      "disfavored": "benzyl_methyl_ether",
+      "rationale": "Diaryl ketone/alcohol resists facile benzylic C-O hydrogenolysis cleavage"
+    },
+    {
+      "id": "B9_benzonitrile_vs_2mefuran",
+      "layer": "motif_and_functional_group",
+      "mechanism": "reversible_fg_vs_co_cleavage",
+      "preferred": "benzonitrile",
+      "disfavored": "2_methylfuran",
+      "rationale": "Reversible nitrile/amine transfer outperforms ring-opening-prone methylfuran"
+    },
+    {
+      "id": "B10_phenazine_vs_dibenzofuran",
+      "layer": "motif_and_functional_group",
+      "mechanism": "reversible_fg_vs_co_cleavage",
+      "preferred": "phenazine",
+      "disfavored": "dibenzofuran",
+      "rationale": "N-bridged phenazine cycles reversibly vs O-bridged dibenzofuran hydrodeoxygenation risk"
+    },
+    {
+      "id": "B11_lutidine_vs_pyridine",
+      "layer": "motif_and_functional_group",
+      "mechanism": "multi_unit_steric_electronic_coupling",
+      "preferred": "2_6_lutidine",
+      "disfavored": "pyridine",
+      "rationale": "Ortho-methyl steric shielding mitigates catalyst lone-pair poisoning on pyridine N"
+    },
+    {
+      "id": "B12_methyl_vs_amino_acetophenone",
+      "layer": "motif_and_functional_group",
+      "mechanism": "multi_unit_steric_electronic_coupling",
+      "preferred": "4_methylacetophenone",
+      "disfavored": "4_aminoacetophenone",
+      "rationale": "Coexistence of nucleophilic -NH2 and electrophilic C=O triggers Schiff-base condensation"
+    }
+  ]
+}

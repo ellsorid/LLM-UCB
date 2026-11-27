@@ -1,0 +1,3245 @@
+{
+  "invocations": 124,
+  "search_requests": 0,
+  "search_cache_hits": 248,
+  "papers_fetched": 0,
+  "search_errors": [],
+  "search_budget_exhausted": false,
+  "llm_extract_calls": 24,
+  "claims_accepted": 44,
+  "claims_contextual": 56,
+  "claims_rejected": 1,
+  "claims_added_to_memory": 42,
+  "events": [
+    {
+      "invocation": 1,
+      "uid": "a0dbe02c3c7b656fe0eaec0cf5549f5d03b09939568eb53dcf016b7849175924",
+      "smiles": [
+        "COc1ccc(C(=O)Oc2ccccc2)cc1O",
+        "COC1CCC(C(=O)OC2CCCCC2)CC1O"
+      ],
+      "queries": [
+        "carbonyl reversible hydrogenation dehydrogenation catalysis",
+        "phenol cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/ja991638h",
+        "10.1073/pnas.1420199112",
+        "10.1021/acs.accounts.8b00149",
+        "10.1515/recat-2015-0010",
+        "10.1021/acssuschemeng.3c03990",
+        "10.1016/j.pecs.2023.101110"
+      ],
+      "llm_status": "ok",
+      "accepted": 4,
+      "contextual": 5,
+      "rejected": 0,
+      "added_to_memory": 4,
+      "rejected_details": []
+    },
+    {
+      "invocation": 3,
+      "uid": "bb65a9829833dce086353746cbda586db543d7039c8a14e6b6d1b33c6e3dddd9",
+      "smiles": [
+        "C#CC1(C#N)NC1CO",
+        "CCC1(CN)NC1CO"
+      ],
+      "queries": [
+        "nitrile reversible hydrogenation dehydrogenation catalysis",
+        "hydroxyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/ente.202200468",
+        "10.1021/jacsau.2c00150",
+        "10.1002/chem.202502271",
+        "10.1021/acs.accounts.8b00149",
+        "10.3390/pr11030724",
+        "10.2516/stet/2023029"
+      ],
+      "llm_status": "ok",
+      "accepted": 3,
+      "contextual": 4,
+      "rejected": 0,
+      "added_to_memory": 3,
+      "rejected_details": []
+    },
+    {
+      "invocation": 4,
+      "uid": "f12d1f0ed53e1bb59d3d88e1f36d6916187954ebd4de327e81a469cd7ba9978a",
+      "smiles": [
+        "CC1(CC(=O)O)C(=O)c2cccc3cc1cc-3c2",
+        "CC1(CC(=O)O)C(=O)C2CCCC3CC1CC3C2"
+      ],
+      "queries": [
+        "ketone reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/jacs.2c10399",
+        "10.1073/pnas.1420199112",
+        "10.1515/recat-2015-0010",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "ok",
+      "accepted": 5,
+      "contextual": 2,
+      "rejected": 0,
+      "added_to_memory": 5,
+      "rejected_details": []
+    },
+    {
+      "invocation": 2,
+      "uid": "dda6aee6d2c0cf1741c4fc075216e55dc04e43950b0eacea2cf2b30105f0758f",
+      "smiles": [
+        "O=COCOC(O)c1occc1-c1ccoc1",
+        "O=COCOC(O)C1OCCC1C1CCOC1"
+      ],
+      "queries": [
+        "furan reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/c3gc41183d",
+        "10.1021/jacsau.5c00051",
+        "10.1021/acs.inorgchem.8b02164",
+        "10.1002/cssc.71181",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "truncated",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 8,
+      "uid": "c59ad6a8c9123db6c5de5e195600463a19566cf27cf022b139bde60c38ac788d",
+      "smiles": [
+        "C#Cc1nc(NC)co1",
+        "CCC1NC(NC)CO1"
+      ],
+      "queries": [
+        "amine reversible hydrogenation dehydrogenation catalysis",
+        "ether cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/ente.202200468",
+        "10.1039/c2gc36312g",
+        "10.1021/jacs.2c10399",
+        "10.1073/pnas.1420199112",
+        "10.3390/pr11030724",
+        "10.2516/stet/2023029"
+      ],
+      "llm_status": "ok",
+      "accepted": 3,
+      "contextual": 2,
+      "rejected": 0,
+      "added_to_memory": 3,
+      "rejected_details": []
+    },
+    {
+      "invocation": 6,
+      "uid": "f082d00dd58afe85cfe713329b991e31e97b4f05c98d4db9a129b13120a2bf84",
+      "smiles": [
+        "C=C(C)c1ccccc1COc1ccc(O)cc1",
+        "C=C(C)C1CCCCC1COC1CCC(O)CC1"
+      ],
+      "queries": [
+        "phenol reversible hydrogenation dehydrogenation catalysis",
+        "hydroxyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1073/pnas.1420199112",
+        "10.1021/acs.accounts.8b00149",
+        "10.1021/acs.orglett.0c01905",
+        "10.1002/asia.202500799",
+        "10.3390/pr11030724",
+        "10.2516/stet/2023029"
+      ],
+      "llm_status": "ok",
+      "accepted": 4,
+      "contextual": 3,
+      "rejected": 0,
+      "added_to_memory": 4,
+      "rejected_details": []
+    },
+    {
+      "invocation": 7,
+      "uid": "e2c067ce68bba9c0c2e468d1cff3b820cd83c329302930413c8452c370f98d84",
+      "smiles": [
+        "O=C=COc1ccc(OC=CC=CCO)cc1O",
+        "O=C=COC1CCC(OC=CC=CCO)CC1O"
+      ],
+      "queries": [
+        "carbonyl reversible hydrogenation dehydrogenation catalysis",
+        "phenol cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/ja991638h",
+        "10.1073/pnas.1420199112",
+        "10.1021/acs.accounts.8b00149",
+        "10.1515/recat-2015-0010",
+        "10.1021/acssuschemeng.3c03990",
+        "10.1016/j.pecs.2023.101110"
+      ],
+      "llm_status": "truncated",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 5,
+      "uid": "18cd4100bce72fc39eb5f3ed75fcf2e32ed01c8a33f17dc0055a9b12587e542f",
+      "smiles": [
+        "Cc1ccccc1Oc1ccc2cc(C=O)oc2c1",
+        "CC1CCCCC1OC1CCC2CC(C=O)OC2C1"
+      ],
+      "queries": [
+        "furan reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/c3gc41183d",
+        "10.1021/jacsau.5c00051",
+        "10.1021/acs.inorgchem.8b02164",
+        "10.1002/cssc.71181",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "truncated",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 10,
+      "uid": "0b2e885ae5b4e5c25437c651d986792f47cc84d36442fdc01ca991cc1a0cf4a8",
+      "smiles": [
+        "C#CCc1cn[nH]c1N",
+        "CCCC1CNNC1N"
+      ],
+      "queries": [
+        "pyrazole reversible hydrogenation dehydrogenation catalysis",
+        "amine cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/jacs.2c10399",
+        "10.3390/catal11121497",
+        "10.1002/open.202600003",
+        "10.1627/jpi.67.147",
+        "10.2516/stet/2023029",
+        "10.1002/cey2.70146"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 11,
+      "uid": "8a749f5fdb2df7de6439ca51e46f07a4ebb2799f907be0ae20ffb57a806d7363",
+      "smiles": [
+        "C#CC(=O)N1CC=CC1",
+        "CCC(O)N1CCCC1"
+      ],
+      "queries": [
+        "amide reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.organomet.9b00809",
+        "10.1073/pnas.1420199112",
+        "10.1515/recat-2015-0010",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 13,
+      "uid": "768f92dce719aec4523bad082dee6ea89cb3cf99c51ddb3182c02fc9f6c6bef6",
+      "smiles": [
+        "C=CC=CC=c1c(=CCC)oc2cc(C)ccc12",
+        "C=CC=CC=C1C(=CCC)OC2CC(C)CCC12"
+      ],
+      "queries": [
+        "furan reversible hydrogenation dehydrogenation catalysis",
+        "alkene cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/c3gc41183d",
+        "10.1021/jacsau.5c00051",
+        "10.1021/acs.inorgchem.8b02164",
+        "10.1002/cssc.71181",
+        "10.1021/acscatal.0c02361",
+        "10.1016/j.pecs.2023.101110"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 9,
+      "uid": "625e67eb2fd51b1c26823849258fa210a072eda9109eceaf2ccbf3661606f553",
+      "smiles": [
+        "CC=c1cc(O)c(OC=O)cc1=CC",
+        "CC=C1CC(O)C(OC=O)CC1=CC"
+      ],
+      "queries": [
+        "carbonyl reversible hydrogenation dehydrogenation catalysis",
+        "phenol cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/ja991638h",
+        "10.1073/pnas.1420199112",
+        "10.1021/acs.accounts.8b00149",
+        "10.1515/recat-2015-0010",
+        "10.1021/acssuschemeng.3c03990",
+        "10.1016/j.pecs.2023.101110"
+      ],
+      "llm_status": "ok",
+      "accepted": 3,
+      "contextual": 4,
+      "rejected": 0,
+      "added_to_memory": 3,
+      "rejected_details": []
+    },
+    {
+      "invocation": 12,
+      "uid": "52a3e1f2261315408fa4d5b62c48c37d0eb84cadd6b2da72fe46f2499a640e67",
+      "smiles": [
+        "O=CC#CC1=NCCN1",
+        "OCCCC1NCCN1"
+      ],
+      "queries": [
+        "carbonyl reversible hydrogenation dehydrogenation catalysis",
+        "hydroxyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/ja991638h",
+        "10.1073/pnas.1420199112",
+        "10.1021/acs.accounts.8b00149",
+        "10.1515/recat-2015-0010",
+        "10.3390/pr11030724",
+        "10.2516/stet/2023029"
+      ],
+      "llm_status": "ok",
+      "accepted": 3,
+      "contextual": 6,
+      "rejected": 0,
+      "added_to_memory": 3,
+      "rejected_details": []
+    },
+    {
+      "invocation": 15,
+      "uid": "a5c390f948ecd591fbe7fafb0304e7f26ae867d343db93acb611ed95837397c9",
+      "smiles": [
+        "O=Cc1cc(Cc2ccccc2)oc1O",
+        "O=CC1CC(CC2CCCCC2)OC1O"
+      ],
+      "queries": [
+        "furan reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/c3gc41183d",
+        "10.1021/jacsau.5c00051",
+        "10.1021/acs.inorgchem.8b02164",
+        "10.1002/cssc.71181",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "ok",
+      "accepted": 3,
+      "contextual": 2,
+      "rejected": 1,
+      "added_to_memory": 3,
+      "rejected_details": [
+        {
+          "doi": "10.1039/c3gc41183d",
+          "unit_id": "ring_or_conjugation/lean/0",
+          "error": "Claim state differs from unit state"
+        }
+      ]
+    },
+    {
+      "invocation": 14,
+      "uid": "b1d9a1395481dd5852af61fc04d8f4e51a4a4d0e39178610b65db62a2f5e8d4e",
+      "smiles": [
+        "COC(=O)Cc1ccc2c(c1)oc1cc(O)ccc12",
+        "COC(=O)CC1CCC2C(C1)OC1CC(O)CCC12"
+      ],
+      "queries": [
+        "furan reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/c3gc41183d",
+        "10.1021/jacsau.5c00051",
+        "10.1021/acs.inorgchem.8b02164",
+        "10.1002/cssc.71181",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "ok",
+      "accepted": 4,
+      "contextual": 4,
+      "rejected": 0,
+      "added_to_memory": 3,
+      "rejected_details": []
+    },
+    {
+      "invocation": 16,
+      "uid": "ecb390209d5819e496e0e69e3ce27ad3b7ff5fbdce8ced232ef215668eaee01f",
+      "smiles": [
+        "N#CC1=CC(C=O)CC1",
+        "NCC1CCC(CO)C1"
+      ],
+      "queries": [
+        "nitrile reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/ente.202200468",
+        "10.1021/jacsau.2c00150",
+        "10.1002/chem.202502271",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "ok",
+      "accepted": 4,
+      "contextual": 4,
+      "rejected": 0,
+      "added_to_memory": 4,
+      "rejected_details": []
+    },
+    {
+      "invocation": 19,
+      "uid": "a93aedea59369f90ec33b25e4fe0460321408168be1a8b37dec71355890ace5d",
+      "smiles": [
+        "CC#CC1C=CC(=O)N1",
+        "CCCC1CCC(O)N1"
+      ],
+      "queries": [
+        "amide reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.organomet.9b00809",
+        "10.1073/pnas.1420199112",
+        "10.1515/recat-2015-0010",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 20,
+      "uid": "02c831b2f5b8790094a3fa421d5294347a02f1665607055b9e3f37fcaf4acb1e",
+      "smiles": [
+        "C=CC(=CC)c1cc2c(C(=O)C=O)cccc2o1",
+        "C=CC(=CC)C1CC2C(CCCC2C(=O)C=O)O1"
+      ],
+      "queries": [
+        "furan reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1039/c3gc41183d",
+        "10.1021/jacsau.5c00051",
+        "10.1021/acs.inorgchem.8b02164",
+        "10.1002/cssc.71181",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 17,
+      "uid": "6ac448e8346fce941a98899fc5969bb6391d36a2c4466a5b828e3ecab6704497",
+      "smiles": [
+        "CCC#CC#CC1CN1",
+        "CCCCCCC1CN1"
+      ],
+      "queries": [
+        "amine reversible hydrogenation dehydrogenation catalysis",
+        "alkyne cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/ente.202200468",
+        "10.1039/c2gc36312g",
+        "10.1021/jacs.2c10399",
+        "10.1073/pnas.1420199112",
+        "10.3390/met4020235",
+        "10.18686/cest.v2i1.107"
+      ],
+      "llm_status": "ok",
+      "accepted": 1,
+      "contextual": 5,
+      "rejected": 0,
+      "added_to_memory": 1,
+      "rejected_details": []
+    },
+    {
+      "invocation": 18,
+      "uid": "9662b1f9ef67c10ce57b615f01eb9195c3e0e7f5731f541419292353119031e1",
+      "smiles": [
+        "N#CC#CC1CC2NC12",
+        "NCCCC1CC2NC12"
+      ],
+      "queries": [
+        "nitrile reversible hydrogenation dehydrogenation catalysis",
+        "amine cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/ente.202200468",
+        "10.1021/jacsau.2c00150",
+        "10.1002/chem.202502271",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.1002/cey2.70146"
+      ],
+      "llm_status": "ok",
+      "accepted": 4,
+      "contextual": 3,
+      "rejected": 0,
+      "added_to_memory": 3,
+      "rejected_details": []
+    },
+    {
+      "invocation": 24,
+      "uid": "9f8674b48bc19c507a29f25320f2f39c1b92e325e1a4c4cff5acc457cb53e41d",
+      "smiles": [
+        "CC(=O)c1cncnc1",
+        "CC(O)C1CNCNC1"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "ok",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 21,
+      "uid": "6680dd6def870b30249672082947a6251748002684c1c17db03a3f4b985e47b0",
+      "smiles": [
+        "COCc1ccc2c(c1)-c1c(OC)ccc(c1O)O2",
+        "COCC1CCC2OC3CCC(OC)C(C3O)C2C1"
+      ],
+      "queries": [
+        "phenol reversible hydrogenation dehydrogenation catalysis",
+        "hydroxyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1073/pnas.1420199112",
+        "10.1021/acs.accounts.8b00149",
+        "10.1021/acs.orglett.0c01905",
+        "10.1002/asia.202500799",
+        "10.3390/pr11030724",
+        "10.2516/stet/2023029"
+      ],
+      "llm_status": "ok",
+      "accepted": 2,
+      "contextual": 5,
+      "rejected": 0,
+      "added_to_memory": 2,
+      "rejected_details": []
+    },
+    {
+      "invocation": 22,
+      "uid": "391e363c578894cf79daf4cd2d581f3ad93cbb752e230fe8aa30a2b1d972a552",
+      "smiles": [
+        "CCOC=CCc1ccc(O)cc1",
+        "CCOC=CCC1CCC(O)CC1"
+      ],
+      "queries": [
+        "phenol reversible hydrogenation dehydrogenation catalysis",
+        "hydroxyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1073/pnas.1420199112",
+        "10.1021/acs.accounts.8b00149",
+        "10.1021/acs.orglett.0c01905",
+        "10.1002/asia.202500799",
+        "10.3390/pr11030724",
+        "10.2516/stet/2023029"
+      ],
+      "llm_status": "ok",
+      "accepted": 1,
+      "contextual": 7,
+      "rejected": 0,
+      "added_to_memory": 1,
+      "rejected_details": []
+    },
+    {
+      "invocation": 23,
+      "uid": "6d453f969ed83530bace06fa6b4782a83a20e26dede87e4126cba06c17ddc9e4",
+      "smiles": [
+        "O=CCc1ccccc2c(C(=O)O)ccc1-2",
+        "O=CCC1CCCCC2C(C(=O)O)CCC12"
+      ],
+      "queries": [
+        "carbonyl reversible hydrogenation dehydrogenation catalysis",
+        "hydroxyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/ja991638h",
+        "10.1073/pnas.1420199112",
+        "10.1021/acs.accounts.8b00149",
+        "10.1515/recat-2015-0010",
+        "10.3390/pr11030724",
+        "10.2516/stet/2023029"
+      ],
+      "llm_status": "truncated",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 26,
+      "uid": "2030cd862b4b18e52e8465e622ad01afae37b441c3b2e47a8345e35c8ef1e64a",
+      "smiles": [
+        "C=Cc1ncc(C(C)=O)cn1",
+        "CCC1NCC(C(C)O)CN1"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 25,
+      "uid": "d074895d04ac4d653d2b8f684bbcd0fe29ccad9620b22e9425704d0c23c6f30a",
+      "smiles": [
+        "C#Cc1cnoc1",
+        "C#CC1CNOC1"
+      ],
+      "queries": [
+        "amine reversible hydrogenation dehydrogenation catalysis",
+        "terminal alkyne cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/ente.202200468",
+        "10.1039/c2gc36312g",
+        "10.1021/jacs.2c10399",
+        "10.1073/pnas.1420199112",
+        "10.3390/met4020235",
+        "10.1039/d2gc04699g"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 27,
+      "uid": "9c74ab30e844bc06c144c74f74374558b28f16f77b8e8e55344f0b5433ead461",
+      "smiles": [
+        "CC#CC1(O)C=CC(=O)N1",
+        "CCCC1(O)CCC(O)N1"
+      ],
+      "queries": [
+        "amide reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.organomet.9b00809",
+        "10.1073/pnas.1420199112",
+        "10.1515/recat-2015-0010",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 28,
+      "uid": "205614c9c98082d60fd44214aabdecb37b77b102de49f08f3df92f0cfcf27bca",
+      "smiles": [
+        "C=CCC#CC1C=CC(=O)N1",
+        "CCCCCC1CCC(O)N1"
+      ],
+      "queries": [
+        "amide reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.organomet.9b00809",
+        "10.1073/pnas.1420199112",
+        "10.1515/recat-2015-0010",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 29,
+      "uid": "68628533b36440e1fdbbef80b0dd74baa0d1d65352c52cf5a7a77b5448b83637",
+      "smiles": [
+        "C#CC1CNC(C#CC=O)=N1",
+        "CCC1CNC(CCCO)N1"
+      ],
+      "queries": [
+        "carbonyl reversible hydrogenation dehydrogenation catalysis",
+        "hydroxyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/ja991638h",
+        "10.1073/pnas.1420199112",
+        "10.1021/acs.accounts.8b00149",
+        "10.1515/recat-2015-0010",
+        "10.3390/pr11030724",
+        "10.2516/stet/2023029"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 30,
+      "uid": "95742445ff7e382248230be53200f0b903b4d866068d465fc264aa0f684ade6c",
+      "smiles": [
+        "CC(=O)c1cnc(O)nc1",
+        "CC(O)C1CNC(O)NC1"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 31,
+      "uid": "a7d22f3d9a970e4c0b642c5ce593b4a7aacc89450d47b2c9ff8dd5bce1ec98ef",
+      "smiles": [
+        "CC(=O)c1cncnc1O",
+        "CC(O)C1CNCNC1O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 32,
+      "uid": "d02b2fcbf90ae3ed116e33f22360b2b20434afc67ef5a5945b64272e233512b1",
+      "smiles": [
+        "C=CC1(C#CC)C=CC(=O)N1",
+        "CCCC1(CC)CCC(O)N1"
+      ],
+      "queries": [
+        "amide reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.organomet.9b00809",
+        "10.1073/pnas.1420199112",
+        "10.1515/recat-2015-0010",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 33,
+      "uid": "73a413dee9fa331c887b5cd9f06508e2282f413220ec15f09099e10982532941",
+      "smiles": [
+        "C=CC#CC1(C#N)NC1CO",
+        "CCCCC1(CN)NC1CO"
+      ],
+      "queries": [
+        "nitrile reversible hydrogenation dehydrogenation catalysis",
+        "hydroxyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/ente.202200468",
+        "10.1021/jacsau.2c00150",
+        "10.1002/chem.202502271",
+        "10.1021/acs.accounts.8b00149",
+        "10.3390/pr11030724",
+        "10.2516/stet/2023029"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 34,
+      "uid": "5cfb46d9af5b90f4e6fa09551e4d0182f8333675b30fd1e026eabf5f65239096",
+      "smiles": [
+        "CC#CC1(C#N)NC1CO",
+        "CCCC1(CN)NC1CO"
+      ],
+      "queries": [
+        "nitrile reversible hydrogenation dehydrogenation catalysis",
+        "hydroxyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/ente.202200468",
+        "10.1021/jacsau.2c00150",
+        "10.1002/chem.202502271",
+        "10.1021/acs.accounts.8b00149",
+        "10.3390/pr11030724",
+        "10.2516/stet/2023029"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 35,
+      "uid": "2173f668172b1ca485c51b4ad0f188fda2fc1cd06528b862870dac9b96e344a4",
+      "smiles": [
+        "C#CC(=O)N1CC=C(C=C)C1",
+        "CCC1CCN(C(O)CC)C1"
+      ],
+      "queries": [
+        "amide reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.organomet.9b00809",
+        "10.1073/pnas.1420199112",
+        "10.1515/recat-2015-0010",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 36,
+      "uid": "090a23ba22ba359022d77fd741f6f2edbbb48d150c3abf3c74a3a05dabd36076",
+      "smiles": [
+        "C=CC(=O)C#CC1=NCCN1",
+        "CCC(O)CCC1NCCN1"
+      ],
+      "queries": [
+        "ketone reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/jacs.2c10399",
+        "10.1073/pnas.1420199112",
+        "10.1515/recat-2015-0010",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 37,
+      "uid": "25707e8dcdacd7ac0975535750f3c4b994f1b0ddd358fdbf255c093432c4c62f",
+      "smiles": [
+        "C#CCC#CC1C=CC(=O)N1",
+        "CCCCCC1CCC(O)N1"
+      ],
+      "queries": [
+        "amide reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.organomet.9b00809",
+        "10.1073/pnas.1420199112",
+        "10.1515/recat-2015-0010",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 38,
+      "uid": "51ed5eaed05ff9e38b9b616ec6944d14551261933b39c63b277aea830c730e60",
+      "smiles": [
+        "C#CC(O)C1NC1(C#C)C#N",
+        "CCC(O)C1NC1(CC)CN"
+      ],
+      "queries": [
+        "nitrile reversible hydrogenation dehydrogenation catalysis",
+        "hydroxyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1002/ente.202200468",
+        "10.1021/jacsau.2c00150",
+        "10.1002/chem.202502271",
+        "10.1021/acs.accounts.8b00149",
+        "10.3390/pr11030724",
+        "10.2516/stet/2023029"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 39,
+      "uid": "5216606b81d99e8a3421cc8885a597da1d6e304d0b8c865704cb57e53b94c857",
+      "smiles": [
+        "CC#CC1(N)C=CC(=O)N1",
+        "CCCC1(N)CCC(O)N1"
+      ],
+      "queries": [
+        "amide reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.organomet.9b00809",
+        "10.1073/pnas.1420199112",
+        "10.1515/recat-2015-0010",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 40,
+      "uid": "5ac710891ce85893bdc0526bdf293dc812b855af7e7c3876f47abc0767bc37f4",
+      "smiles": [
+        "C#CC(=O)N1CC=CC1C",
+        "CCC(O)N1CCCC1C"
+      ],
+      "queries": [
+        "amide reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.organomet.9b00809",
+        "10.1073/pnas.1420199112",
+        "10.1515/recat-2015-0010",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 41,
+      "uid": "1d2305a666b92fc80a685560c2caacd10fcc0e7befa035aff2d3e9d3ad7a3043",
+      "smiles": [
+        "C#CC(=O)N1CC=CC1N",
+        "CCC(O)N1CCCC1N"
+      ],
+      "queries": [
+        "amide reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.organomet.9b00809",
+        "10.1073/pnas.1420199112",
+        "10.1515/recat-2015-0010",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 44,
+      "uid": "61b1d2a8786d4a001bf432d0b803458a781fc06bff90536e0df0c9fc29720580",
+      "smiles": [
+        "C=Cc1ncc(C(=O)CC)cn1",
+        "CCC1NCC(C(O)CC)CN1"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 42,
+      "uid": "47f11a31865e09d207e3db9fc54954eb6e1312939bbfb9da4484b68c4de28de0",
+      "smiles": [
+        "C=CC(=C)C(=O)C#CC1=NCCN1",
+        "CCC(C)C(O)CCC1NCCN1"
+      ],
+      "queries": [
+        "ketone reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/jacs.2c10399",
+        "10.1073/pnas.1420199112",
+        "10.1515/recat-2015-0010",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 43,
+      "uid": "8bc480074408380e3b3c7a8d7a88147605a2b07b58ccc63a01892df7aa8c3bc3",
+      "smiles": [
+        "C#CC(=C)C(=O)C#CC1=NCCN1",
+        "CCC(C)C(O)CCC1NCCN1"
+      ],
+      "queries": [
+        "ketone reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/jacs.2c10399",
+        "10.1073/pnas.1420199112",
+        "10.1515/recat-2015-0010",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 45,
+      "uid": "a0ef81b643bd5339b6039d217d23aeaf12e07c48d9ce5db63fc8fd0cb5331a14",
+      "smiles": [
+        "CC(=O)c1cnc(O)nc1O",
+        "CC(O)C1CNC(O)NC1O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 46,
+      "uid": "074ebb121a28e81452eb70c2d4872fe74c6b9126a352a14631799a5ed8263c89",
+      "smiles": [
+        "CC(=O)c1cnc(O)nc1N",
+        "CC(O)C1CNC(O)NC1N"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 47,
+      "uid": "c4df9955b88abee28be4ee68e95c48bf2a5624695f6fef81419d3d5f52090b3a",
+      "smiles": [
+        "C#CCC#CC1(O)C=CC(=O)N1",
+        "CCCCCC1(O)CCC(O)N1"
+      ],
+      "queries": [
+        "amide reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.organomet.9b00809",
+        "10.1073/pnas.1420199112",
+        "10.1515/recat-2015-0010",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 48,
+      "uid": "a91332e8646f4447ed494acf53399575578535ff7902ae061af3237337512788",
+      "smiles": [
+        "C=Cc1ncc(C(C)=O)c(C=C)n1",
+        "CCC1NCC(C(C)O)C(CC)N1"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 50,
+      "uid": "373dc78a9430195bf9b17941a0fd742f0aaee0ee1038e316e426835e4964fe04",
+      "smiles": [
+        "C=Cc1ncc(C(C)=O)c(C)n1",
+        "CCC1NCC(C(C)O)C(C)N1"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 49,
+      "uid": "462f2ee22916821d6dd211a4b9673001e22fc0dd95bfc1aa55d438a3d3d36dc9",
+      "smiles": [
+        "C=C(O)C(=O)C#CC1=NCCN1",
+        "CC(O)C(O)CCC1NCCN1"
+      ],
+      "queries": [
+        "ketone reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/jacs.2c10399",
+        "10.1073/pnas.1420199112",
+        "10.1515/recat-2015-0010",
+        "10.1021/acs.accounts.8b00149",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 51,
+      "uid": "61e27a2029eeb3536648b5689c54482fa331085c0139bd7a980ec1362ba53244",
+      "smiles": [
+        "C=Cc1ncnc(O)c1C(C)=O",
+        "CCC1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 52,
+      "uid": "49d6ef1941dcace4f8217ee15a251d5c89b1f0cc8a321e8ac47d8746a95fa074",
+      "smiles": [
+        "C=Cc1ncc(C(C)=O)c(O)n1",
+        "CCC1NCC(C(C)O)C(O)N1"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 54,
+      "uid": "0464dcdc8277dde1444a16cd8984124d3f737d47c60ce0c2100ddc1d442c7f0d",
+      "smiles": [
+        "C#Cc1nc(O)ncc1C(C)=O",
+        "CCC1NC(O)NCC1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 53,
+      "uid": "7979e20e0897d82ecf41c31dbfac41af7be62f51797eb9a0ff1f02cf56c8cb65",
+      "smiles": [
+        "C=Cc1nc(O)ncc1C(C)=O",
+        "CCC1NC(O)NCC1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 55,
+      "uid": "13daaa398f3880eb0540eeaf011b530754482ac4621511c501a630bc34b713bd",
+      "smiles": [
+        "CC(=O)c1cnc(C)nc1O",
+        "CC1NCC(C(C)O)C(O)N1"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 56,
+      "uid": "96f47f63ee93ec96519698f544f40ea5d51f40950d287ee6c63a86c11820449a",
+      "smiles": [
+        "C=Cc1ncc(C(C)=O)c(N)n1",
+        "CCC1NCC(C(C)O)C(N)N1"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 57,
+      "uid": "66d1caa3578d789ba0197be9b4abe20e1d8c0649aca0846be4c69cf28878af96",
+      "smiles": [
+        "CC(=O)c1c(O)nc(O)nc1O",
+        "CC(O)C1C(O)NC(O)NC1O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 58,
+      "uid": "da8d3da62db41cb6944077be18dea179c7a2e9a46792efdab4ceda3dfc3f1fb9",
+      "smiles": [
+        "C=C(N)c1ncnc(O)c1C(C)=O",
+        "CC(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 60,
+      "uid": "571965521ff6a9a61dd3ff29e796a0c725975884b620f3c408c5953886e92a13",
+      "smiles": [
+        "C#Cc1c(OC(=O)C=C)c(O)c(C)c(=C(C)C)c1=CC",
+        "CC=C1C(=C(C)C)C(C)C(O)C(OC(=O)CC)C1CC"
+      ],
+      "queries": [
+        "carbonyl reversible hydrogenation dehydrogenation catalysis",
+        "phenol cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/ja991638h",
+        "10.1073/pnas.1420199112",
+        "10.1021/acs.accounts.8b00149",
+        "10.1515/recat-2015-0010",
+        "10.1021/acssuschemeng.3c03990",
+        "10.1016/j.pecs.2023.101110"
+      ],
+      "llm_status": "skipped_already_extracted",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 59,
+      "uid": "7c4c2004921300e6613dc7bc83d2aa8e34cfbcbe73a7d380b7a4bc5247bd84a8",
+      "smiles": [
+        "C#CCc1c(O)nn(CC(=O)OC(C)=O)c1N",
+        "C#CCC1C(O)NN(CC(=O)OC(C)=O)C1N"
+      ],
+      "queries": [
+        "pyrazole reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/jacs.2c10399",
+        "10.3390/catal11121497",
+        "10.1002/open.202600003",
+        "10.1627/jpi.67.147",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 61,
+      "uid": "32d5cf156677ed0f4b28f88dc464efc18d487e49202aff90120ba80b6242e195",
+      "smiles": [
+        "CC(=O)c1c(N)nc(O)nc1N",
+        "CC(O)C1C(N)NC(O)NC1N"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 62,
+      "uid": "d93640559703c698257d6cef3e70d4709eaf69827b60cdf5c43ba01378d85d18",
+      "smiles": [
+        "C#CCC(=O)c1cnc(O)nc1O",
+        "CCCC(O)C1CNC(O)NC1O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 63,
+      "uid": "b98e6b479c36fac871e85a678ea060d9d9f0b13d37ee974632f83458a657c8af",
+      "smiles": [
+        "C=Cc1nc(O)c(C(C)=O)c(C=C)n1",
+        "CCC1NC(O)C(C(C)O)C(CC)N1"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 64,
+      "uid": "14ab4ff634025bf46e0f9b0aafe766285070ae6516143f937694b21d75ad5150",
+      "smiles": [
+        "C=CC(=C)c1ncnc(O)c1C(C)=O",
+        "CCC(C)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 65,
+      "uid": "952a8239f5e255cba4e148f6a346fccc82ad0541cbf8fe60e25489763a9cf3b8",
+      "smiles": [
+        "C#CC(=C)c1ncnc(O)c1C(C)=O",
+        "CCC(C)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 66,
+      "uid": "0c60b2017799a0942d91e652086b2c6ed8fdd65b7c72ec1f4b3bcb3b6c22b8eb",
+      "smiles": [
+        "C#Cc1nc(O)nc(O)c1C(C)=O",
+        "CCC1NC(O)NC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 67,
+      "uid": "310f4e4907926126834996ff2621c1f75b01863ba06de57ec38c23c6a2687c17",
+      "smiles": [
+        "C=Cc1nc(O)nc(O)c1C(C)=O",
+        "CCC1NC(O)NC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 69,
+      "uid": "2ba51535c23fbb6d8d329f7a48306029c50bea935db0df1174893f9c069eee9c",
+      "smiles": [
+        "CC(=O)c1c(C)nc(O)nc1O",
+        "CC(O)C1C(C)NC(O)NC1O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 68,
+      "uid": "7a472884d9b00c3250b3f52a9748a1988de411a8545318fca415bdf394a352ec",
+      "smiles": [
+        "C#Cc1nc(O)c(C(C)=O)c(C=C)n1",
+        "CCC1NC(O)C(C(C)O)C(CC)N1"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 70,
+      "uid": "b7de81c6ddcbaec641c323686c83e2e83b6e2c4425e543137d39538d372be7ed",
+      "smiles": [
+        "C=Cc1nc(C)nc(O)c1C(C)=O",
+        "CCC1NC(C)NC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 71,
+      "uid": "865c1a5ce7290ca1fa211ff0faedbbac45b56aeefa108d7e52e549019c3d5a28",
+      "smiles": [
+        "CC(=O)c1c(N)nc(O)nc1O",
+        "CC(O)C1C(N)NC(O)NC1O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 72,
+      "uid": "e6182075177b7a5fe1189835cccd103bc6944bbd1c82a810ad357e73777782c5",
+      "smiles": [
+        "C=Cc1nc(O)nc(N)c1C(C)=O",
+        "CCC1NC(O)NC(N)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 75,
+      "uid": "a65a8d8405048f59e446496608a7ced156ae4cdf8e4136dbc462e1002b4ff97f",
+      "smiles": [
+        "C=Cc1nc(O)c(C(C)=O)c(C(=C)N)n1",
+        "CCC1NC(O)C(C(C)O)C(C(C)N)N1"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 73,
+      "uid": "d2c7e1ddd014466e7b911555d7470d8c2031b401bb7b260cd498282f28f0a1a7",
+      "smiles": [
+        "C=CC(C)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCC(C)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 74,
+      "uid": "ecc0199bb61d71ad8067899a9faf444acbec1bc9fe4acefc50397d33ec72bbda",
+      "smiles": [
+        "CC(=O)c1c(O)ncnc1C(N)=CO",
+        "CC(O)C1C(O)NCNC1C(N)CO"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 76,
+      "uid": "d83b9f8811054b6f91c54024ecb5c19ec9bbe82f396fecf497f9fbd9bb7dd9db",
+      "smiles": [
+        "O=C(CO)c1c(O)nc(O)nc1O",
+        "OCC(O)C1C(O)NC(O)NC1O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 77,
+      "uid": "969e42664c58b26826ea991332eee946d38b32d54f4ee3aacb603a92c648bc6a",
+      "smiles": [
+        "C#CC(O)c1c(O)nn(CC(=O)OC(C)=O)c1N",
+        "C#CC(O)C1C(O)NN(CC(=O)OC(C)=O)C1N"
+      ],
+      "queries": [
+        "pyrazole reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/jacs.2c10399",
+        "10.3390/catal11121497",
+        "10.1002/open.202600003",
+        "10.1627/jpi.67.147",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 78,
+      "uid": "3ab9d1cfad254d03d58408096bb3704cb1a599532c8b5733ec496f4d720b56e9",
+      "smiles": [
+        "C#CCc1c(O)nn(C(C=C)C(=O)OC(C)=O)c1N",
+        "C#CCC1C(O)NN(C(CC)C(=O)OC(C)=O)C1N"
+      ],
+      "queries": [
+        "pyrazole reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/jacs.2c10399",
+        "10.3390/catal11121497",
+        "10.1002/open.202600003",
+        "10.1627/jpi.67.147",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 79,
+      "uid": "f0aef98424224d357da3d56cba77e668207e171535f655ad9f0f176b7501fa21",
+      "smiles": [
+        "C=CCC(=O)c1c(N)nc(O)nc1N",
+        "CCCC(O)C1C(N)NC(O)NC1N"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 80,
+      "uid": "fe9daa43361656cddff5d877916d109fae365322fc71bd5a5774476697d5e84b",
+      "smiles": [
+        "CC(=O)c1c(O)ncnc1C(N)=CN",
+        "CC(O)C1C(O)NCNC1C(N)CN"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 81,
+      "uid": "3e5ca4bb6e7f68112360a9ab70e37a13d803aa7148fa164c76b72c9c7bb1aeff",
+      "smiles": [
+        "C=CC=C(N)c1ncnc(O)c1C(C)=O",
+        "CCCC(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 83,
+      "uid": "f36b0446e7c4945776d0af88e03b80959161abba80bfc48413d3d4c3af10ee65",
+      "smiles": [
+        "CC=C(N)c1ncnc(O)c1C(C)=O",
+        "CCC(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 82,
+      "uid": "3054d40651e414b230af76370f650f67d2cfddfb5e094c2a50356bb768c0a675",
+      "smiles": [
+        "C#CC=C(N)c1ncnc(O)c1C(C)=O",
+        "CCCC(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 84,
+      "uid": "d3bd041b3dd50a37787e0439c297fc56ef7b2dadb2c8570bb7fd8e75b992bac9",
+      "smiles": [
+        "CC(=O)OC(=O)Cn1nc(O)c(CC#CO)c1N",
+        "CC(=O)OC(=O)CN1NC(O)C(CC#CO)C1N"
+      ],
+      "queries": [
+        "pyrazole reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/jacs.2c10399",
+        "10.3390/catal11121497",
+        "10.1002/open.202600003",
+        "10.1627/jpi.67.147",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 85,
+      "uid": "f14e6e09923bee30ff92bb70e9f33f34afc75bf04c11c9a9ed0726e7a51887ff",
+      "smiles": [
+        "CC(=O)OC(=O)Cn1nc(O)c(CC#CN)c1N",
+        "CC(=O)OC(=O)CN1NC(O)C(CC#CN)C1N"
+      ],
+      "queries": [
+        "pyrazole reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/jacs.2c10399",
+        "10.3390/catal11121497",
+        "10.1002/open.202600003",
+        "10.1627/jpi.67.147",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 86,
+      "uid": "d63a83d80e0ae71ef933cbfd27b9e2995d7e7ad71b5c1e4f4b90d4ba563bd78b",
+      "smiles": [
+        "C=CC(=C)C(O)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCC(C)C(O)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 89,
+      "uid": "813ad7bee6128464541052359418817e27957be57d45918bef70fa211ef72f5e",
+      "smiles": [
+        "C=C(C)C(C)=C(N)c1ncnc(O)c1C(C)=O",
+        "CC(C)C(C)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 88,
+      "uid": "6e0c620e14884cd8ca710c565f52597b1630f05f10e4885d1deea1a6fbe2aa80",
+      "smiles": [
+        "C#CC(=C)C(C)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCC(C)C(C)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 90,
+      "uid": "12e02cb2bab04909ec0868822b2f704f153d29c5663b79fa93d64b8fb32a8fed",
+      "smiles": [
+        "CC(=O)c1c(O)ncnc1C(N)=C(C)O",
+        "CC(O)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 87,
+      "uid": "dcb3cabdf0296365f1653b2e91f579fdcb338edd1b985c5b974f2be6797eeea7",
+      "smiles": [
+        "C=CC(=C)C(C)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCC(C)C(C)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 91,
+      "uid": "60ca13e7babc10284e869bed20a89809333147215cd0132b511074252f316673",
+      "smiles": [
+        "C=CC(=C)c1nc(O)c(C(C)=O)c(C(=C)N)n1",
+        "CCC(C)C1NC(O)C(C(C)O)C(C(C)N)N1"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 94,
+      "uid": "39cf99d88d5df671be0154aee2884b39cc31845ed9974833c8f5aa17d8c295a4",
+      "smiles": [
+        "CC(=O)OC(=O)Cn1nc(O)c(C(N)C#CO)c1N",
+        "CC(=O)OC(=O)CN1NC(O)C(C(N)C#CO)C1N"
+      ],
+      "queries": [
+        "pyrazole reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/jacs.2c10399",
+        "10.3390/catal11121497",
+        "10.1002/open.202600003",
+        "10.1627/jpi.67.147",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 92,
+      "uid": "7a6f716a63cf08b2fc27400cf619a3c8e351b0de60f419aafc683e5025656841",
+      "smiles": [
+        "CC(O)C(=O)c1c(O)nc(O)nc1O",
+        "CC(O)C(O)C1C(O)NC(O)NC1O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 93,
+      "uid": "17c9bfb6eacee40930470cd551802b0bd2029160eab53e2874e81a0eeb2c15c9",
+      "smiles": [
+        "C=CC(C)=C(N)c1nc(N)nc(O)c1C(C)=O",
+        "CCC(C)C(N)C1NC(N)NC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 95,
+      "uid": "b61215cbdc896fad2313e3c7c428ac89f240055735caf4acab2a7fedc8f98b8f",
+      "smiles": [
+        "C=CC(C#CO)c1c(O)nn(CC(=O)OC(C)=O)c1N",
+        "CCC(C#CO)C1C(O)NN(CC(=O)OC(C)=O)C1N"
+      ],
+      "queries": [
+        "pyrazole reversible hydrogenation dehydrogenation catalysis",
+        "carbonyl cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/jacs.2c10399",
+        "10.3390/catal11121497",
+        "10.1002/open.202600003",
+        "10.1627/jpi.67.147",
+        "10.2516/stet/2023029",
+        "10.3390/met4020235"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 97,
+      "uid": "dfeb40d3779844504d8cb6213505af38aa3b76c89c37813d3422206ad9c2bcdc",
+      "smiles": [
+        "CC(=O)c1c(C)ncnc1O",
+        "CC(O)C1C(C)NCNC1O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 96,
+      "uid": "b5a051d189dba30af47da5ba99045ca6119db8467a9c7d6fd847e798b6858c71",
+      "smiles": [
+        "CC(=O)c1c(O)nc(N)nc1C(N)=CO",
+        "CC(O)C1C(O)NC(N)NC1C(N)CO"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 99,
+      "uid": "dfaa77c77cbd10ded371b294be6d07e03e1b1e260c9548b138c98989d8264431",
+      "smiles": [
+        "C=CC(O)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCC(O)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 98,
+      "uid": "148cec955a2b823dc7be64203bac08621d7376e7ccc33934bad5ac32c22a5f8f",
+      "smiles": [
+        "C=C(N)C(C)=C(N)c1ncnc(O)c1C(C)=O",
+        "CC(N)C(C)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 100,
+      "uid": "930b6e229c58822513b4c3d6e21159db5f6c95ecfd46863bc50f0f282deb7653",
+      "smiles": [
+        "C#CC(O)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCC(O)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 102,
+      "uid": "2194be711f6ea79d18d785a02a85c3066ca8ebdedc8b8e812d0308f9ce7515f0",
+      "smiles": [
+        "CC(=O)c1c(O)ncnc1C(N)=C(O)O",
+        "CC(O)C1C(O)NCNC1C(N)C(O)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 101,
+      "uid": "d6e904f392a3adbd91ac47fdb603481ef35e5a3c49fd4d6eb9ddcb720c341e74",
+      "smiles": [
+        "C=C(O)C(C)=C(N)c1ncnc(O)c1C(C)=O",
+        "CC(O)C(C)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 103,
+      "uid": "530db36f800db52bf6f16872bfa2f82158158de63d2b170f64b9fca20c459965",
+      "smiles": [
+        "CC(=O)c1c(O)ncnc1C(N)=C(N)O",
+        "CC(O)C1C(O)NCNC1C(N)C(N)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 104,
+      "uid": "3bce12d7bfb22384099449589b520c15d9d6e02d9ce93674fc011112913531f5",
+      "smiles": [
+        "C=C(O)c1nc(O)c(C(C)=O)c(C(=C)N)n1",
+        "CC(N)C1NC(C(C)O)NC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 106,
+      "uid": "46c0e21f7814532b80a2f18df71da8115b44bb05e716c0e36f9d3b06c1fd5706",
+      "smiles": [
+        "C#Cc1nc(O)c(C(C)=O)c(C(N)=C(O)C(=C)C=C)n1",
+        "CCC1NC(O)C(C(C)O)C(C(N)C(O)C(C)CC)N1"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 108,
+      "uid": "1430356cdcfabf12cc58d38652116ede97031147e410b422ac193f5fcd70e3f1",
+      "smiles": [
+        "C=CC=C(C=C)C(C)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCCC(CC)C(C)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 107,
+      "uid": "86fad6df4d5dbe6a1629458fe4c5eb63d6e57ad4ba87ee52755c66d5e216763c",
+      "smiles": [
+        "C=CC(O)=C(N)c1ncnc(O)c1C(=O)CN",
+        "CCC(O)C(N)C1NCNC(O)C1C(O)CN"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 105,
+      "uid": "55240954e2ab74ccd251b1d27493817ca125f4c8f53a55692b2ad234bb5f3b45",
+      "smiles": [
+        "C=CC(=C)CC(=O)c1c(O)ncnc1C(N)=C(O)O",
+        "CCC(C)CC(O)C1C(O)NCNC1C(N)C(O)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 111,
+      "uid": "b131f5a6c3e7512425db47cdb2a174578d5a6090b7a60f01ca5338c256f527d8",
+      "smiles": [
+        "C#CCC(O)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCCC(O)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 109,
+      "uid": "5bf42c22c3be6a3d5ad5ec4f9c5e4a33590d61eaf31c383064a3d5a747fc9792",
+      "smiles": [
+        "C=CC(=CO)C(C)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCC(CO)C(C)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 112,
+      "uid": "79493e113710aa0d9354a1fa855c91de32559e16f1360f544641c9109e2ca6d1",
+      "smiles": [
+        "C#CCC(O)C(=O)c1c(O)nc(O)nc1O",
+        "CCCC(O)C(O)C1C(O)NC(O)NC1O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 110,
+      "uid": "7c9d1a35c4156cd3d6a2109627c1f994292303e47bdda620b0e13400f6bae82b",
+      "smiles": [
+        "C=CC(=CO)C(O)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCC(CO)C(O)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 113,
+      "uid": "906b46d385a152794c0cf2c12d7a7804f9ef22eb90ee111253c87cb9fdac7da3",
+      "smiles": [
+        "CCc1ncnc(O)c1C(C)=O",
+        "CCC1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 114,
+      "uid": "934f20fe32ae56f5203eec0556f399d591ebeead954f2705cd6b76c53467c721",
+      "smiles": [
+        "C#CC=C(C=C)C(C)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCCC(CC)C(C)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 116,
+      "uid": "8e9739403ac1974d289b02f4d87391a233dfaf3047ff79b25c51eaf2e1f5e6cb",
+      "smiles": [
+        "C=CC=C(O)C(C)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCCC(O)C(C)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 115,
+      "uid": "afad3b3021ab6f344c026d76467efe445c8be627f99483f53458f42f6271bd99",
+      "smiles": [
+        "C=CC=C(C=C)C(O)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCCC(CC)C(O)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 118,
+      "uid": "2009b662cecc6124771c801e62541476987a2c74c18973b5f1460485c05afd61",
+      "smiles": [
+        "C=CC(=CC)C(C)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCC(CC)C(C)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 117,
+      "uid": "85d266c9426df79f8f79cd46de783cfbb0215b6ba0b82e737e2e059575006460",
+      "smiles": [
+        "C#CC=C(C=C)C(O)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCCC(CC)C(O)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 120,
+      "uid": "b4c6f13696c16c28f6997ddffc953c04c7480db4042b24ec899931956a918a25",
+      "smiles": [
+        "C=C(O)C(O)=C(N)c1ncnc(O)c1C(C)=O",
+        "CC(O)C(O)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 122,
+      "uid": "32e7545aede617dcdfb7563f8603e34443704b9b0acfa6412bf6a4ca551ac8eb",
+      "smiles": [
+        "C=C(N)C(O)=C(N)c1ncnc(O)c1C(C)=O",
+        "CC(N)C(O)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 121,
+      "uid": "aa657c4b15c94258597bdc6136bc3e427e5819c8b150dd6fb5ef27ab3868681e",
+      "smiles": [
+        "C=CC(=CC)C(O)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCC(CC)C(O)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 119,
+      "uid": "5ee9622c1dd06d581b6c9a8c3936b935641929c0f1e9445dcbb8f16a62047ec1",
+      "smiles": [
+        "C#CC=C(O)C(C)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCCC(O)C(C)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 123,
+      "uid": "185e238bad362d31b21d639c432cae421d52984dbece08bacdd1bd5791150e13",
+      "smiles": [
+        "C=CC(=CN)C(C)=C(N)c1ncnc(O)c1C(C)=O",
+        "CCC(CN)C(C)C(N)C1NCNC(O)C1C(C)O"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    },
+    {
+      "invocation": 124,
+      "uid": "b4f7e4c581996605a72e6c429bed03081e7beee51e405e9f7a531becbbfed7f1",
+      "smiles": [
+        "CC(=O)c1c(O)ncnc1C(N)=C(C)C(O)=CO",
+        "CC(O)C1C(O)NCNC1C(N)C(C)C(O)CO"
+      ],
+      "queries": [
+        "pyrimidine reversible hydrogenation dehydrogenation catalysis",
+        "ketone cleavage dealkylation ring opening polymerization coking hydrogenation"
+      ],
+      "dois_fetched": [
+        "10.1021/acs.accounts.8b00149",
+        "10.1016/j.ccr.2021.213967",
+        "10.1002/cssc.202400639",
+        "10.3390/catal16010048",
+        "10.2516/stet/2023029",
+        "10.25560/9592"
+      ],
+      "llm_status": "skipped_budget",
+      "accepted": 0,
+      "contextual": 0,
+      "rejected": 0,
+      "added_to_memory": 0,
+      "rejected_details": []
+    }
+  ]
+}
